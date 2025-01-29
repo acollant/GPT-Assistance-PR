@@ -1,0 +1,107 @@
+"pull_number","event_number","event","actor","time","state","commit_id","referenced","sha","title","body","html_url","is_bot","is_chatgpt","is_first_chatgpt","is_proceeding_chatgpt","chatgpt_event"
+"180","0","pulled","github-actions[bot]","2025-01-01 22:42:11","closed","","False","","chore: release","## 🤖 New release
+* `rig-core`: 0.6.0 -> 0.6.1 (✓ API compatible changes)
+* `rig-lancedb`: 0.2.1 -> 0.2.2 (✓ API compatible changes)
+* `rig-mongodb`: 0.2.1 -> 0.2.2 (✓ API compatible changes)
+* `rig-neo4j`: 0.2.1 -> 0.2.2 (✓ API compatible changes)
+* `rig-qdrant`: 0.1.4 -> 0.1.5 (✓ API compatible changes)
+* `rig-sqlite`: 0.1.1 -> 0.1.2
+
+<details><summary><i><b>Changelog</b></i></summary><p>
+
+## `rig-core`
+<blockquote>
+
+## [0.6.1](https://github.com/0xPlaygrounds/rig/compare/rig-core-v0.6.0...rig-core-v0.6.1) - 2025-01-13
+
+### Added
+
+- Add `from_url` method to Gemini client (#194)
+- Feature flag for CF worker compatibility (#176) (#175)
+- *(eternal-ai)* Eternal-AI provider for rig (#171)
+- Add gpt-4o-mini to openai model list (#187)
+
+### Fixed
+
+- *(example)* ollama example uses wrong url
+
+### Other
+
+- Add additional check for empty tool_calls ([#166](https://github.com/0xPlaygrounds/rig/pull/166))
+- Mock provider API in vector store integration tests (#186)
+- fix comment (#182)
+- fix various typos
+</blockquote>
+
+## `rig-lancedb`
+<blockquote>
+
+## [0.2.2](https://github.com/0xPlaygrounds/rig/compare/rig-lancedb-v0.2.1...rig-lancedb-v0.2.2) - 2025-01-13
+
+### Other
+
+- Mock provider API in vector store integration tests (#186)
+</blockquote>
+
+## `rig-mongodb`
+<blockquote>
+
+## [0.2.2](https://github.com/0xPlaygrounds/rig/compare/rig-mongodb-v0.2.1...rig-mongodb-v0.2.2) - 2025-01-13
+
+### Other
+
+- Mock provider API in vector store integration tests (#186)
+</blockquote>
+
+## `rig-neo4j`
+<blockquote>
+
+## [0.2.2](https://github.com/0xPlaygrounds/rig/compare/rig-neo4j-v0.2.1...rig-neo4j-v0.2.2) - 2025-01-13
+
+### Other
+
+- *(rig-neo4j)* remove old tests (#197)
+- *(rig-neo4j)* Fix neo4j integration test (#190)
+- Mock provider API in vector store integration tests (#186)
+- fix typo
+</blockquote>
+
+## `rig-qdrant`
+<blockquote>
+
+## [0.1.5](https://github.com/0xPlaygrounds/rig/compare/rig-qdrant-v0.1.4...rig-qdrant-v0.1.5) - 2025-01-13
+
+### Other
+
+- Mock provider API in vector store integration tests (#186)
+</blockquote>
+
+## `rig-sqlite`
+<blockquote>
+
+## [0.1.2](https://github.com/0xPlaygrounds/rig/compare/rig-sqlite-v0.1.1...rig-sqlite-v0.1.2) - 2025-01-13
+
+### Other
+
+- updated the following local packages: rig-core
+</blockquote>
+
+
+</p></details>
+
+---
+This PR was generated with [release-plz](https://github.com/release-plz/release-plz/).","https://github.com/0xPlaygrounds/rig/pull/180","True","False","False","False",""
+"180","1","renamed","github-actions[bot]","2025-01-01 22:43:03","","","False","","<NA>","<NA>","","True","False","False","False",""
+"180","2","head_ref_force_pushed","github-actions[bot]","2025-01-01 22:43:03","","d185a430e1b67973dd7b04742c355f6221e13671","False","","<NA>","<NA>","","True","False","False","False",""
+"180","3","head_ref_force_pushed","github-actions[bot]","2025-01-01 23:00:03","","dfd6854cfdc964582cc4063d23bd0844ebc6f764","False","","<NA>","<NA>","","True","False","False","False",""
+"180","4","head_ref_force_pushed","github-actions[bot]","2025-01-06 15:05:11","","34ccd11fec372a4d9686b09134a6c9657c6336bb","False","","<NA>","<NA>","","True","False","False","False",""
+"180","5","head_ref_force_pushed","github-actions[bot]","2025-01-07 22:45:13","","115508dd8174bec94b1214175937757a2b3b6c8a","False","","<NA>","<NA>","","True","False","False","False",""
+"180","6","head_ref_force_pushed","github-actions[bot]","2025-01-09 19:38:46","","8c1a4cdf79db7fadd2f8785a42461138ee27a62f","False","","<NA>","<NA>","","True","False","False","False",""
+"180","7","head_ref_force_pushed","github-actions[bot]","2025-01-09 20:14:02","","56ac10d771c7950d1426cf100ad1492ca41ceb8b","False","","<NA>","<NA>","","True","False","False","False",""
+"180","8","head_ref_force_pushed","github-actions[bot]","2025-01-13 04:53:02","","a1669d734e6b4c23cae917e437e33f38742802e9","False","","<NA>","<NA>","","True","False","False","False",""
+"180","9","head_ref_force_pushed","github-actions[bot]","2025-01-13 15:23:25","","3fbe72f882629b3a24b7bab869cbd691dbea0e04","False","","<NA>","<NA>","","True","False","False","False",""
+"180","10","head_ref_force_pushed","github-actions[bot]","2025-01-13 16:05:54","","7f3f5d560e75af1be82bd3501039bb76d340e068","False","","<NA>","<NA>","","True","False","False","False",""
+"180","11","committed","github-actions[bot]","2025-01-13 20:30:11","","","False","ccc7ec5d886158672d34a174b7ac91f6dc71735d","<NA>","<NA>","https://github.com/0xPlaygrounds/rig/commit/ccc7ec5d886158672d34a174b7ac91f6dc71735d","True","False","False","False",""
+"180","12","head_ref_force_pushed","github-actions[bot]","2025-01-13 20:30:13","","ccc7ec5d886158672d34a174b7ac91f6dc71735d","False","","<NA>","<NA>","","True","False","False","False",""
+"180","13","merged","cvauclair","2025-01-13 20:54:30","","38b8d3520e19f7ff05b58ef4e30af3da6d935596","False","","<NA>","<NA>","","False","False","False","False",""
+"180","14","closed","cvauclair","2025-01-13 20:54:30","","","False","","<NA>","<NA>","","False","False","False","False",""

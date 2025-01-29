@@ -1,0 +1,1933 @@
+pull_number,event_number,event,actor,time,sha,title,body,html_url,is_bot,is_chatgpt,is_first_chatgpt,is_proceeding_chatgpt,chatgpt_event,is_open,is_closed,is_merged,opened_at,closed_at,merged_at,closed_by,merged_by,resolved_at,resolved_by,is_contributor,is_reviewer,is_maintainer_response,maintainer_responded_at,maintainer_responded_by,maintainer_responded_event,maintainer_latency,is_contributor_response,contributor_responded_at,contributor_responded_event,contributor_latency,next_event_number,next_event,next_event_time,next_event_actor,avg_previous_response_time,median_previous_response_time,next_event_latency
+369872,4,commented,trofi,2025-01-01 16:00:41,,,"## `nixpkgs-review` result
+
+Generated using [`nixpkgs-review`](https://github.com/Mic92/nixpkgs-review).
+
+Command: `nixpkgs-review pr 369872`
+
+---
+### `x86_64-linux`
+<details>
+  <summary>:fast_forward: 55 packages marked as broken and skipped:</summary>
+  <ul>
+    <li>chatgpt-retrieval-plugin</li>
+    <li>chatgpt-retrieval-plugin.dist</li>
+    <li>dbx</li>
+    <li>dbx.dist</li>
+    <li>kdePackages.umbrello</li>
+    <li>kdePackages.umbrello.debug</li>
+    <li>kdePackages.umbrello.dev</li>
+    <li>kdePackages.umbrello.devtools</li>
+    <li>khoj</li>
+    <li>khoj.dist</li>
+    <li>private-gpt</li>
+    <li>private-gpt.dist</li>
+    <li>python312Packages.apache-beam</li>
+    <li>python312Packages.apache-beam.dist</li>
+    <li>python312Packages.dalle-mini</li>
+    <li>python312Packages.dalle-mini.dist</li>
+    <li>python312Packages.haystack-ai</li>
+    <li>python312Packages.haystack-ai.dist</li>
+    <li>python312Packages.k-diffusion</li>
+    <li>python312Packages.k-diffusion.dist</li>
+    <li>python312Packages.llama-index</li>
+    <li>python312Packages.llama-index-cli</li>
+    <li>python312Packages.llama-index-cli.dist</li>
+    <li>python312Packages.llama-index-embeddings-huggingface</li>
+    <li>python312Packages.llama-index-embeddings-huggingface.dist</li>
+    <li>python312Packages.llama-index-llms-openai-like</li>
+    <li>python312Packages.llama-index-llms-openai-like.dist</li>
+    <li>python312Packages.llama-index-vector-stores-chroma</li>
+    <li>python312Packages.llama-index-vector-stores-chroma.dist</li>
+    <li>python312Packages.llama-index.dist</li>
+    <li>python312Packages.mamba-ssm</li>
+    <li>python312Packages.mamba-ssm.dist</li>
+    <li>python312Packages.private-gpt</li>
+    <li>python312Packages.private-gpt.dist</li>
+    <li>python312Packages.python-mapnik</li>
+    <li>python312Packages.python-mapnik.dist</li>
+    <li>python312Packages.rio-tiler</li>
+    <li>python312Packages.rio-tiler.dist</li>
+    <li>python312Packages.shimmy</li>
+    <li>python312Packages.shimmy.dist</li>
+    <li>python312Packages.spacy-transformers</li>
+    <li>python312Packages.spacy-transformers.dist</li>
+    <li>python312Packages.vllm</li>
+    <li>python312Packages.vllm.dist</li>
+    <li>python312Packages.worldengine</li>
+    <li>python312Packages.worldengine.dist</li>
+    <li>python313Packages.apache-beam</li>
+    <li>python313Packages.apache-beam.dist</li>
+    <li>python313Packages.python-mapnik</li>
+    <li>python313Packages.python-mapnik.dist</li>
+    <li>python313Packages.worldengine</li>
+    <li>python313Packages.worldengine.dist</li>
+    <li>t-rex</li>
+    <li>tts</li>
+    <li>tts.dist</li>
+  </ul>
+</details>
+<details>
+  <summary>:x: 170 packages failed to build:</summary>
+  <ul>
+    <li>apacheHttpdPackages.mod_tile</li>
+    <li>browsr</li>
+    <li>browsr.dist</li>
+    <li>ceph</li>
+    <li>ceph-client</li>
+    <li>ceph-csi</li>
+    <li>ceph.dev</li>
+    <li>ceph.doc</li>
+    <li>libceph (ceph.lib ,libceph.dev ,libceph.doc ,libceph.lib ,libceph.man)</li>
+    <li>ceph.man</li>
+    <li>cloudcompare</li>
+    <li>databricks-sql-cli</li>
+    <li>databricks-sql-cli.dist</li>
+    <li>harlequin</li>
+    <li>harlequin.dist</li>
+    <li>ikiwiki-full</li>
+    <li>mokuro</li>
+    <li>mokuro.dist</li>
+    <li>open-interpreter (python312Packages.open-interpreter)</li>
+    <li>open-interpreter.dist (python312Packages.open-interpreter.dist)</li>
+    <li>openllm</li>
+    <li>openllm.dist</li>
+    <li>otb</li>
+    <li>python312Packages.autofaiss</li>
+    <li>python312Packages.autofaiss.dist</li>
+    <li>python312Packages.awkward</li>
+    <li>python312Packages.awkward-pandas</li>
+    <li>python312Packages.awkward-pandas.dist</li>
+    <li>python312Packages.awkward.dist</li>
+    <li>python312Packages.awswrangler</li>
+    <li>python312Packages.awswrangler.dist</li>
+    <li>python312Packages.cleanlab</li>
+    <li>python312Packages.cleanlab.dist</li>
+    <li>python312Packages.coffea</li>
+    <li>python312Packages.coffea.dist</li>
+    <li>python312Packages.correctionlib</li>
+    <li>python312Packages.correctionlib.dist</li>
+    <li>python312Packages.dask-awkward</li>
+    <li>python312Packages.dask-awkward.dist</li>
+    <li>python312Packages.dask-ml</li>
+    <li>python312Packages.dask-ml.dist</li>
+    <li>python312Packages.databricks-sql-connector</li>
+    <li>python312Packages.databricks-sql-connector.dist</li>
+    <li>python312Packages.datashader</li>
+    <li>python312Packages.datashader.dist</li>
+    <li>python312Packages.duckdb-engine</li>
+    <li>python312Packages.duckdb-engine.dist</li>
+    <li>python312Packages.fastembed</li>
+    <li>python312Packages.fastembed.dist</li>
+    <li>python312Packages.gradio</li>
+    <li>python312Packages.gradio.dist</li>
+    <li>python312Packages.ibis-framework</li>
+    <li>python312Packages.ibis-framework.dist</li>
+    <li>python312Packages.jupysql</li>
+    <li>python312Packages.jupysql.dist</li>
+    <li>python312Packages.lancedb</li>
+    <li>python312Packages.lancedb.dist</li>
+    <li>python312Packages.langchain-aws</li>
+    <li>python312Packages.langchain-aws.dist</li>
+    <li>python312Packages.manga-ocr</li>
+    <li>python312Packages.manga-ocr.dist</li>
+    <li>python312Packages.mplhep</li>
+    <li>python312Packages.mplhep.dist</li>
+    <li>python312Packages.netbox-documents</li>
+    <li>python312Packages.netbox-documents.dist</li>
+    <li>python312Packages.nutpie</li>
+    <li>python312Packages.nutpie.dist</li>
+    <li>python312Packages.outlines</li>
+    <li>python312Packages.outlines.dist</li>
+    <li>python312Packages.pylance</li>
+    <li>python312Packages.pylance.dist</li>
+    <li>python312Packages.qcodes-contrib-drivers</li>
+    <li>python312Packages.qcodes-contrib-drivers.dist</li>
+    <li>python312Packages.rerun-sdk</li>
+    <li>python312Packages.rerun-sdk.dist</li>
+    <li>python312Packages.sagemaker</li>
+    <li>python312Packages.sagemaker.dist</li>
+    <li>python312Packages.textual-fastdatatable</li>
+    <li>python312Packages.textual-fastdatatable.dist</li>
+    <li>python312Packages.uproot</li>
+    <li>python312Packages.uproot.dist</li>
+    <li>python312Packages.vector</li>
+    <li>python312Packages.vector.dist</li>
+    <li>python312Packages.ydata-profiling</li>
+    <li>python312Packages.ydata-profiling.dist</li>
+    <li>python313Packages.altair</li>
+    <li>python313Packages.altair.dist</li>
+    <li>python313Packages.anthropic</li>
+    <li>python313Packages.anthropic.dist</li>
+    <li>python313Packages.autofaiss</li>
+    <li>python313Packages.autofaiss.dist</li>
+    <li>python313Packages.awswrangler</li>
+    <li>python313Packages.awswrangler.dist</li>
+    <li>python313Packages.cohere</li>
+    <li>python313Packages.cohere.dist</li>
+    <li>python313Packages.databricks-sql-connector</li>
+    <li>python313Packages.databricks-sql-connector.dist</li>
+    <li>python313Packages.datafusion</li>
+    <li>python313Packages.datafusion.dist</li>
+    <li>python313Packages.dmt-core</li>
+    <li>python313Packages.dmt-core.dist</li>
+    <li>python313Packages.drf-extra-fields</li>
+    <li>python313Packages.drf-extra-fields.dist</li>
+    <li>python313Packages.duckdb-engine</li>
+    <li>python313Packages.duckdb-engine.dist</li>
+    <li>python313Packages.fastembed</li>
+    <li>python313Packages.fastembed.dist</li>
+    <li>python313Packages.google-cloud-bigquery</li>
+    <li>python313Packages.google-cloud-bigquery.dist</li>
+    <li>python313Packages.great-expectations</li>
+    <li>python313Packages.great-expectations.dist</li>
+    <li>python313Packages.harlequin-bigquery</li>
+    <li>python313Packages.harlequin-bigquery.dist</li>
+    <li>python313Packages.ibis-framework</li>
+    <li>python313Packages.ibis-framework.dist</li>
+    <li>python313Packages.instructor</li>
+    <li>python313Packages.instructor.dist</li>
+    <li>python313Packages.intake</li>
+    <li>python313Packages.intake-parquet</li>
+    <li>python313Packages.intake-parquet.dist</li>
+    <li>python313Packages.intake.dist</li>
+    <li>python313Packages.jupysql</li>
+    <li>python313Packages.jupysql.dist</li>
+    <li>python313Packages.langsmith</li>
+    <li>python313Packages.langsmith.dist</li>
+    <li>python313Packages.litellm</li>
+    <li>python313Packages.litellm.dist</li>
+    <li>python313Packages.llmx</li>
+    <li>python313Packages.llmx.dist</li>
+    <li>python313Packages.marimo</li>
+    <li>python313Packages.marimo.dist</li>
+    <li>python313Packages.meshtastic</li>
+    <li>python313Packages.meshtastic.dist</li>
+    <li>python313Packages.narwhals</li>
+    <li>python313Packages.narwhals.dist</li>
+    <li>python313Packages.netbox-documents</li>
+    <li>python313Packages.netbox-documents.dist</li>
+    <li>python313Packages.open-interpreter</li>
+    <li>python313Packages.open-interpreter.dist</li>
+    <li>python313Packages.pins</li>
+    <li>python313Packages.pins.dist</li>
+    <li>python313Packages.presenterm-export</li>
+    <li>python313Packages.presenterm-export.dist</li>
+    <li>python313Packages.recordlinkage</li>
+    <li>python313Packages.recordlinkage.dist</li>
+    <li>python313Packages.skops</li>
+    <li>python313Packages.skops.dist</li>
+    <li>python313Packages.streamlit</li>
+    <li>python313Packages.streamlit.dist</li>
+    <li>python313Packages.streamz</li>
+    <li>python313Packages.streamz.dist</li>
+    <li>python313Packages.textual-fastdatatable</li>
+    <li>python313Packages.textual-fastdatatable.dist</li>
+    <li>python313Packages.vega</li>
+    <li>python313Packages.vega.dist</li>
+    <li>qemu_full</li>
+    <li>qemu_full.debug</li>
+    <li>qemu_full.doc</li>
+    <li>qemu_full.ga</li>
+    <li>quickemu</li>
+    <li>quickgui</li>
+    <li>quickgui.debug</li>
+    <li>quickgui.pubcache</li>
+    <li>rclip</li>
+    <li>rclip.dist</li>
+    <li>samba4Full</li>
+    <li>samba4Full.dev</li>
+    <li>samba4Full.man</li>
+    <li>whisper-ctranslate2</li>
+    <li>whisper-ctranslate2.dist</li>
+  </ul>
+</details>
+<details>
+  <summary>:white_check_mark: 440 packages built:</summary>
+  <ul>
+    <li>aider-chat</li>
+    <li>aider-chat.dist</li>
+    <li>airgeddon</li>
+    <li>apacheHttpdPackages.subversion</li>
+    <li>apacheHttpdPackages.subversion.dev</li>
+    <li>apacheHttpdPackages.subversion.man</li>
+    <li>arrow-cpp</li>
+    <li>arrow-glib</li>
+    <li>arsenal</li>
+    <li>arsenal.dist</li>
+    <li>byobu</li>
+    <li>cabal2nix</li>
+    <li>ccextractor</li>
+    <li>clerk</li>
+    <li>datatrove</li>
+    <li>datatrove.dist</li>
+    <li>dwlb</li>
+    <li>dwlb.man</li>
+    <li>entwine</li>
+    <li>exo</li>
+    <li>exo.dist</li>
+    <li>fcft</li>
+    <li>fcft.doc</li>
+    <li>fcft.man</li>
+    <li>fnott</li>
+    <li>foot</li>
+    <li>foot.debug</li>
+    <li>foot.terminfo</li>
+    <li>foot.themes</li>
+    <li>fuzzel</li>
+    <li>fzf-git-sh</li>
+    <li>gdal (python312Packages.gdal)</li>
+    <li>germinal</li>
+    <li>git-doc (git-doc.debug ,git-doc.doc ,gitFull.doc)</li>
+    <li>gitFull</li>
+    <li>gitFull.debug</li>
+    <li>gitSVN</li>
+    <li>gitSVN.debug</li>
+    <li>gitSVN.doc</li>
+    <li>gmt</li>
+    <li>gplates</li>
+    <li>grass</li>
+    <li>hollywood</li>
+    <li>home-assistant-component-tests.anthropic</li>
+    <li>hostmux</li>
+    <li>hydra</li>
+    <li>hydra.doc</li>
+    <li>immich-machine-learning</li>
+    <li>immich-machine-learning.dist</li>
+    <li>kdePackages.kdev-php</li>
+    <li>kdePackages.kdev-php.debug</li>
+    <li>kdePackages.kdev-php.dev</li>
+    <li>kdePackages.kdev-php.devtools</li>
+    <li>kdePackages.kdev-python</li>
+    <li>kdePackages.kdev-python.debug</li>
+    <li>kdePackages.kdev-python.dev</li>
+    <li>kdePackages.kdev-python.devtools</li>
+    <li>kdePackages.kdevelop</li>
+    <li>kdePackages.kdevelop.debug</li>
+    <li>kdePackages.kdevelop.dev</li>
+    <li>kdePackages.kdevelop.devtools</li>
+    <li>kdesvn</li>
+    <li>libretranslate (python312Packages.libretranslate)</li>
+    <li>libretranslate.dist (python312Packages.libretranslate.dist)</li>
+    <li>luarocks-packages-updater</li>
+    <li>luarocks-packages-updater.dist</li>
+    <li>mame</li>
+    <li>mame-tools (mame-tools.tools ,mame.tools)</li>
+    <li>mapcache</li>
+    <li>mapnik</li>
+    <li>mapproxy</li>
+    <li>mapproxy.dist</li>
+    <li>mapserver</li>
+    <li>marimo (python312Packages.marimo)</li>
+    <li>marimo.dist (python312Packages.marimo.dist)</li>
+    <li>merkaartor</li>
+    <li>minari (python312Packages.minari)</li>
+    <li>minari.dist (python312Packages.minari.dist)</li>
+    <li>mlflow-server</li>
+    <li>mlflow-server.dist</li>
+    <li>mysql-workbench</li>
+    <li>nix-prefetch-scripts</li>
+    <li>nix-prefetch-svn</li>
+    <li>nix-update-source</li>
+    <li>nix-update-source.dist</li>
+    <li>octavePackages.mapping</li>
+    <li>open-webui</li>
+    <li>open-webui.dist</li>
+    <li>openorienteering-mapper</li>
+    <li>overmind</li>
+    <li>overturemaps</li>
+    <li>overturemaps.dist</li>
+    <li>paraview</li>
+    <li>parquet-tools</li>
+    <li>parquet-tools.dist</li>
+    <li>patroni</li>
+    <li>patroni.dist</li>
+    <li>pdal</li>
+    <li>pentestgpt</li>
+    <li>pentestgpt.dist</li>
+    <li>perl538Packages.SVNSimple</li>
+    <li>perl538Packages.SVNSimple.devdoc</li>
+    <li>perl538Packages.Tirex</li>
+    <li>perl538Packages.Tirex.devdoc</li>
+    <li>perl540Packages.SVNSimple</li>
+    <li>perl540Packages.SVNSimple.devdoc</li>
+    <li>perl540Packages.Tirex</li>
+    <li>perl540Packages.Tirex.devdoc</li>
+    <li>python312Packages.accelerate</li>
+    <li>python312Packages.accelerate.dist</li>
+    <li>python312Packages.altair</li>
+    <li>python312Packages.altair.dist</li>
+    <li>python312Packages.anthropic</li>
+    <li>python312Packages.anthropic.dist</li>
+    <li>python312Packages.argos-translate-files</li>
+    <li>python312Packages.argos-translate-files.dist</li>
+    <li>python312Packages.argostranslate</li>
+    <li>python312Packages.argostranslate.dist</li>
+    <li>python312Packages.bsuite</li>
+    <li>python312Packages.bsuite.dist</li>
+    <li>python312Packages.cartopy</li>
+    <li>python312Packages.cartopy.dist</li>
+    <li>python312Packages.chromadb</li>
+    <li>python312Packages.chromadb.dist</li>
+    <li>python312Packages.cleanvision</li>
+    <li>python312Packages.cleanvision.dist</li>
+    <li>python312Packages.cohere</li>
+    <li>python312Packages.cohere.dist</li>
+    <li>python312Packages.colbert-ai</li>
+    <li>python312Packages.colbert-ai.dist</li>
+    <li>python312Packages.ctranslate2</li>
+    <li>python312Packages.ctranslate2.dist</li>
+    <li>python312Packages.dask-expr</li>
+    <li>python312Packages.dask-expr.dist</li>
+    <li>python312Packages.databricks-sdk</li>
+    <li>python312Packages.databricks-sdk.dist</li>
+    <li>python312Packages.datafusion</li>
+    <li>python312Packages.datafusion.dist</li>
+    <li>python312Packages.datasets</li>
+    <li>python312Packages.datasets.dist</li>
+    <li>python312Packages.datashaper</li>
+    <li>python312Packages.datashaper.dist</li>
+    <li>python312Packages.db-dtypes</li>
+    <li>python312Packages.db-dtypes.dist</li>
+    <li>python312Packages.dbt-bigquery</li>
+    <li>python312Packages.dbt-bigquery.dist</li>
+    <li>python312Packages.deltalake</li>
+    <li>python312Packages.deltalake.dist</li>
+    <li>python312Packages.django-bootstrap4</li>
+    <li>python312Packages.django-bootstrap4.dist</li>
+    <li>python312Packages.django-bootstrap5</li>
+    <li>python312Packages.django-bootstrap5.dist</li>
+    <li>python312Packages.dmt-core</li>
+    <li>python312Packages.dmt-core.dist</li>
+    <li>python312Packages.drf-extra-fields</li>
+    <li>python312Packages.drf-extra-fields.dist</li>
+    <li>python312Packages.dvc-hdfs</li>
+    <li>python312Packages.dvc-hdfs.dist</li>
+    <li>python312Packages.embedding-reader</li>
+    <li>python312Packages.embedding-reader.dist</li>
+    <li>python312Packages.evaluate</li>
+    <li>python312Packages.evaluate.dist</li>
+    <li>python312Packages.faster-whisper</li>
+    <li>python312Packages.faster-whisper.dist</li>
+    <li>python312Packages.feather-format</li>
+    <li>python312Packages.feather-format.dist</li>
+    <li>python312Packages.fiona</li>
+    <li>python312Packages.fiona.dist</li>
+    <li>python312Packages.folium</li>
+    <li>python312Packages.folium.dist</li>
+    <li>python312Packages.geoarrow-c</li>
+    <li>python312Packages.geoarrow-c.dist</li>
+    <li>python312Packages.geoarrow-pandas</li>
+    <li>python312Packages.geoarrow-pandas.dist</li>
+    <li>python312Packages.geoarrow-pyarrow</li>
+    <li>python312Packages.geoarrow-pyarrow.dist</li>
+    <li>python312Packages.geoarrow-types</li>
+    <li>python312Packages.geoarrow-types.dist</li>
+    <li>python312Packages.geodatasets</li>
+    <li>python312Packages.geodatasets.dist</li>
+    <li>python312Packages.geopandas</li>
+    <li>python312Packages.geopandas.dist</li>
+    <li>python312Packages.geoparquet</li>
+    <li>python312Packages.geoparquet.dist</li>
+    <li>python312Packages.google-cloud-bigquery</li>
+    <li>python312Packages.google-cloud-bigquery.dist</li>
+    <li>python312Packages.great-expectations</li>
+    <li>python312Packages.great-expectations.dist</li>
+    <li>python312Packages.great-tables</li>
+    <li>python312Packages.great-tables.dist</li>
+    <li>python312Packages.harlequin-bigquery</li>
+    <li>python312Packages.harlequin-bigquery.dist</li>
+    <li>python312Packages.inequality</li>
+    <li>python312Packages.inequality.dist</li>
+    <li>python312Packages.influxdb3-python</li>
+    <li>python312Packages.influxdb3-python.dist</li>
+    <li>python312Packages.instructor</li>
+    <li>python312Packages.instructor.dist</li>
+    <li>python312Packages.intake</li>
+    <li>python312Packages.intake-parquet</li>
+    <li>python312Packages.intake-parquet.dist</li>
+    <li>python312Packages.intake.dist</li>
+    <li>python312Packages.langchain</li>
+    <li>python312Packages.langchain-azure-dynamic-sessions</li>
+    <li>python312Packages.langchain-azure-dynamic-sessions.dist</li>
+    <li>python312Packages.langchain-chroma</li>
+    <li>python312Packages.langchain-chroma.dist</li>
+    <li>python312Packages.langchain-community</li>
+    <li>python312Packages.langchain-community.dist</li>
+    <li>python312Packages.langchain-core</li>
+    <li>python312Packages.langchain-core.dist</li>
+    <li>python312Packages.langchain-huggingface</li>
+    <li>python312Packages.langchain-huggingface.dist</li>
+    <li>python312Packages.langchain-mongodb</li>
+    <li>python312Packages.langchain-mongodb.dist</li>
+    <li>python312Packages.langchain-ollama</li>
+    <li>python312Packages.langchain-ollama.dist</li>
+    <li>python312Packages.langchain-openai</li>
+    <li>python312Packages.langchain-openai.dist</li>
+    <li>python312Packages.langchain-standard-tests</li>
+    <li>python312Packages.langchain-standard-tests.dist</li>
+    <li>python312Packages.langchain-text-splitters</li>
+    <li>python312Packages.langchain-text-splitters.dist</li>
+    <li>python312Packages.langchain.dist</li>
+    <li>python312Packages.langgraph</li>
+    <li>python312Packages.langgraph-checkpoint</li>
+    <li>python312Packages.langgraph-checkpoint-duckdb</li>
+    <li>python312Packages.langgraph-checkpoint-duckdb.dist</li>
+    <li>python312Packages.langgraph-checkpoint-postgres</li>
+    <li>python312Packages.langgraph-checkpoint-postgres.dist</li>
+    <li>python312Packages.langgraph-checkpoint-sqlite</li>
+    <li>python312Packages.langgraph-checkpoint-sqlite.dist</li>
+    <li>python312Packages.langgraph-checkpoint.dist</li>
+    <li>python312Packages.langgraph.dist</li>
+    <li>python312Packages.langsmith</li>
+    <li>python312Packages.langsmith.dist</li>
+    <li>python312Packages.layoutparser</li>
+    <li>python312Packages.layoutparser.dist</li>
+    <li>python312Packages.libpysal</li>
+    <li>python312Packages.libpysal.dist</li>
+    <li>python312Packages.libtmux</li>
+    <li>python312Packages.libtmux.dist</li>
+    <li>python312Packages.litellm</li>
+    <li>python312Packages.litellm.dist</li>
+    <li>python312Packages.llmx</li>
+    <li>python312Packages.llmx.dist</li>
+    <li>python312Packages.manifest-ml</li>
+    <li>python312Packages.manifest-ml.dist</li>
+    <li>python312Packages.mapclassify</li>
+    <li>python312Packages.mapclassify.dist</li>
+    <li>python312Packages.meshtastic</li>
+    <li>python312Packages.meshtastic.dist</li>
+    <li>python312Packages.mlflow</li>
+    <li>python312Packages.mlflow.dist</li>
+    <li>python312Packages.mmcv</li>
+    <li>python312Packages.mmcv.dist</li>
+    <li>python312Packages.mmengine</li>
+    <li>python312Packages.mmengine.dist</li>
+    <li>python312Packages.momepy</li>
+    <li>python312Packages.momepy.dist</li>
+    <li>python312Packages.morecantile</li>
+    <li>python312Packages.morecantile.dist</li>
+    <li>python312Packages.msticpy</li>
+    <li>python312Packages.msticpy.dist</li>
+    <li>python312Packages.narwhals</li>
+    <li>python312Packages.narwhals.dist</li>
+    <li>python312Packages.nemosis</li>
+    <li>python312Packages.nemosis.dist</li>
+    <li>python312Packages.open-clip-torch</li>
+    <li>python312Packages.open-clip-torch.dist</li>
+    <li>python312Packages.optimum</li>
+    <li>python312Packages.optimum.dist</li>
+    <li>python312Packages.osmnx</li>
+    <li>python312Packages.osmnx.dist</li>
+    <li>python312Packages.pandantic</li>
+    <li>python312Packages.pandantic.dist</li>
+    <li>python312Packages.pandas-stubs</li>
+    <li>python312Packages.pandas-stubs.dist</li>
+    <li>python312Packages.pdfplumber</li>
+    <li>python312Packages.pdfplumber.dist</li>
+    <li>python312Packages.peft</li>
+    <li>python312Packages.peft.dist</li>
+    <li>python312Packages.pins</li>
+    <li>python312Packages.pins.dist</li>
+    <li>python312Packages.plotnine</li>
+    <li>python312Packages.plotnine.dist</li>
+    <li>python312Packages.presenterm-export</li>
+    <li>python312Packages.presenterm-export.dist</li>
+    <li>python312Packages.pyarrow</li>
+    <li>python312Packages.pyarrow.dist</li>
+    <li>python312Packages.pygmt</li>
+    <li>python312Packages.pygmt.dist</li>
+    <li>python312Packages.pyiceberg</li>
+    <li>python312Packages.pyiceberg.dist</li>
+    <li>python312Packages.pymilvus</li>
+    <li>python312Packages.pymilvus.dist</li>
+    <li>python312Packages.pyogrio</li>
+    <li>python312Packages.pyogrio.dist</li>
+    <li>python312Packages.pysvn</li>
+    <li>python312Packages.qcodes</li>
+    <li>python312Packages.qcodes.dist</li>
+    <li>python312Packages.rasterio</li>
+    <li>python312Packages.rasterio.dist</li>
+    <li>python312Packages.recordlinkage</li>
+    <li>python312Packages.recordlinkage.dist</li>
+    <li>python312Packages.rioxarray</li>
+    <li>python312Packages.rioxarray.dist</li>
+    <li>python312Packages.sagemaker-mlflow</li>
+    <li>python312Packages.sagemaker-mlflow.dist</li>
+    <li>python312Packages.sentence-transformers</li>
+    <li>python312Packages.sentence-transformers.dist</li>
+    <li>python312Packages.skops</li>
+    <li>python312Packages.skops.dist</li>
+    <li>python312Packages.stanza</li>
+    <li>python312Packages.stanza.dist</li>
+    <li>streamlit (python312Packages.streamlit)</li>
+    <li>streamlit.dist (python312Packages.streamlit.dist)</li>
+    <li>python312Packages.streamz</li>
+    <li>python312Packages.streamz.dist</li>
+    <li>python312Packages.tinygrad</li>
+    <li>python312Packages.tinygrad.dist</li>
+    <li>python312Packages.tokenizers</li>
+    <li>python312Packages.tokenizers.dist</li>
+    <li>python312Packages.torchinfo</li>
+    <li>python312Packages.torchinfo.dist</li>
+    <li>python312Packages.transformers</li>
+    <li>python312Packages.transformers.dist</li>
+    <li>python312Packages.translatehtml</li>
+    <li>python312Packages.translatehtml.dist</li>
+    <li>python312Packages.txtai</li>
+    <li>python312Packages.txtai.dist</li>
+    <li>python312Packages.unstructured-inference</li>
+    <li>python312Packages.unstructured-inference.dist</li>
+    <li>python312Packages.vega</li>
+    <li>python312Packages.vega.dist</li>
+    <li>python312Packages.vqgan-jax</li>
+    <li>python312Packages.vqgan-jax.dist</li>
+    <li>python312Packages.wktutils</li>
+    <li>python312Packages.wktutils.dist</li>
+    <li>ydiff (python312Packages.ydiff)</li>
+    <li>ydiff.dist (python312Packages.ydiff.dist)</li>
+    <li>python313Packages.dask-expr</li>
+    <li>python313Packages.dask-expr.dist</li>
+    <li>python313Packages.datasets</li>
+    <li>python313Packages.datasets.dist</li>
+    <li>python313Packages.datashaper</li>
+    <li>python313Packages.datashaper.dist</li>
+    <li>python313Packages.db-dtypes</li>
+    <li>python313Packages.db-dtypes.dist</li>
+    <li>python313Packages.deltalake</li>
+    <li>python313Packages.deltalake.dist</li>
+    <li>python313Packages.django-bootstrap4</li>
+    <li>python313Packages.django-bootstrap4.dist</li>
+    <li>python313Packages.django-bootstrap5</li>
+    <li>python313Packages.django-bootstrap5.dist</li>
+    <li>python313Packages.embedding-reader</li>
+    <li>python313Packages.embedding-reader.dist</li>
+    <li>python313Packages.evaluate</li>
+    <li>python313Packages.evaluate.dist</li>
+    <li>python313Packages.feather-format</li>
+    <li>python313Packages.feather-format.dist</li>
+    <li>python313Packages.gdal</li>
+    <li>python313Packages.geoarrow-c</li>
+    <li>python313Packages.geoarrow-c.dist</li>
+    <li>python313Packages.geoarrow-types</li>
+    <li>python313Packages.geoarrow-types.dist</li>
+    <li>python313Packages.great-tables</li>
+    <li>python313Packages.great-tables.dist</li>
+    <li>python313Packages.influxdb3-python</li>
+    <li>python313Packages.influxdb3-python.dist</li>
+    <li>python313Packages.libtmux</li>
+    <li>python313Packages.libtmux.dist</li>
+    <li>python313Packages.nemosis</li>
+    <li>python313Packages.nemosis.dist</li>
+    <li>python313Packages.pyarrow</li>
+    <li>python313Packages.pyarrow.dist</li>
+    <li>python313Packages.pygmt</li>
+    <li>python313Packages.pygmt.dist</li>
+    <li>python313Packages.pymilvus</li>
+    <li>python313Packages.pymilvus.dist</li>
+    <li>python313Packages.pyogrio</li>
+    <li>python313Packages.pyogrio.dist</li>
+    <li>python313Packages.pysvn</li>
+    <li>python313Packages.tokenizers</li>
+    <li>python313Packages.tokenizers.dist</li>
+    <li>python313Packages.ydiff</li>
+    <li>python313Packages.ydiff.dist</li>
+    <li>pytrainer</li>
+    <li>pytrainer.dist</li>
+    <li>qgis</li>
+    <li>qgis-ltr</li>
+    <li>qmapshack</li>
+    <li>raffi</li>
+    <li>rapidsvn</li>
+    <li>saga</li>
+    <li>sandbar</li>
+    <li>shell-gpt</li>
+    <li>shell-gpt.dist</li>
+    <li>subversion</li>
+    <li>subversion.dev</li>
+    <li>subversion.man</li>
+    <li>subversionClient</li>
+    <li>subversionClient.dev</li>
+    <li>subversionClient.man</li>
+    <li>sumo</li>
+    <li>survex</li>
+    <li>svn-all-fast-export</li>
+    <li>svn2git</li>
+    <li>svnfs</li>
+    <li>thcrap-steam-proton-wrapper</li>
+    <li>therion</li>
+    <li>tmpi</li>
+    <li>tmux</li>
+    <li>tmux-cssh</li>
+    <li>tmux.man</li>
+    <li>tmuxPlugins.pass</li>
+    <li>tmuxp</li>
+    <li>tmuxp.dist</li>
+    <li>tocpdf</li>
+    <li>tocpdf.dist</li>
+    <li>tunnelx</li>
+    <li>udig</li>
+    <li>unstructured-api</li>
+    <li>utf8proc</li>
+    <li>vcstool</li>
+    <li>vcstool.dist</li>
+    <li>vimPlugins.aider-nvim</li>
+    <li>vimPlugins.cmp-tmux</li>
+    <li>vimPlugins.nvim-dbee</li>
+    <li>visidata</li>
+    <li>visidata.dist</li>
+    <li>vpv</li>
+    <li>wayprompt</li>
+    <li>wayst</li>
+    <li>wemux</li>
+    <li>wp4nix</li>
+    <li>wyoming-faster-whisper</li>
+    <li>wyoming-faster-whisper.dist</li>
+    <li>yambar</li>
+    <li>yambar.man</li>
+  </ul>
+</details>
+",https://github.com/NixOS/nixpkgs/pull/369872#issuecomment-2567060968,False,True,True,False,,False,False,True,2025-01-01 06:25:22,,2025-01-01 23:10:17,,ck3d,2025-01-01 23:10:17,ck3d,True,False,False,2025-01-01 23:10:17,ck3d,merged,16.74861111111111,False,,,,7,closed,2025-01-01 23:10:18,ck3d,,,7.160277777777778
+369922,8,commented,natsukium,2025-01-14 12:27:06,,,"## `nixpkgs-review` result
+
+Generated using [`nixpkgs-review`](https://github.com/Mic92/nixpkgs-review).
+
+Command: `nixpkgs-review pr 369922`
+
+---
+### `x86_64-linux`
+<details>
+  <summary>:fast_forward: 10 packages marked as broken and skipped:</summary>
+  <ul>
+    <li>dbx</li>
+    <li>khoj</li>
+    <li>python312Packages.bentoml</li>
+    <li>python312Packages.dvc-gdrive</li>
+    <li>python312Packages.parsedmarc</li>
+    <li>python312Packages.pydrive2</li>
+    <li>python313Packages.bentoml</li>
+    <li>python313Packages.parsedmarc</li>
+    <li>python313Packages.pydrive2</li>
+    <li>syncall</li>
+  </ul>
+</details>
+<details>
+  <summary>:x: 33 packages failed to build:</summary>
+  <ul>
+    <li>mlflow-server</li>
+    <li>open-webui</li>
+    <li>pentestgpt</li>
+    <li>python312Packages.databricks-sdk</li>
+    <li>python312Packages.flyingsquid</li>
+    <li>python312Packages.langchain</li>
+    <li>python312Packages.langchain-aws</li>
+    <li>python312Packages.langchain-azure-dynamic-sessions</li>
+    <li>python312Packages.langchain-chroma</li>
+    <li>python312Packages.langchain-community</li>
+    <li><a href=""https://gist.github.com/natsukium/42df3a8ca5109e5297db961aabd17da6"">python312Packages.langchain-core</a></li>
+    <li>python312Packages.langchain-huggingface</li>
+    <li>python312Packages.langchain-mongodb</li>
+    <li>python312Packages.langchain-ollama</li>
+    <li>python312Packages.langchain-openai</li>
+    <li>python312Packages.langchain-standard-tests</li>
+    <li>python312Packages.langchain-text-splitters</li>
+    <li>python312Packages.langgraph</li>
+    <li>python312Packages.langgraph-checkpoint</li>
+    <li>python312Packages.langgraph-checkpoint-duckdb</li>
+    <li>python312Packages.langgraph-checkpoint-postgres</li>
+    <li>python312Packages.langgraph-checkpoint-sqlite</li>
+    <li>python312Packages.mlflow</li>
+    <li>python312Packages.mmcv</li>
+    <li>python312Packages.mmengine</li>
+    <li><a href=""https://gist.github.com/natsukium/d41977b0ebc70567727f7ee5a481ddec"">python312Packages.pgmpy</a></li>
+    <li>python312Packages.sagemaker-mlflow</li>
+    <li>python313Packages.flyingsquid</li>
+    <li><a href=""https://gist.github.com/natsukium/c85bcc2ac39058e0e06ebcb9767b2956"">python313Packages.instructor</a></li>
+    <li>python313Packages.langsmith</li>
+    <li>python313Packages.oauthenticator</li>
+    <li>python313Packages.open-interpreter</li>
+    <li><a href=""https://gist.github.com/natsukium/e3c7b373acf4c6983a7481f9e2306313"">python313Packages.pgmpy</a></li>
+  </ul>
+</details>
+<details>
+  <summary>:white_check_mark: 54 packages built:</summary>
+  <ul>
+    <li>anki</li>
+    <li>anki.doc</li>
+    <li>anki.man</li>
+    <li>authentik</li>
+    <li>beancount (python312Packages.beancount)</li>
+    <li>beanprice</li>
+    <li>beanquery (python312Packages.beanquery)</li>
+    <li>certbot-full</li>
+    <li>fava</li>
+    <li>gam</li>
+    <li>gcalcli</li>
+    <li>gcp-scanner</li>
+    <li>git-annex-remote-googledrive</li>
+    <li>goobook (python312Packages.goobook)</li>
+    <li>gyb</li>
+    <li>home-assistant-component-tests.google_generative_ai_conversation</li>
+    <li>home-assistant-component-tests.google_mail</li>
+    <li>home-assistant-component-tests.google_photos</li>
+    <li>home-assistant-component-tests.google_tasks</li>
+    <li>ki</li>
+    <li>lbdb</li>
+    <li>ledger2beancount</li>
+    <li>lieer</li>
+    <li>mnemosyne</li>
+    <li>open-interpreter (python312Packages.open-interpreter)</li>
+    <li>parsedmarc</li>
+    <li>pgadmin4</li>
+    <li>pgadmin4-desktopmode</li>
+    <li>prowler</li>
+    <li>python312Packages.beancount-docverif</li>
+    <li>python312Packages.beancount-plugin-utils</li>
+    <li>python312Packages.certbot-dns-google</li>
+    <li>python312Packages.drivelib</li>
+    <li>python312Packages.gcsa</li>
+    <li>python312Packages.google-api-python-client</li>
+    <li>python312Packages.google-generativeai</li>
+    <li>python312Packages.google-photos-library-api</li>
+    <li>python312Packages.instructor</li>
+    <li>python312Packages.langsmith</li>
+    <li>python312Packages.llama-index-embeddings-gemini</li>
+    <li>python312Packages.llama-index-embeddings-google</li>
+    <li>python312Packages.llama-index-vector-stores-google</li>
+    <li>python312Packages.oauthenticator</li>
+    <li>python313Packages.beancount</li>
+    <li>python313Packages.beancount-docverif</li>
+    <li>python313Packages.beancount-plugin-utils</li>
+    <li>python313Packages.beanquery</li>
+    <li>python313Packages.drivelib</li>
+    <li>python313Packages.gcsa</li>
+    <li>python313Packages.goobook</li>
+    <li>python313Packages.google-api-python-client</li>
+    <li>python313Packages.google-generativeai</li>
+    <li>python313Packages.google-photos-library-api</li>
+    <li>shell-gpt</li>
+  </ul>
+</details>
+
+---
+### `aarch64-linux`
+<details>
+  <summary>:fast_forward: 11 packages marked as broken and skipped:</summary>
+  <ul>
+    <li>dbx</li>
+    <li>khoj</li>
+    <li>python312Packages.bentoml</li>
+    <li>python312Packages.dvc-gdrive</li>
+    <li>python312Packages.langchain-chroma</li>
+    <li>python312Packages.parsedmarc</li>
+    <li>python312Packages.pydrive2</li>
+    <li>python313Packages.bentoml</li>
+    <li>python313Packages.parsedmarc</li>
+    <li>python313Packages.pydrive2</li>
+    <li>syncall</li>
+  </ul>
+</details>
+<details>
+  <summary>:x: 8 packages failed to build:</summary>
+  <ul>
+    <li><a href=""https://gist.github.com/natsukium/3303eee835d6c79ae5cb0bbe6cf0cbb9"">python312Packages.langchain-aws</a></li>
+    <li>python312Packages.llama-index-embeddings-gemini</li>
+    <li>python312Packages.llama-index-embeddings-google</li>
+    <li>python312Packages.llama-index-vector-stores-google</li>
+    <li><a href=""https://gist.github.com/natsukium/b7dcf459d060ee6b922cc43ab5403015"">python313Packages.instructor</a></li>
+    <li>python313Packages.langsmith</li>
+    <li>python313Packages.oauthenticator</li>
+    <li>python313Packages.open-interpreter</li>
+  </ul>
+</details>
+<details>
+  <summary>:white_check_mark: 77 packages built:</summary>
+  <ul>
+    <li>anki</li>
+    <li>anki.doc</li>
+    <li>anki.man</li>
+    <li>authentik</li>
+    <li>beancount (python312Packages.beancount)</li>
+    <li>beanprice</li>
+    <li>beanquery (python312Packages.beanquery)</li>
+    <li>certbot-full</li>
+    <li>fava</li>
+    <li>gam</li>
+    <li>gcalcli</li>
+    <li>gcp-scanner</li>
+    <li>git-annex-remote-googledrive</li>
+    <li>goobook (python312Packages.goobook)</li>
+    <li>gyb</li>
+    <li>home-assistant-component-tests.google_generative_ai_conversation</li>
+    <li>home-assistant-component-tests.google_mail</li>
+    <li>home-assistant-component-tests.google_photos</li>
+    <li>home-assistant-component-tests.google_tasks</li>
+    <li>ki</li>
+    <li>lbdb</li>
+    <li>ledger2beancount</li>
+    <li>lieer</li>
+    <li>mlflow-server</li>
+    <li>mnemosyne</li>
+    <li>open-interpreter (python312Packages.open-interpreter)</li>
+    <li>parsedmarc</li>
+    <li>pentestgpt</li>
+    <li>pgadmin4</li>
+    <li>pgadmin4-desktopmode</li>
+    <li>prowler</li>
+    <li>python312Packages.beancount-docverif</li>
+    <li>python312Packages.beancount-plugin-utils</li>
+    <li>python312Packages.certbot-dns-google</li>
+    <li>python312Packages.databricks-sdk</li>
+    <li>python312Packages.drivelib</li>
+    <li>python312Packages.flyingsquid</li>
+    <li>python312Packages.gcsa</li>
+    <li>python312Packages.google-api-python-client</li>
+    <li>python312Packages.google-generativeai</li>
+    <li>python312Packages.google-photos-library-api</li>
+    <li>python312Packages.instructor</li>
+    <li>python312Packages.langchain</li>
+    <li>python312Packages.langchain-azure-dynamic-sessions</li>
+    <li>python312Packages.langchain-community</li>
+    <li>python312Packages.langchain-core</li>
+    <li>python312Packages.langchain-huggingface</li>
+    <li>python312Packages.langchain-mongodb</li>
+    <li>python312Packages.langchain-ollama</li>
+    <li>python312Packages.langchain-openai</li>
+    <li>python312Packages.langchain-standard-tests</li>
+    <li>python312Packages.langchain-text-splitters</li>
+    <li>python312Packages.langgraph</li>
+    <li>python312Packages.langgraph-checkpoint</li>
+    <li>python312Packages.langgraph-checkpoint-duckdb</li>
+    <li>python312Packages.langgraph-checkpoint-postgres</li>
+    <li>python312Packages.langgraph-checkpoint-sqlite</li>
+    <li>python312Packages.langsmith</li>
+    <li>python312Packages.mlflow</li>
+    <li>python312Packages.mmcv</li>
+    <li>python312Packages.mmengine</li>
+    <li>python312Packages.oauthenticator</li>
+    <li>python312Packages.pgmpy</li>
+    <li>python312Packages.sagemaker-mlflow</li>
+    <li>python313Packages.beancount</li>
+    <li>python313Packages.beancount-docverif</li>
+    <li>python313Packages.beancount-plugin-utils</li>
+    <li>python313Packages.beanquery</li>
+    <li>python313Packages.drivelib</li>
+    <li>python313Packages.flyingsquid</li>
+    <li>python313Packages.gcsa</li>
+    <li>python313Packages.goobook</li>
+    <li>python313Packages.google-api-python-client</li>
+    <li>python313Packages.google-generativeai</li>
+    <li>python313Packages.google-photos-library-api</li>
+    <li>python313Packages.pgmpy</li>
+    <li>shell-gpt</li>
+  </ul>
+</details>
+
+---
+### `x86_64-darwin`
+<details>
+  <summary>:fast_forward: 22 packages marked as broken and skipped:</summary>
+  <ul>
+    <li>anki</li>
+    <li>anki.doc</li>
+    <li>anki.man</li>
+    <li>dbx</li>
+    <li>khoj</li>
+    <li>ki</li>
+    <li>mnemosyne</li>
+    <li>open-interpreter</li>
+    <li>python312Packages.bentoml</li>
+    <li>python312Packages.dvc-gdrive</li>
+    <li>python312Packages.mmcv</li>
+    <li>python312Packages.mmengine</li>
+    <li>python312Packages.oauthenticator</li>
+    <li>python312Packages.open-interpreter</li>
+    <li>python312Packages.parsedmarc</li>
+    <li>python312Packages.pydrive2</li>
+    <li>python313Packages.bentoml</li>
+    <li>python313Packages.oauthenticator</li>
+    <li>python313Packages.open-interpreter</li>
+    <li>python313Packages.parsedmarc</li>
+    <li>python313Packages.pydrive2</li>
+    <li>syncall</li>
+  </ul>
+</details>
+<details>
+  <summary>:x: 18 packages failed to build:</summary>
+  <ul>
+    <li><a href=""https://gist.github.com/natsukium/ba2e3d1ee377989478dc772fb8c1caa5"">fava</a></li>
+    <li>open-webui</li>
+    <li><a href=""https://gist.github.com/natsukium/1cdde34b530af5343701a82820fcba64"">python312Packages.google-photos-library-api</a></li>
+    <li><a href=""https://gist.github.com/natsukium/ff38958f0d56b14fe20ded92a324ec42"">python312Packages.langchain-aws</a></li>
+    <li>python312Packages.llama-index-embeddings-gemini</li>
+    <li>python312Packages.llama-index-embeddings-google</li>
+    <li>python312Packages.llama-index-vector-stores-google</li>
+    <li>python313Packages.beancount</li>
+    <li>python313Packages.beancount-docverif</li>
+    <li>python313Packages.beancount-plugin-utils</li>
+    <li>python313Packages.beanquery</li>
+    <li>python313Packages.drivelib</li>
+    <li>python313Packages.flyingsquid</li>
+    <li>python313Packages.gcsa</li>
+    <li><a href=""https://gist.github.com/natsukium/0cd2d6e8443759d25444c61edbb11c5c"">python313Packages.google-photos-library-api</a></li>
+    <li><a href=""https://gist.github.com/natsukium/237eeaa06c7f8062cf377ee801e12e0d"">python313Packages.instructor</a></li>
+    <li>python313Packages.langsmith</li>
+    <li>python313Packages.pgmpy</li>
+  </ul>
+</details>
+<details>
+  <summary>:white_check_mark: 53 packages built:</summary>
+  <ul>
+    <li>beancount (python312Packages.beancount)</li>
+    <li>beanprice</li>
+    <li>beanquery (python312Packages.beanquery)</li>
+    <li>certbot-full</li>
+    <li>gam</li>
+    <li>gcalcli</li>
+    <li>gcp-scanner</li>
+    <li>git-annex-remote-googledrive</li>
+    <li>goobook (python312Packages.goobook)</li>
+    <li>gyb</li>
+    <li>lbdb</li>
+    <li>ledger2beancount</li>
+    <li>lieer</li>
+    <li>mlflow-server</li>
+    <li>parsedmarc</li>
+    <li>pentestgpt</li>
+    <li>pgadmin4</li>
+    <li>pgadmin4-desktopmode</li>
+    <li>prowler</li>
+    <li>python312Packages.beancount-docverif</li>
+    <li>python312Packages.beancount-plugin-utils</li>
+    <li>python312Packages.certbot-dns-google</li>
+    <li>python312Packages.databricks-sdk</li>
+    <li>python312Packages.drivelib</li>
+    <li>python312Packages.flyingsquid</li>
+    <li>python312Packages.gcsa</li>
+    <li>python312Packages.google-api-python-client</li>
+    <li>python312Packages.google-generativeai</li>
+    <li>python312Packages.instructor</li>
+    <li>python312Packages.langchain</li>
+    <li>python312Packages.langchain-azure-dynamic-sessions</li>
+    <li>python312Packages.langchain-chroma</li>
+    <li>python312Packages.langchain-community</li>
+    <li>python312Packages.langchain-core</li>
+    <li>python312Packages.langchain-huggingface</li>
+    <li>python312Packages.langchain-mongodb</li>
+    <li>python312Packages.langchain-ollama</li>
+    <li>python312Packages.langchain-openai</li>
+    <li>python312Packages.langchain-standard-tests</li>
+    <li>python312Packages.langchain-text-splitters</li>
+    <li>python312Packages.langgraph</li>
+    <li>python312Packages.langgraph-checkpoint</li>
+    <li>python312Packages.langgraph-checkpoint-duckdb</li>
+    <li>python312Packages.langgraph-checkpoint-postgres</li>
+    <li>python312Packages.langgraph-checkpoint-sqlite</li>
+    <li>python312Packages.langsmith</li>
+    <li>python312Packages.mlflow</li>
+    <li>python312Packages.pgmpy</li>
+    <li>python312Packages.sagemaker-mlflow</li>
+    <li>python313Packages.goobook</li>
+    <li>python313Packages.google-api-python-client</li>
+    <li>python313Packages.google-generativeai</li>
+    <li>shell-gpt</li>
+  </ul>
+</details>
+
+---
+### `aarch64-darwin`
+<details>
+  <summary>:fast_forward: 25 packages marked as broken and skipped:</summary>
+  <ul>
+    <li>anki</li>
+    <li>anki.doc</li>
+    <li>anki.man</li>
+    <li>dbx</li>
+    <li>khoj</li>
+    <li>ki</li>
+    <li>mnemosyne</li>
+    <li>open-interpreter</li>
+    <li>python312Packages.bentoml</li>
+    <li>python312Packages.dvc-gdrive</li>
+    <li>python312Packages.llama-index-embeddings-gemini</li>
+    <li>python312Packages.llama-index-embeddings-google</li>
+    <li>python312Packages.llama-index-vector-stores-google</li>
+    <li>python312Packages.mmcv</li>
+    <li>python312Packages.mmengine</li>
+    <li>python312Packages.oauthenticator</li>
+    <li>python312Packages.open-interpreter</li>
+    <li>python312Packages.parsedmarc</li>
+    <li>python312Packages.pydrive2</li>
+    <li>python313Packages.bentoml</li>
+    <li>python313Packages.oauthenticator</li>
+    <li>python313Packages.open-interpreter</li>
+    <li>python313Packages.parsedmarc</li>
+    <li>python313Packages.pydrive2</li>
+    <li>syncall</li>
+  </ul>
+</details>
+<details>
+  <summary>:x: 7 packages failed to build:</summary>
+  <ul>
+    <li><a href=""https://gist.github.com/natsukium/8e9e19fd28011859702a58560bc832bf"">fava</a></li>
+    <li>open-webui</li>
+    <li><a href=""https://gist.github.com/natsukium/36dea4cf0602c35d7919957a7118df72"">python312Packages.google-photos-library-api</a></li>
+    <li><a href=""https://gist.github.com/natsukium/a335d9123313c6b49fe24032ea3d47c3"">python312Packages.langchain-aws</a></li>
+    <li><a href=""https://gist.github.com/natsukium/58582e76f2efe02dbf1e4f705c132c67"">python313Packages.google-photos-library-api</a></li>
+    <li><a href=""https://gist.github.com/natsukium/ed18a3a90437101db11f86661beb5090"">python313Packages.instructor</a></li>
+    <li>python313Packages.langsmith</li>
+  </ul>
+</details>
+<details>
+  <summary>:white_check_mark: 61 packages built:</summary>
+  <ul>
+    <li>beancount (python312Packages.beancount)</li>
+    <li>beanprice</li>
+    <li>beanquery (python312Packages.beanquery)</li>
+    <li>certbot-full</li>
+    <li>gam</li>
+    <li>gcalcli</li>
+    <li>gcp-scanner</li>
+    <li>git-annex-remote-googledrive</li>
+    <li>goobook (python312Packages.goobook)</li>
+    <li>gyb</li>
+    <li>lbdb</li>
+    <li>ledger2beancount</li>
+    <li>lieer</li>
+    <li>mlflow-server</li>
+    <li>parsedmarc</li>
+    <li>pentestgpt</li>
+    <li>pgadmin4</li>
+    <li>pgadmin4-desktopmode</li>
+    <li>prowler</li>
+    <li>python312Packages.beancount-docverif</li>
+    <li>python312Packages.beancount-plugin-utils</li>
+    <li>python312Packages.certbot-dns-google</li>
+    <li>python312Packages.databricks-sdk</li>
+    <li>python312Packages.drivelib</li>
+    <li>python312Packages.flyingsquid</li>
+    <li>python312Packages.gcsa</li>
+    <li>python312Packages.google-api-python-client</li>
+    <li>python312Packages.google-generativeai</li>
+    <li>python312Packages.instructor</li>
+    <li>python312Packages.langchain</li>
+    <li>python312Packages.langchain-azure-dynamic-sessions</li>
+    <li>python312Packages.langchain-chroma</li>
+    <li>python312Packages.langchain-community</li>
+    <li>python312Packages.langchain-core</li>
+    <li>python312Packages.langchain-huggingface</li>
+    <li>python312Packages.langchain-mongodb</li>
+    <li>python312Packages.langchain-ollama</li>
+    <li>python312Packages.langchain-openai</li>
+    <li>python312Packages.langchain-standard-tests</li>
+    <li>python312Packages.langchain-text-splitters</li>
+    <li>python312Packages.langgraph</li>
+    <li>python312Packages.langgraph-checkpoint</li>
+    <li>python312Packages.langgraph-checkpoint-duckdb</li>
+    <li>python312Packages.langgraph-checkpoint-postgres</li>
+    <li>python312Packages.langgraph-checkpoint-sqlite</li>
+    <li>python312Packages.langsmith</li>
+    <li>python312Packages.mlflow</li>
+    <li>python312Packages.pgmpy</li>
+    <li>python312Packages.sagemaker-mlflow</li>
+    <li>python313Packages.beancount</li>
+    <li>python313Packages.beancount-docverif</li>
+    <li>python313Packages.beancount-plugin-utils</li>
+    <li>python313Packages.beanquery</li>
+    <li>python313Packages.drivelib</li>
+    <li>python313Packages.flyingsquid</li>
+    <li>python313Packages.gcsa</li>
+    <li>python313Packages.goobook</li>
+    <li>python313Packages.google-api-python-client</li>
+    <li>python313Packages.google-generativeai</li>
+    <li>python313Packages.pgmpy</li>
+    <li>shell-gpt</li>
+  </ul>
+</details>
+",https://github.com/NixOS/nixpkgs/pull/369922#issuecomment-2589784314,False,True,True,False,,False,False,True,2025-01-01 10:55:33,,2025-01-18 06:56:57,,natsukium,2025-01-18 06:56:57,natsukium,False,True,True,2025-01-14 12:27:06,natsukium,commented,313.5258333333333,False,,,,,,,,,,
+369922,9,commented,natsukium,2025-01-15 02:46:45,,,"## `nixpkgs-review` result
+
+Generated using [`nixpkgs-review`](https://github.com/Mic92/nixpkgs-review).
+
+Command: `nixpkgs-review pr 369922`
+
+---
+### `x86_64-linux`
+<details>
+  <summary>:fast_forward: 10 packages marked as broken and skipped:</summary>
+  <ul>
+    <li>dbx</li>
+    <li>khoj</li>
+    <li>python312Packages.bentoml</li>
+    <li>python312Packages.dvc-gdrive</li>
+    <li>python312Packages.parsedmarc</li>
+    <li>python312Packages.pydrive2</li>
+    <li>python313Packages.bentoml</li>
+    <li>python313Packages.parsedmarc</li>
+    <li>python313Packages.pydrive2</li>
+    <li>syncall</li>
+  </ul>
+</details>
+<details>
+  <summary>:x: 5 packages failed to build:</summary>
+  <ul>
+    <li><a href=""https://gist.github.com/natsukium/e1a184efcee0fe8999b130772fa7d3bc"">python312Packages.langchain-aws</a></li>
+    <li><a href=""https://gist.github.com/natsukium/4423566085850557e63373a7159afa09"">python313Packages.instructor</a></li>
+    <li>python313Packages.langsmith</li>
+    <li>python313Packages.oauthenticator</li>
+    <li>python313Packages.open-interpreter</li>
+  </ul>
+</details>
+<details>
+  <summary>:white_check_mark: 82 packages built:</summary>
+  <ul>
+    <li>anki</li>
+    <li>anki.doc</li>
+    <li>anki.man</li>
+    <li>authentik</li>
+    <li>beancount (python312Packages.beancount)</li>
+    <li>beanprice</li>
+    <li>beanquery (python312Packages.beanquery)</li>
+    <li>certbot-full</li>
+    <li>fava</li>
+    <li>gam</li>
+    <li>gcalcli</li>
+    <li>gcp-scanner</li>
+    <li>git-annex-remote-googledrive</li>
+    <li>goobook (python312Packages.goobook)</li>
+    <li>gyb</li>
+    <li>home-assistant-component-tests.google_generative_ai_conversation</li>
+    <li>home-assistant-component-tests.google_mail</li>
+    <li>home-assistant-component-tests.google_photos</li>
+    <li>home-assistant-component-tests.google_tasks</li>
+    <li>ki</li>
+    <li>lbdb</li>
+    <li>ledger2beancount</li>
+    <li>lieer</li>
+    <li>mlflow-server</li>
+    <li>mnemosyne</li>
+    <li>open-interpreter (python312Packages.open-interpreter)</li>
+    <li>open-webui</li>
+    <li>parsedmarc</li>
+    <li>pentestgpt</li>
+    <li>pgadmin4</li>
+    <li>pgadmin4-desktopmode</li>
+    <li>prowler</li>
+    <li>python312Packages.beancount-docverif</li>
+    <li>python312Packages.beancount-plugin-utils</li>
+    <li>python312Packages.certbot-dns-google</li>
+    <li>python312Packages.databricks-sdk</li>
+    <li>python312Packages.drivelib</li>
+    <li>python312Packages.flyingsquid</li>
+    <li>python312Packages.gcsa</li>
+    <li>python312Packages.google-api-python-client</li>
+    <li>python312Packages.google-generativeai</li>
+    <li>python312Packages.google-photos-library-api</li>
+    <li>python312Packages.instructor</li>
+    <li>python312Packages.langchain</li>
+    <li>python312Packages.langchain-azure-dynamic-sessions</li>
+    <li>python312Packages.langchain-chroma</li>
+    <li>python312Packages.langchain-community</li>
+    <li>python312Packages.langchain-core</li>
+    <li>python312Packages.langchain-huggingface</li>
+    <li>python312Packages.langchain-mongodb</li>
+    <li>python312Packages.langchain-ollama</li>
+    <li>python312Packages.langchain-openai</li>
+    <li>python312Packages.langchain-standard-tests</li>
+    <li>python312Packages.langchain-text-splitters</li>
+    <li>python312Packages.langgraph</li>
+    <li>python312Packages.langgraph-checkpoint</li>
+    <li>python312Packages.langgraph-checkpoint-duckdb</li>
+    <li>python312Packages.langgraph-checkpoint-postgres</li>
+    <li>python312Packages.langgraph-checkpoint-sqlite</li>
+    <li>python312Packages.langsmith</li>
+    <li>python312Packages.llama-index-embeddings-gemini</li>
+    <li>python312Packages.llama-index-embeddings-google</li>
+    <li>python312Packages.llama-index-vector-stores-google</li>
+    <li>python312Packages.mlflow</li>
+    <li>python312Packages.mmcv</li>
+    <li>python312Packages.mmengine</li>
+    <li>python312Packages.oauthenticator</li>
+    <li>python312Packages.pgmpy</li>
+    <li>python312Packages.sagemaker-mlflow</li>
+    <li>python313Packages.beancount</li>
+    <li>python313Packages.beancount-docverif</li>
+    <li>python313Packages.beancount-plugin-utils</li>
+    <li>python313Packages.beanquery</li>
+    <li>python313Packages.drivelib</li>
+    <li>python313Packages.flyingsquid</li>
+    <li>python313Packages.gcsa</li>
+    <li>python313Packages.goobook</li>
+    <li>python313Packages.google-api-python-client</li>
+    <li>python313Packages.google-generativeai</li>
+    <li>python313Packages.google-photos-library-api</li>
+    <li>python313Packages.pgmpy</li>
+    <li>shell-gpt</li>
+  </ul>
+</details>
+
+---
+### `aarch64-linux`
+<details>
+  <summary>:fast_forward: 11 packages marked as broken and skipped:</summary>
+  <ul>
+    <li>dbx</li>
+    <li>khoj</li>
+    <li>python312Packages.bentoml</li>
+    <li>python312Packages.dvc-gdrive</li>
+    <li>python312Packages.langchain-chroma</li>
+    <li>python312Packages.parsedmarc</li>
+    <li>python312Packages.pydrive2</li>
+    <li>python313Packages.bentoml</li>
+    <li>python313Packages.parsedmarc</li>
+    <li>python313Packages.pydrive2</li>
+    <li>syncall</li>
+  </ul>
+</details>
+<details>
+  <summary>:x: 8 packages failed to build:</summary>
+  <ul>
+    <li><a href=""https://gist.github.com/natsukium/b39c66b7884c4df72cb4bba333da06d5"">python312Packages.langchain-aws</a></li>
+    <li>python312Packages.llama-index-embeddings-gemini</li>
+    <li>python312Packages.llama-index-embeddings-google</li>
+    <li>python312Packages.llama-index-vector-stores-google</li>
+    <li><a href=""https://gist.github.com/natsukium/a3c8e812f5c945d8d0f3de2e0482e100"">python313Packages.instructor</a></li>
+    <li>python313Packages.langsmith</li>
+    <li>python313Packages.oauthenticator</li>
+    <li>python313Packages.open-interpreter</li>
+  </ul>
+</details>
+<details>
+  <summary>:white_check_mark: 77 packages built:</summary>
+  <ul>
+    <li>anki</li>
+    <li>anki.doc</li>
+    <li>anki.man</li>
+    <li>authentik</li>
+    <li>beancount (python312Packages.beancount)</li>
+    <li>beanprice</li>
+    <li>beanquery (python312Packages.beanquery)</li>
+    <li>certbot-full</li>
+    <li>fava</li>
+    <li>gam</li>
+    <li>gcalcli</li>
+    <li>gcp-scanner</li>
+    <li>git-annex-remote-googledrive</li>
+    <li>goobook (python312Packages.goobook)</li>
+    <li>gyb</li>
+    <li>home-assistant-component-tests.google_generative_ai_conversation</li>
+    <li>home-assistant-component-tests.google_mail</li>
+    <li>home-assistant-component-tests.google_photos</li>
+    <li>home-assistant-component-tests.google_tasks</li>
+    <li>ki</li>
+    <li>lbdb</li>
+    <li>ledger2beancount</li>
+    <li>lieer</li>
+    <li>mlflow-server</li>
+    <li>mnemosyne</li>
+    <li>open-interpreter (python312Packages.open-interpreter)</li>
+    <li>parsedmarc</li>
+    <li>pentestgpt</li>
+    <li>pgadmin4</li>
+    <li>pgadmin4-desktopmode</li>
+    <li>prowler</li>
+    <li>python312Packages.beancount-docverif</li>
+    <li>python312Packages.beancount-plugin-utils</li>
+    <li>python312Packages.certbot-dns-google</li>
+    <li>python312Packages.databricks-sdk</li>
+    <li>python312Packages.drivelib</li>
+    <li>python312Packages.flyingsquid</li>
+    <li>python312Packages.gcsa</li>
+    <li>python312Packages.google-api-python-client</li>
+    <li>python312Packages.google-generativeai</li>
+    <li>python312Packages.google-photos-library-api</li>
+    <li>python312Packages.instructor</li>
+    <li>python312Packages.langchain</li>
+    <li>python312Packages.langchain-azure-dynamic-sessions</li>
+    <li>python312Packages.langchain-community</li>
+    <li>python312Packages.langchain-core</li>
+    <li>python312Packages.langchain-huggingface</li>
+    <li>python312Packages.langchain-mongodb</li>
+    <li>python312Packages.langchain-ollama</li>
+    <li>python312Packages.langchain-openai</li>
+    <li>python312Packages.langchain-standard-tests</li>
+    <li>python312Packages.langchain-text-splitters</li>
+    <li>python312Packages.langgraph</li>
+    <li>python312Packages.langgraph-checkpoint</li>
+    <li>python312Packages.langgraph-checkpoint-duckdb</li>
+    <li>python312Packages.langgraph-checkpoint-postgres</li>
+    <li>python312Packages.langgraph-checkpoint-sqlite</li>
+    <li>python312Packages.langsmith</li>
+    <li>python312Packages.mlflow</li>
+    <li>python312Packages.mmcv</li>
+    <li>python312Packages.mmengine</li>
+    <li>python312Packages.oauthenticator</li>
+    <li>python312Packages.pgmpy</li>
+    <li>python312Packages.sagemaker-mlflow</li>
+    <li>python313Packages.beancount</li>
+    <li>python313Packages.beancount-docverif</li>
+    <li>python313Packages.beancount-plugin-utils</li>
+    <li>python313Packages.beanquery</li>
+    <li>python313Packages.drivelib</li>
+    <li>python313Packages.flyingsquid</li>
+    <li>python313Packages.gcsa</li>
+    <li>python313Packages.goobook</li>
+    <li>python313Packages.google-api-python-client</li>
+    <li>python313Packages.google-generativeai</li>
+    <li>python313Packages.google-photos-library-api</li>
+    <li>python313Packages.pgmpy</li>
+    <li>shell-gpt</li>
+  </ul>
+</details>
+
+---
+### `x86_64-darwin`
+<details>
+  <summary>:fast_forward: 22 packages marked as broken and skipped:</summary>
+  <ul>
+    <li>anki</li>
+    <li>anki.doc</li>
+    <li>anki.man</li>
+    <li>dbx</li>
+    <li>khoj</li>
+    <li>ki</li>
+    <li>mnemosyne</li>
+    <li>open-interpreter</li>
+    <li>python312Packages.bentoml</li>
+    <li>python312Packages.dvc-gdrive</li>
+    <li>python312Packages.mmcv</li>
+    <li>python312Packages.mmengine</li>
+    <li>python312Packages.oauthenticator</li>
+    <li>python312Packages.open-interpreter</li>
+    <li>python312Packages.parsedmarc</li>
+    <li>python312Packages.pydrive2</li>
+    <li>python313Packages.bentoml</li>
+    <li>python313Packages.oauthenticator</li>
+    <li>python313Packages.open-interpreter</li>
+    <li>python313Packages.parsedmarc</li>
+    <li>python313Packages.pydrive2</li>
+    <li>syncall</li>
+  </ul>
+</details>
+<details>
+  <summary>:x: 18 packages failed to build:</summary>
+  <ul>
+    <li><a href=""https://gist.github.com/natsukium/51db69b01144520410437fd9214f355f"">fava</a></li>
+    <li>open-webui</li>
+    <li><a href=""https://gist.github.com/natsukium/349914f588a601500bdd8f58e630815b"">python312Packages.google-photos-library-api</a></li>
+    <li><a href=""https://gist.github.com/natsukium/7530920998231494be1d46f4c57002b8"">python312Packages.langchain-aws</a></li>
+    <li>python312Packages.llama-index-embeddings-gemini</li>
+    <li>python312Packages.llama-index-embeddings-google</li>
+    <li>python312Packages.llama-index-vector-stores-google</li>
+    <li>python313Packages.beancount</li>
+    <li>python313Packages.beancount-docverif</li>
+    <li>python313Packages.beancount-plugin-utils</li>
+    <li>python313Packages.beanquery</li>
+    <li>python313Packages.drivelib</li>
+    <li>python313Packages.flyingsquid</li>
+    <li>python313Packages.gcsa</li>
+    <li><a href=""https://gist.github.com/natsukium/473afac759a2bb330a59fb4aad8679a0"">python313Packages.google-photos-library-api</a></li>
+    <li><a href=""https://gist.github.com/natsukium/e5fdaf0835acc28265e44615bd765e16"">python313Packages.instructor</a></li>
+    <li>python313Packages.langsmith</li>
+    <li>python313Packages.pgmpy</li>
+  </ul>
+</details>
+<details>
+  <summary>:white_check_mark: 53 packages built:</summary>
+  <ul>
+    <li>beancount (python312Packages.beancount)</li>
+    <li>beanprice</li>
+    <li>beanquery (python312Packages.beanquery)</li>
+    <li>certbot-full</li>
+    <li>gam</li>
+    <li>gcalcli</li>
+    <li>gcp-scanner</li>
+    <li>git-annex-remote-googledrive</li>
+    <li>goobook (python312Packages.goobook)</li>
+    <li>gyb</li>
+    <li>lbdb</li>
+    <li>ledger2beancount</li>
+    <li>lieer</li>
+    <li>mlflow-server</li>
+    <li>parsedmarc</li>
+    <li>pentestgpt</li>
+    <li>pgadmin4</li>
+    <li>pgadmin4-desktopmode</li>
+    <li>prowler</li>
+    <li>python312Packages.beancount-docverif</li>
+    <li>python312Packages.beancount-plugin-utils</li>
+    <li>python312Packages.certbot-dns-google</li>
+    <li>python312Packages.databricks-sdk</li>
+    <li>python312Packages.drivelib</li>
+    <li>python312Packages.flyingsquid</li>
+    <li>python312Packages.gcsa</li>
+    <li>python312Packages.google-api-python-client</li>
+    <li>python312Packages.google-generativeai</li>
+    <li>python312Packages.instructor</li>
+    <li>python312Packages.langchain</li>
+    <li>python312Packages.langchain-azure-dynamic-sessions</li>
+    <li>python312Packages.langchain-chroma</li>
+    <li>python312Packages.langchain-community</li>
+    <li>python312Packages.langchain-core</li>
+    <li>python312Packages.langchain-huggingface</li>
+    <li>python312Packages.langchain-mongodb</li>
+    <li>python312Packages.langchain-ollama</li>
+    <li>python312Packages.langchain-openai</li>
+    <li>python312Packages.langchain-standard-tests</li>
+    <li>python312Packages.langchain-text-splitters</li>
+    <li>python312Packages.langgraph</li>
+    <li>python312Packages.langgraph-checkpoint</li>
+    <li>python312Packages.langgraph-checkpoint-duckdb</li>
+    <li>python312Packages.langgraph-checkpoint-postgres</li>
+    <li>python312Packages.langgraph-checkpoint-sqlite</li>
+    <li>python312Packages.langsmith</li>
+    <li>python312Packages.mlflow</li>
+    <li>python312Packages.pgmpy</li>
+    <li>python312Packages.sagemaker-mlflow</li>
+    <li>python313Packages.goobook</li>
+    <li>python313Packages.google-api-python-client</li>
+    <li>python313Packages.google-generativeai</li>
+    <li>shell-gpt</li>
+  </ul>
+</details>
+
+---
+### `aarch64-darwin`
+<details>
+  <summary>:fast_forward: 25 packages marked as broken and skipped:</summary>
+  <ul>
+    <li>anki</li>
+    <li>anki.doc</li>
+    <li>anki.man</li>
+    <li>dbx</li>
+    <li>khoj</li>
+    <li>ki</li>
+    <li>mnemosyne</li>
+    <li>open-interpreter</li>
+    <li>python312Packages.bentoml</li>
+    <li>python312Packages.dvc-gdrive</li>
+    <li>python312Packages.llama-index-embeddings-gemini</li>
+    <li>python312Packages.llama-index-embeddings-google</li>
+    <li>python312Packages.llama-index-vector-stores-google</li>
+    <li>python312Packages.mmcv</li>
+    <li>python312Packages.mmengine</li>
+    <li>python312Packages.oauthenticator</li>
+    <li>python312Packages.open-interpreter</li>
+    <li>python312Packages.parsedmarc</li>
+    <li>python312Packages.pydrive2</li>
+    <li>python313Packages.bentoml</li>
+    <li>python313Packages.oauthenticator</li>
+    <li>python313Packages.open-interpreter</li>
+    <li>python313Packages.parsedmarc</li>
+    <li>python313Packages.pydrive2</li>
+    <li>syncall</li>
+  </ul>
+</details>
+<details>
+  <summary>:x: 7 packages failed to build:</summary>
+  <ul>
+    <li><a href=""https://gist.github.com/natsukium/a5f9dacd2c73a413692823e4ac0830de"">fava</a></li>
+    <li>open-webui</li>
+    <li><a href=""https://gist.github.com/natsukium/bf4c6fd24d56d03e78419b62848834c0"">python312Packages.google-photos-library-api</a></li>
+    <li><a href=""https://gist.github.com/natsukium/2d9b31c1b4bc7948f6236aebb3cf8038"">python312Packages.langchain-aws</a></li>
+    <li><a href=""https://gist.github.com/natsukium/1f38092f028924907374078b5f8fa146"">python313Packages.google-photos-library-api</a></li>
+    <li><a href=""https://gist.github.com/natsukium/b84838f3dc69e747ac2b7a7a4d859837"">python313Packages.instructor</a></li>
+    <li>python313Packages.langsmith</li>
+  </ul>
+</details>
+<details>
+  <summary>:white_check_mark: 61 packages built:</summary>
+  <ul>
+    <li>beancount (python312Packages.beancount)</li>
+    <li>beanprice</li>
+    <li>beanquery (python312Packages.beanquery)</li>
+    <li>certbot-full</li>
+    <li>gam</li>
+    <li>gcalcli</li>
+    <li>gcp-scanner</li>
+    <li>git-annex-remote-googledrive</li>
+    <li>goobook (python312Packages.goobook)</li>
+    <li>gyb</li>
+    <li>lbdb</li>
+    <li>ledger2beancount</li>
+    <li>lieer</li>
+    <li>mlflow-server</li>
+    <li>parsedmarc</li>
+    <li>pentestgpt</li>
+    <li>pgadmin4</li>
+    <li>pgadmin4-desktopmode</li>
+    <li>prowler</li>
+    <li>python312Packages.beancount-docverif</li>
+    <li>python312Packages.beancount-plugin-utils</li>
+    <li>python312Packages.certbot-dns-google</li>
+    <li>python312Packages.databricks-sdk</li>
+    <li>python312Packages.drivelib</li>
+    <li>python312Packages.flyingsquid</li>
+    <li>python312Packages.gcsa</li>
+    <li>python312Packages.google-api-python-client</li>
+    <li>python312Packages.google-generativeai</li>
+    <li>python312Packages.instructor</li>
+    <li>python312Packages.langchain</li>
+    <li>python312Packages.langchain-azure-dynamic-sessions</li>
+    <li>python312Packages.langchain-chroma</li>
+    <li>python312Packages.langchain-community</li>
+    <li>python312Packages.langchain-core</li>
+    <li>python312Packages.langchain-huggingface</li>
+    <li>python312Packages.langchain-mongodb</li>
+    <li>python312Packages.langchain-ollama</li>
+    <li>python312Packages.langchain-openai</li>
+    <li>python312Packages.langchain-standard-tests</li>
+    <li>python312Packages.langchain-text-splitters</li>
+    <li>python312Packages.langgraph</li>
+    <li>python312Packages.langgraph-checkpoint</li>
+    <li>python312Packages.langgraph-checkpoint-duckdb</li>
+    <li>python312Packages.langgraph-checkpoint-postgres</li>
+    <li>python312Packages.langgraph-checkpoint-sqlite</li>
+    <li>python312Packages.langsmith</li>
+    <li>python312Packages.mlflow</li>
+    <li>python312Packages.pgmpy</li>
+    <li>python312Packages.sagemaker-mlflow</li>
+    <li>python313Packages.beancount</li>
+    <li>python313Packages.beancount-docverif</li>
+    <li>python313Packages.beancount-plugin-utils</li>
+    <li>python313Packages.beanquery</li>
+    <li>python313Packages.drivelib</li>
+    <li>python313Packages.flyingsquid</li>
+    <li>python313Packages.gcsa</li>
+    <li>python313Packages.goobook</li>
+    <li>python313Packages.google-api-python-client</li>
+    <li>python313Packages.google-generativeai</li>
+    <li>python313Packages.pgmpy</li>
+    <li>shell-gpt</li>
+  </ul>
+</details>
+",https://github.com/NixOS/nixpkgs/pull/369922#issuecomment-2591525189,False,True,False,False,,False,False,True,2025-01-01 10:55:33,,2025-01-18 06:56:57,,natsukium,2025-01-18 06:56:57,natsukium,False,True,True,2025-01-14 12:27:06,natsukium,commented,313.5258333333333,False,,,,,,,,,,
+369975,6,commented,lucasew,2025-01-02 05:52:42,,,"## `nixpkgs-review` result
+
+Generated using [`nixpkgs-review`](https://github.com/Mic92/nixpkgs-review).
+
+Command: `nixpkgs-review pr 369975`
+
+---
+### `x86_64-linux`
+<details>
+  <summary>:fast_forward: 115 packages marked as broken and skipped:</summary>
+  <ul>
+    <li>chatgpt-retrieval-plugin</li>
+    <li>chatgpt-retrieval-plugin.dist</li>
+    <li>cura</li>
+    <li>private-gpt</li>
+    <li>private-gpt.dist</li>
+    <li>python312Packages.angr</li>
+    <li>python312Packages.angr.dist</li>
+    <li>python312Packages.angrcli</li>
+    <li>python312Packages.angrcli.dist</li>
+    <li>python312Packages.angrop</li>
+    <li>python312Packages.angrop.dist</li>
+    <li>python312Packages.dalle-mini</li>
+    <li>python312Packages.dalle-mini.dist</li>
+    <li>python312Packages.fastai</li>
+    <li>python312Packages.fastai.dist</li>
+    <li>python312Packages.k-diffusion</li>
+    <li>python312Packages.k-diffusion.dist</li>
+    <li>python312Packages.llama-index</li>
+    <li>python312Packages.llama-index-agent-openai</li>
+    <li>python312Packages.llama-index-agent-openai.dist</li>
+    <li>python312Packages.llama-index-cli</li>
+    <li>python312Packages.llama-index-cli.dist</li>
+    <li>python312Packages.llama-index-core</li>
+    <li>python312Packages.llama-index-core.dist</li>
+    <li>python312Packages.llama-index-embeddings-gemini</li>
+    <li>python312Packages.llama-index-embeddings-gemini.dist</li>
+    <li>python312Packages.llama-index-embeddings-google</li>
+    <li>python312Packages.llama-index-embeddings-google.dist</li>
+    <li>python312Packages.llama-index-embeddings-huggingface</li>
+    <li>python312Packages.llama-index-embeddings-huggingface.dist</li>
+    <li>python312Packages.llama-index-embeddings-ollama</li>
+    <li>python312Packages.llama-index-embeddings-ollama.dist</li>
+    <li>python312Packages.llama-index-embeddings-openai</li>
+    <li>python312Packages.llama-index-embeddings-openai.dist</li>
+    <li>python312Packages.llama-index-graph-stores-nebula</li>
+    <li>python312Packages.llama-index-graph-stores-nebula.dist</li>
+    <li>python312Packages.llama-index-graph-stores-neo4j</li>
+    <li>python312Packages.llama-index-graph-stores-neo4j.dist</li>
+    <li>python312Packages.llama-index-graph-stores-neptune</li>
+    <li>python312Packages.llama-index-graph-stores-neptune.dist</li>
+    <li>python312Packages.llama-index-indices-managed-llama-cloud</li>
+    <li>python312Packages.llama-index-indices-managed-llama-cloud.dist</li>
+    <li>python312Packages.llama-index-legacy</li>
+    <li>python312Packages.llama-index-legacy.dist</li>
+    <li>python312Packages.llama-index-llms-ollama</li>
+    <li>python312Packages.llama-index-llms-ollama.dist</li>
+    <li>python312Packages.llama-index-llms-openai</li>
+    <li>python312Packages.llama-index-llms-openai-like</li>
+    <li>python312Packages.llama-index-llms-openai-like.dist</li>
+    <li>python312Packages.llama-index-llms-openai.dist</li>
+    <li>python312Packages.llama-index-multi-modal-llms-openai</li>
+    <li>python312Packages.llama-index-multi-modal-llms-openai.dist</li>
+    <li>python312Packages.llama-index-program-openai</li>
+    <li>python312Packages.llama-index-program-openai.dist</li>
+    <li>python312Packages.llama-index-question-gen-openai</li>
+    <li>python312Packages.llama-index-question-gen-openai.dist</li>
+    <li>python312Packages.llama-index-readers-database</li>
+    <li>python312Packages.llama-index-readers-database.dist</li>
+    <li>python312Packages.llama-index-readers-file</li>
+    <li>python312Packages.llama-index-readers-file.dist</li>
+    <li>python312Packages.llama-index-readers-json</li>
+    <li>python312Packages.llama-index-readers-json.dist</li>
+    <li>python312Packages.llama-index-readers-llama-parse</li>
+    <li>python312Packages.llama-index-readers-llama-parse.dist</li>
+    <li>python312Packages.llama-index-readers-s3</li>
+    <li>python312Packages.llama-index-readers-s3.dist</li>
+    <li>python312Packages.llama-index-readers-twitter</li>
+    <li>python312Packages.llama-index-readers-twitter.dist</li>
+    <li>python312Packages.llama-index-readers-txtai</li>
+    <li>python312Packages.llama-index-readers-txtai.dist</li>
+    <li>python312Packages.llama-index-readers-weather</li>
+    <li>python312Packages.llama-index-readers-weather.dist</li>
+    <li>python312Packages.llama-index-vector-stores-chroma</li>
+    <li>python312Packages.llama-index-vector-stores-chroma.dist</li>
+    <li>python312Packages.llama-index-vector-stores-google</li>
+    <li>python312Packages.llama-index-vector-stores-google.dist</li>
+    <li>python312Packages.llama-index-vector-stores-postgres</li>
+    <li>python312Packages.llama-index-vector-stores-postgres.dist</li>
+    <li>python312Packages.llama-index-vector-stores-qdrant</li>
+    <li>python312Packages.llama-index-vector-stores-qdrant.dist</li>
+    <li>python312Packages.llama-index.dist</li>
+    <li>python312Packages.llama-parse</li>
+    <li>python312Packages.llama-parse.dist</li>
+    <li>python312Packages.meeko</li>
+    <li>python312Packages.meeko.dist</li>
+    <li>python312Packages.private-gpt</li>
+    <li>python312Packages.private-gpt.dist</li>
+    <li>python312Packages.python-mapnik</li>
+    <li>python312Packages.python-mapnik.dist</li>
+    <li>python312Packages.rdkit</li>
+    <li>python312Packages.skrl</li>
+    <li>python312Packages.skrl.dist</li>
+    <li>python312Packages.spacy</li>
+    <li>python312Packages.spacy-loggers</li>
+    <li>python312Packages.spacy-loggers.dist</li>
+    <li>python312Packages.spacy-lookups-data</li>
+    <li>python312Packages.spacy-lookups-data.dist</li>
+    <li>python312Packages.spacy-transformers</li>
+    <li>python312Packages.spacy-transformers.dist</li>
+    <li>python312Packages.spacy.dist</li>
+    <li>python312Packages.textacy</li>
+    <li>python312Packages.textacy.dist</li>
+    <li>python312Packages.textnets</li>
+    <li>python312Packages.textnets.dist</li>
+    <li>python312Packages.wandb</li>
+    <li>python312Packages.wandb.dist</li>
+    <li>python313Packages.meeko</li>
+    <li>python313Packages.meeko.dist</li>
+    <li>python313Packages.python-mapnik</li>
+    <li>python313Packages.python-mapnik.dist</li>
+    <li>python313Packages.rdkit</li>
+    <li>syncall</li>
+    <li>syncall.dist</li>
+    <li>tts</li>
+    <li>tts.dist</li>
+  </ul>
+</details>
+<details>
+  <summary>:x: 59 packages failed to build:</summary>
+  <ul>
+    <li>openroad</li>
+    <li>portmod</li>
+    <li>portmod.dist</li>
+    <li>python312Packages.fastembed</li>
+    <li>python312Packages.fastembed.dist</li>
+    <li>python312Packages.niaaml</li>
+    <li>python312Packages.niaaml.dist</li>
+    <li>python312Packages.xnatpy</li>
+    <li>python312Packages.xnatpy.dist</li>
+    <li>python313Packages.aria2p</li>
+    <li>python313Packages.aria2p.dist</li>
+    <li>python313Packages.awswrangler</li>
+    <li>python313Packages.awswrangler.dist</li>
+    <li>python313Packages.bubop</li>
+    <li>python313Packages.bubop.dist</li>
+    <li>python313Packages.ciscoconfparse</li>
+    <li>python313Packages.ciscoconfparse.dist</li>
+    <li>python313Packages.fastembed</li>
+    <li>python313Packages.fastembed.dist</li>
+    <li>python313Packages.item-synchronizer</li>
+    <li>python313Packages.item-synchronizer.dist</li>
+    <li>python313Packages.loguru</li>
+    <li>python313Packages.loguru-logging-intercept</li>
+    <li>python313Packages.loguru-logging-intercept.dist</li>
+    <li>python313Packages.loguru.dist</li>
+    <li>python313Packages.mobi</li>
+    <li>python313Packages.mobi.dist</li>
+    <li>python313Packages.niaaml</li>
+    <li>python313Packages.niaaml.dist</li>
+    <li>python313Packages.notify-py</li>
+    <li>python313Packages.notify-py.dist</li>
+    <li>python313Packages.numpy-stl</li>
+    <li>python313Packages.numpy-stl.dist</li>
+    <li>python313Packages.pinecone-client</li>
+    <li>python313Packages.pinecone-client.dist</li>
+    <li>python313Packages.progressbar2</li>
+    <li>python313Packages.progressbar2.dist</li>
+    <li>python313Packages.pyaussiebb</li>
+    <li>python313Packages.pyaussiebb.dist</li>
+    <li>python313Packages.pyhiveapi</li>
+    <li>python313Packages.pyhiveapi.dist</li>
+    <li>python313Packages.pyosohotwaterapi</li>
+    <li>python313Packages.pyosohotwaterapi.dist</li>
+    <li>python313Packages.pytablewriter</li>
+    <li>python313Packages.pytablewriter.dist</li>
+    <li>python313Packages.pytest-md-report</li>
+    <li>python313Packages.pytest-md-report.dist</li>
+    <li>python313Packages.python-utils</li>
+    <li>python313Packages.python-utils.dist</li>
+    <li>python313Packages.riscof</li>
+    <li>python313Packages.riscof.dist</li>
+    <li>python313Packages.riscv-isac</li>
+    <li>python313Packages.riscv-isac.dist</li>
+    <li>python313Packages.streamcontroller-plugin-tools</li>
+    <li>python313Packages.streamcontroller-plugin-tools.dist</li>
+    <li>python313Packages.toggl-cli</li>
+    <li>python313Packages.toggl-cli.dist</li>
+    <li>python313Packages.xnatpy</li>
+    <li>python313Packages.xnatpy.dist</li>
+  </ul>
+</details>
+<details>
+  <summary>:white_check_mark: 131 packages built:</summary>
+  <ul>
+    <li>amdvlk</li>
+    <li>antora-ui-default</li>
+    <li>beam25Packages.elixir-ls</li>
+    <li>beam26Packages.elixir-ls</li>
+    <li>beam27Packages.elixir-ls</li>
+    <li>beamMinimal25Packages.elixir-ls</li>
+    <li>beamMinimal26Packages.elixir-ls</li>
+    <li>beamMinimal27Packages.elixir-ls</li>
+    <li>bonsai</li>
+    <li>changedetection-io</li>
+    <li>changedetection-io.dist</li>
+    <li>clash-verge-rev</li>
+    <li>conjure</li>
+    <li>conkeyscan</li>
+    <li>conkeyscan.dist</li>
+    <li>datatrove</li>
+    <li>datatrove.dist</li>
+    <li>dbip-asn-lite</li>
+    <li>dbip-city-lite</li>
+    <li>dbip-country-lite</li>
+    <li>dnsrecon</li>
+    <li>dnsrecon.dist</li>
+    <li>driversi686Linux.amdvlk</li>
+    <li>fichub-cli</li>
+    <li>fichub-cli.dist</li>
+    <li>flexget</li>
+    <li>flexget.dist</li>
+    <li>gnome-frog</li>
+    <li>harper</li>
+    <li>home-assistant-component-tests.aussie_broadband</li>
+    <li>home-assistant-component-tests.hive</li>
+    <li>i2p</li>
+    <li>instawow</li>
+    <li>instawow.dist</li>
+    <li>ki</li>
+    <li>ki.dist</li>
+    <li>mieru</li>
+    <li>mokuro</li>
+    <li>mokuro.dist</li>
+    <li>nekoray</li>
+    <li>nezha</li>
+    <li>openturns</li>
+    <li>patray</li>
+    <li>patray.dist</li>
+    <li>pentestgpt</li>
+    <li>pentestgpt.dist</li>
+    <li>prometheus-borgmatic-exporter</li>
+    <li>prometheus-borgmatic-exporter.dist</li>
+    <li>prometheus-deluge-exporter</li>
+    <li>prometheus-deluge-exporter.dist</li>
+    <li>python312Packages.aria2p</li>
+    <li>python312Packages.aria2p.dist</li>
+    <li>python312Packages.awswrangler</li>
+    <li>python312Packages.awswrangler.dist</li>
+    <li>python312Packages.baselines</li>
+    <li>python312Packages.baselines.dist</li>
+    <li>python312Packages.bubop</li>
+    <li>python312Packages.bubop.dist</li>
+    <li>python312Packages.busylight-for-humans</li>
+    <li>python312Packages.busylight-for-humans.dist</li>
+    <li>python312Packages.ciscoconfparse</li>
+    <li>python312Packages.ciscoconfparse.dist</li>
+    <li>python312Packages.gradient</li>
+    <li>python312Packages.gradient.dist</li>
+    <li>python312Packages.ifcopenshell</li>
+    <li>python312Packages.item-synchronizer</li>
+    <li>python312Packages.item-synchronizer.dist</li>
+    <li>python312Packages.loguru</li>
+    <li>python312Packages.loguru-logging-intercept</li>
+    <li>python312Packages.loguru-logging-intercept.dist</li>
+    <li>python312Packages.loguru.dist</li>
+    <li>python312Packages.manga-ocr</li>
+    <li>python312Packages.manga-ocr.dist</li>
+    <li>python312Packages.mobi</li>
+    <li>python312Packages.mobi.dist</li>
+    <li>python312Packages.notify-py</li>
+    <li>python312Packages.notify-py.dist</li>
+    <li>python312Packages.numpy-stl</li>
+    <li>python312Packages.numpy-stl.dist</li>
+    <li>python312Packages.openturns</li>
+    <li>python312Packages.pinecone-client</li>
+    <li>python312Packages.pinecone-client.dist</li>
+    <li>python312Packages.progressbar2</li>
+    <li>python312Packages.progressbar2.dist</li>
+    <li>python312Packages.pyaussiebb</li>
+    <li>python312Packages.pyaussiebb.dist</li>
+    <li>python312Packages.pyhiveapi</li>
+    <li>python312Packages.pyhiveapi.dist</li>
+    <li>python312Packages.pyosohotwaterapi</li>
+    <li>python312Packages.pyosohotwaterapi.dist</li>
+    <li>python312Packages.pytablewriter</li>
+    <li>python312Packages.pytablewriter.dist</li>
+    <li>python312Packages.pytest-md-report</li>
+    <li>python312Packages.pytest-md-report.dist</li>
+    <li>python312Packages.python-fx</li>
+    <li>python312Packages.python-fx.dist</li>
+    <li>python312Packages.python-utils</li>
+    <li>python312Packages.python-utils.dist</li>
+    <li>python312Packages.qiling</li>
+    <li>python312Packages.qiling.dist</li>
+    <li>python312Packages.riscof</li>
+    <li>python312Packages.riscof.dist</li>
+    <li>python312Packages.riscv-isac</li>
+    <li>python312Packages.riscv-isac.dist</li>
+    <li>python312Packages.streamcontroller-plugin-tools</li>
+    <li>python312Packages.streamcontroller-plugin-tools.dist</li>
+    <li>python312Packages.toggl-cli</li>
+    <li>python312Packages.toggl-cli.dist</li>
+    <li>python313Packages.openturns</li>
+    <li>qv2ray</li>
+    <li>resonance</li>
+    <li>sing-geoip</li>
+    <li>sing-geosite</li>
+    <li>sirikali</li>
+    <li>streamcontroller</li>
+    <li>streamlink</li>
+    <li>streamlink-twitch-gui-bin</li>
+    <li>streamlink.dist</li>
+    <li>trueseeing</li>
+    <li>trueseeing.dist</li>
+    <li>twitch-chat-downloader</li>
+    <li>twitch-chat-downloader.dist</li>
+    <li>v2ray</li>
+    <li>v2ray-domain-list-community</li>
+    <li>v2ray-geoip</li>
+    <li>v2raya</li>
+    <li>varia</li>
+    <li>wapiti</li>
+    <li>wapiti.dist</li>
+    <li>wtwitch</li>
+    <li>xray</li>
+  </ul>
+</details>
+",https://github.com/NixOS/nixpkgs/pull/369975#issuecomment-2567310858,False,True,True,False,,False,False,True,2025-01-01 15:13:08,,2025-01-07 16:09:42,,scrumplex,2025-01-07 16:09:42,scrumplex,False,True,True,2025-01-02 05:52:42,lucasew,commented,14.659444444444444,False,2025-01-07 16:09:42,closed,130.28333333333333,7,reviewed,2025-01-07 13:36:57,flakebi,14.668333333333333,14.668333333333333,127.7375

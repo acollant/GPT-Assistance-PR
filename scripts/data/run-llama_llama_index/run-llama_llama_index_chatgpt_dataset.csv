@@ -1,0 +1,50 @@
+pull_number,event_number,event,actor,time,sha,title,body,html_url,is_bot,is_chatgpt,is_first_chatgpt,is_proceeding_chatgpt,chatgpt_event,is_open,is_closed,is_merged,opened_at,closed_at,merged_at,closed_by,merged_by,resolved_at,resolved_by,is_contributor,is_reviewer,is_maintainer_response,maintainer_responded_at,maintainer_responded_by,maintainer_responded_event,maintainer_latency,is_contributor_response,contributor_responded_at,contributor_responded_event,contributor_latency,next_event_number,next_event,next_event_time,next_event_actor,avg_previous_response_time,median_previous_response_time,next_event_latency
+17405,1,pulled,vlangf,2025-01-01 15:31:32,,Add support for gpt-4o-2024-08-06 to multi modal llms,"# Description
+
+Adding support for the newly released gpt-4o-2024-11-20 model in multi modal llms.
+This model has already been added to llm, but has not been added to multi modal llms
+
+
+Fixes # (issue)
+
+## New Package?
+
+Did I fill in the `tool.llamahub` section in the `pyproject.toml` and provide a detailed README.md for my new integration or package?
+
+- [x] Yes
+- [ ] No
+
+## Version Bump?
+
+Did I bump the version in the `pyproject.toml` file of the package I am updating? (Except for the `llama-index-core` package)
+
+- [ ] Yes
+- [ ] No
+
+## Type of Change
+
+Please delete options that are not relevant.
+
+- [ ] Bug fix (non-breaking change which fixes an issue)
+- [x] New feature (non-breaking change which adds functionality)
+- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
+- [ ] This change requires a documentation update
+
+## How Has This Been Tested?
+
+Your pull-request will likely not be merged unless it is covered by some form of impactful unit testing.
+
+- [ ] I added new unit tests to cover this change
+- [ ] I believe this change is already covered by existing unit tests
+
+## Suggested Checklist:
+
+- [x] I have performed a self-review of my own code
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have made corresponding changes to the documentation
+- [ ] I have added Google Colab support for the newly added notebooks.
+- [ ] My changes generate no new warnings
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [ ] New and existing unit tests pass locally with my changes
+- [ ] I ran `make format; make lint` to appease the lint gods
+",https://github.com/run-llama/llama_index/pull/17405,False,True,True,False,,False,False,True,2025-01-01 15:31:32,,2025-01-02 02:12:00,,logan-markewich,2025-01-02 02:12:00,logan-markewich,True,False,False,2025-01-01 23:05:54,logan-markewich,reviewed,7.572777777777778,False,,,,3,reviewed,2025-01-01 23:05:54,logan-markewich,,,7.572777777777778

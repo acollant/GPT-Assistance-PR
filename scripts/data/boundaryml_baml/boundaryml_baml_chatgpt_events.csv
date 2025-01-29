@@ -1,0 +1,50 @@
+"pull_number","event_number","event","actor","time","state","commit_id","referenced","sha","title","body","html_url","is_bot","is_chatgpt","is_first_chatgpt","is_proceeding_chatgpt","chatgpt_event","is_first"
+"1286","1","pulled","antoniosarosi","2025-01-01 17:54:26","closed","","False","","Include type aliases in Jinja","`is_subtype_of` now works with type aliases and this also allows better error reporting:
+
+```baml
+type ProjectId = int
+
+function NormalAlias(pid: ProjectId) -> string {
+  client ""openai/gpt-4o""
+  prompt #""Pid: {{ pid.id }}. Generate a fake name for it.""#
+}
+```
+Error:
+
+```
+// warning: 'pid' is a type alias ProjectId (resolves to int), expected class
+//   -->  class/type_aliases_jinja.baml:5
+//    | 
+//  4 |   client ""openai/gpt-4o""
+//  5 |   prompt #""Pid: {{ pid.id }}. Generate a fake name for it.""#
+//    | 
+```
+
+<!-- ELLIPSIS_HIDDEN -->
+
+
+----
+
+> [!IMPORTANT]
+> Add support for type aliases in Jinja templates, enhancing type checking and error reporting.
+> 
+>   - **Behavior**:
+>     - `is_subtype_of` now supports type aliases, improving error reporting in Jinja templates.
+>     - Type aliases are validated for cycles, with errors reported for infinite cycles.
+>   - **Validation**:
+>     - `validate()` in `cycle.rs` checks for non-structural type alias cycles and reports them.
+>     - `validate()` in `template_strings.rs` includes type aliases in defined types for Jinja validation.
+>   - **Type System**:
+>     - Adds `Alias` and `RecursiveTypeAlias` variants to `Type` enum in `types.rs`.
+>     - Updates `is_subtype_of()` to handle alias resolution.
+>   - **Parser Database**:
+>     - `resolve_type_aliases()` in `types/mod.rs` resolves type aliases before cycle validation.
+>     - `recursive_alias_cycles` replaces `structural_recursive_alias_cycles` in `repr.rs` and `mod.rs`.
+>   - **Testing**:
+>     - Adds `type_aliases_jinja.baml` to test type alias handling in Jinja templates.
+>     - Updates existing tests to cover new type alias functionality.
+> 
+> <sup>This description was created by </sup>[<img alt=""Ellipsis"" src=""https://img.shields.io/badge/Ellipsis-blue?color=175173"">](https://www.ellipsis.dev?ref=BoundaryML%2Fbaml&utm_source=github&utm_medium=referral)<sup> for da038bdb1b96996535e112feab2313ec33db5ed2. It will automatically update as commits are pushed.</sup>
+
+
+<!-- ELLIPSIS_HIDDEN -->","https://github.com/BoundaryML/baml/pull/1286","False","True","True","False","","True"

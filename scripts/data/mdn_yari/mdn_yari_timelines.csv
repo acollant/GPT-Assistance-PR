@@ -1,0 +1,664 @@
+"pull_number","event_number","event","actor","time","state","commit_id","referenced","sha","title","body","html_url","is_bot","is_chatgpt","is_first_chatgpt","is_proceeding_chatgpt","chatgpt_event"
+"12383","0","committed","dependabot[bot]","2025-01-01 11:31:10","","","False","5b68d629598f6eaa84f084075dbab0aa44240b95","<NA>","<NA>","https://github.com/mdn/yari/commit/5b68d629598f6eaa84f084075dbab0aa44240b95","True","False","False","False",""
+"12383","1","pulled","dependabot[bot]","2025-01-01 11:31:11","closed","","False","","chore(deps-dev): bump @types/node from 18.19.68 to 18.19.69 in the types group","Bumps the types group with 1 update: [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node).
+
+Updates `@types/node` from 18.19.68 to 18.19.69
+<details>
+<summary>Commits</summary>
+<ul>
+<li>See full diff in <a href=""https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node"">compare view</a></li>
+</ul>
+</details>
+<br />
+
+<details>
+<summary>Most Recent Ignore Conditions Applied to This Pull Request</summary>
+
+| Dependency Name | Ignore Conditions |
+| --- | --- |
+| @types/node | [>= 17.a, < 18] |
+| @types/node | [>= 20.a, < 21] |
+| @types/node | [>= 22.a, < 23] |
+</details>
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=@types/node&package-manager=npm_and_yarn&previous-version=18.19.68&new-version=18.19.69)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+Dependabot will merge this PR once CI passes on it, as requested by @mdn-bot.
+
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore <dependency name> major version` will close this group update PR and stop Dependabot creating any more for the specific dependency's major version (unless you unignore this specific dependency's major version or upgrade to it yourself)
+- `@dependabot ignore <dependency name> minor version` will close this group update PR and stop Dependabot creating any more for the specific dependency's minor version (unless you unignore this specific dependency's minor version or upgrade to it yourself)
+- `@dependabot ignore <dependency name>` will close this group update PR and stop Dependabot creating any more for the specific dependency (unless you unignore this specific dependency or upgrade to it yourself)
+- `@dependabot unignore <dependency name>` will remove all of the ignore conditions of the specified dependency
+- `@dependabot unignore <dependency name> <ignore condition>` will remove the ignore condition of the specified dependency and ignore conditions
+
+
+</details>","https://github.com/mdn/yari/pull/12383","True","False","False","False",""
+"12383","2","review_requested","dependabot[bot]","2025-01-01 11:31:12","","","False","","<NA>","<NA>","","True","False","False","False",""
+"12383","3","labeled","dependabot[bot]","2025-01-01 11:31:12","","","False","","<NA>","<NA>","","True","False","False","False",""
+"12383","4","labeled","dependabot[bot]","2025-01-01 11:31:12","","","False","","<NA>","<NA>","","True","False","False","False",""
+"12383","5","commented","mdn-bot","2025-01-01 11:31:24","","","False","","<NA>","@dependabot squash and merge","https://github.com/mdn/yari/pull/12383#issuecomment-2566968854","True","False","False","False",""
+"12383","6","mentioned","dependabot","2025-01-01 11:31:25","","","False","","<NA>","<NA>","","True","False","False","False",""
+"12383","7","mentioned","mdn-bot","2025-01-01 11:31:47","","","False","","<NA>","<NA>","","True","False","False","False",""
+"12383","8","subscribed","mdn-bot","2025-01-01 11:31:47","","","False","","<NA>","<NA>","","True","False","False","False",""
+"12383","9","commented","github-actions[bot]","2025-01-01 11:34:00","","","False","","<NA>","
+# Bundle Stats
+
+Hey there, this message comes from a github action that helps you and reviewers to understand how these changes affect the size of this project's bundle.
+
+As this PR is updated, I'll keep you updated on how the bundle size is impacted.
+
+**Total**
+
+Asset | Old size | New size | Diff | Diff %
+----- | -------- | -------- | ---- | ------
+Total | 5.98 MB | 5.98 MB | 0 | 0.00%
+
+<details>
+<summary>View detailed bundle breakdown</summary>
+
+<div>
+
+**Added**
+
+No assets were added
+
+**Removed**
+
+No assets were removed
+
+**Bigger**
+
+No assets were bigger
+
+**Smaller**
+
+No assets were smaller
+
+**Unchanged**
+
+Asset | Old size | New size | Diff | Diff %
+----- | -------- | -------- | ---- | ------
+static/js/9270.chunk.js | 1.39 MB | 1.39 MB | 0 | 0.00%
+static/js/main.js | 644 KB | 644 KB | 0 | 0.00%
+static/media/src/document/mathml-polyfill/font/STIXTwoMath-Regular.woff2 | 546 KB | 546 KB | 0 | 0.00%
+static/media/public/assets/ai-help/ai-help_dark.png | 454 KB | 454 KB | 0 | 0.00%
+static/media/public/assets/ai-help/ai-help_light.png | 453 KB | 453 KB | 0 | 0.00%
+static/media/src/assets/fonts/Inter.var.woff2 | 317 KB | 317 KB | 0 | 0.00%
+static/css/main.css | 309 KB | 309 KB | 0 | 0.00%
+static/js/7389.chunk.js | 204 KB | 204 KB | 0 | 0.00%
+static/js/1800.chunk.js | 93.1 KB | 93.1 KB | 0 | 0.00%
+asset-manifest.json | 69.6 KB | 69.6 KB | 0 | 0.00%
+static/js/3290.chunk.js | 66.9 KB | 66.9 KB | 0 | 0.00%
+static/media/src/assets/fonts/BarlowCondensed-SemiBold.woff2 | 59.1 KB | 59.1 KB | 0 | 0.00%
+static/js/595.chunk.js | 56.1 KB | 56.1 KB | 0 | 0.00%
+static/media/src/assets/curriculum/landing-scrim.png | 45.5 KB | 45.5 KB | 0 | 0.00%
+static/js/6444.chunk.js | 41.6 KB | 41.6 KB | 0 | 0.00%
+static/js/prism-sqf-js.chunk.js | 32.7 KB | 32.7 KB | 0 | 0.00%
+static/js/500.chunk.js | 31.6 KB | 31.6 KB | 0 | 0.00%
+static/js/876.chunk.js | 31.5 KB | 31.5 KB | 0 | 0.00%
+static/media/public/assets/mdn_contributor.png | 30.4 KB | 30.4 KB | 0 | 0.00%
+static/css/3290.chunk.css | 23.3 KB | 23.3 KB | 0 | 0.00%
+static/css/595.chunk.css | 22.4 KB | 22.4 KB | 0 | 0.00%
+static/media/src/assets/about/building.svg | 21.1 KB | 21.1 KB | 0 | 0.00%
+static/media/src/assets/about/building-dark.svg | 20.4 KB | 20.4 KB | 0 | 0.00%
+static/js/3018.chunk.js | 19.5 KB | 19.5 KB | 0 | 0.00%
+static/media/public/assets/curriculum/curriculum-partner-banner-illustration-large-light.svg | 19 KB | 19 KB | 0 | 0.00%
+static/media/public/assets/curriculum/curriculum-partner-banner-illustration-large-dark.svg | 18.9 KB | 18.9 KB | 0 | 0.00%
+static/media/public/assets/curriculum/curriculum-landing-top.svg | 18.9 KB | 18.9 KB | 0 | 0.00%
+static/js/4553.chunk.js | 18.7 KB | 18.7 KB | 0 | 0.00%
+static/media/public/assets/observatory/landing-illustration.svg | 18.1 KB | 18.1 KB | 0 | 0.00%
+static/js/browser-compatibility-table.chunk.js | 17.8 KB | 17.8 KB | 0 | 0.00%
+static/js/107.chunk.js | 16.7 KB | 16.7 KB | 0 | 0.00%
+static/media/src/assets/community/people.svg | 15.7 KB | 15.7 KB | 0 | 0.00%
+static/media/src/assets/community/people-dark.svg | 15.6 KB | 15.6 KB | 0 | 0.00%
+static/js/prism-gherkin-js.chunk.js | 15.5 KB | 15.5 KB | 0 | 0.00%
+static/js/9672.chunk.js | 14 KB | 14 KB | 0 | 0.00%
+static/js/prism-vim-js.chunk.js | 14 KB | 14 KB | 0 | 0.00%
+static/js/3916.chunk.js | 13.1 KB | 13.1 KB | 0 | 0.00%
+static/media/src/assets/icons/baseline/firefox.svg | 11.9 KB | 11.9 KB | 0 | 0.00%
+static/js/2107.chunk.js | 11.7 KB | 11.7 KB | 0 | 0.00%
+static/js/5218.chunk.js | 11.5 KB | 11.5 KB | 0 | 0.00%
+static/js/8220.chunk.js | 11.3 KB | 11.3 KB | 0 | 0.00%
+static/js/1920.chunk.js | 10.9 KB | 10.9 KB | 0 | 0.00%
+static/js/prism-cmake-js.chunk.js | 10.4 KB | 10.4 KB | 0 | 0.00%
+static/media/src/assets/icons/baseline/safari.svg | 10.3 KB | 10.3 KB | 0 | 0.00%
+static/js/2311.chunk.js | 10.1 KB | 10.1 KB | 0 | 0.00%
+static/js/prism-factor-js.chunk.js | 9.95 KB | 9.95 KB | 0 | 0.00%
+static/js/4930.chunk.js | 9.9 KB | 9.9 KB | 0 | 0.00%
+static/js/prism-opencl-js.chunk.js | 9.8 KB | 9.8 KB | 0 | 0.00%
+static/js/6379.chunk.js | 9.57 KB | 9.57 KB | 0 | 0.00%
+static/js/prism-autohotkey-js.chunk.js | 8.68 KB | 8.68 KB | 0 | 0.00%
+static/media/src/assets/about/global-impact-dark.svg | 8.65 KB | 8.65 KB | 0 | 0.00%
+static/media/src/assets/about/global-impact.svg | 8.58 KB | 8.58 KB | 0 | 0.00%
+static/js/prism-apacheconf-js.chunk.js | 8.12 KB | 8.12 KB | 0 | 0.00%
+static/js/prism-gml-js.chunk.js | 8.1 KB | 8.1 KB | 0 | 0.00%
+static/media/public/assets/curriculum/curriculum-landing-stairway-2-small.svg | 7.98 KB | 7.98 KB | 0 | 0.00%
+static/js/prism-abap-js.chunk.js | 7.86 KB | 7.86 KB | 0 | 0.00%
+static/js/prism-sas-js.chunk.js | 7.49 KB | 7.49 KB | 0 | 0.00%
+static/media/src/assets/icons/deno.svg | 7.42 KB | 7.42 KB | 0 | 0.00%
+static/js/prism-core-js.chunk.js | 7.39 KB | 7.39 KB | 0 | 0.00%
+static/media/public/assets/curriculum/curriculum-landing-stairway-2.svg | 7.23 KB | 7.23 KB | 0 | 0.00%
+static/js/5247.chunk.js | 6.82 KB | 6.82 KB | 0 | 0.00%
+static/js/prism-csharp-js.chunk.js | 6.33 KB | 6.33 KB | 0 | 0.00%
+static/js/prism-php-js.chunk.js | 6.31 KB | 6.31 KB | 0 | 0.00%
+static/js/prism-bash-js.chunk.js | 6.13 KB | 6.13 KB | 0 | 0.00%
+static/media/public/assets/curriculum/curriculum-landing-stairway-1.svg | 5.92 KB | 5.92 KB | 0 | 0.00%
+static/js/prism-keepalived-js.chunk.js | 5.65 KB | 5.65 KB | 0 | 0.00%
+static/js/prism-avisynth-js.chunk.js | 5.31 KB | 5.31 KB | 0 | 0.00%
+static/js/prism-markdown-js.chunk.js | 5.23 KB | 5.23 KB | 0 | 0.00%
+static/css/500.chunk.css | 5.14 KB | 5.14 KB | 0 | 0.00%
+static/js/prism-cobol-js.chunk.js | 5.1 KB | 5.1 KB | 0 | 0.00%
+static/js/prism-javascript-js.chunk.js | 4.74 KB | 4.74 KB | 0 | 0.00%
+static/css/3916.chunk.css | 4.71 KB | 4.71 KB | 0 | 0.00%
+static/css/4930.chunk.css | 4.68 KB | 4.68 KB | 0 | 0.00%
+static/js/prism-metafont-js.chunk.js | 4.53 KB | 4.53 KB | 0 | 0.00%
+static/js/prism-asciidoc-js.chunk.js | 4.47 KB | 4.47 KB | 0 | 0.00%
+static/js/prism-renpy-js.chunk.js | 4.32 KB | 4.32 KB | 0 | 0.00%
+static/media/src/assets/community/video-thumbnail.png | 4.31 KB | 4.31 KB | 0 | 0.00%
+static/media/src/assets/icons/baseline/edge.svg | 4.28 KB | 4.28 KB | 0 | 0.00%
+static/js/prism-scheme-js.chunk.js | 4.06 KB | 4.06 KB | 0 | 0.00%
+static/media/src/assets/mdn-docs-logo.svg | 3.99 KB | 3.99 KB | 0 | 0.00%
+static/js/4670.chunk.js | 3.99 KB | 3.99 KB | 0 | 0.00%
+static/js/prism-arduino-js.chunk.js | 3.96 KB | 3.96 KB | 0 | 0.00%
+static/js/prism-xquery-js.chunk.js | 3.96 KB | 3.96 KB | 0 | 0.00%
+static/js/prism-nsis-js.chunk.js | 3.81 KB | 3.81 KB | 0 | 0.00%
+static/js/prism-stylus-js.chunk.js | 3.77 KB | 3.77 KB | 0 | 0.00%
+static/css/4271.chunk.css | 3.68 KB | 3.68 KB | 0 | 0.00%
+static/js/prism-ruby-js.chunk.js | 3.61 KB | 3.61 KB | 0 | 0.00%
+static/js/prism-rest-js.chunk.js | 3.6 KB | 3.6 KB | 0 | 0.00%
+static/js/prism-textile-js.chunk.js | 3.57 KB | 3.57 KB | 0 | 0.00%
+static/js/prism-pure-js.chunk.js | 3.49 KB | 3.49 KB | 0 | 0.00%
+static/js/prism-wgsl-js.chunk.js | 3.49 KB | 3.49 KB | 0 | 0.00%
+static/js/prism-dax-js.chunk.js | 3.48 KB | 3.48 KB | 0 | 0.00%
+static/js/prism-mongodb-js.chunk.js | 3.47 KB | 3.47 KB | 0 | 0.00%
+static/js/prism-inform7-js.chunk.js | 3.4 KB | 3.4 KB | 0 | 0.00%
+static/media/public/assets/ai-help/gpt-4.svg | 3.4 KB | 3.4 KB | 0 | 0.00%
+static/js/prism-css-extras-js.chunk.js | 3.32 KB | 3.32 KB | 0 | 0.00%
+static/js/prism-sql-js.chunk.js | 3.31 KB | 3.31 KB | 0 | 0.00%
+static/js/prism-psl-js.chunk.js | 3.23 KB | 3.23 KB | 0 | 0.00%
+static/js/prism-arturo-js.chunk.js | 3.2 KB | 3.2 KB | 0 | 0.00%
+static/media/src/assets/article-footer/article-footer.svg | 3.19 KB | 3.19 KB | 0 | 0.00%
+static/js/prism-clojure-js.chunk.js | 3.1 KB | 3.1 KB | 0 | 0.00%
+static/js/prism-coq-js.chunk.js | 3.1 KB | 3.1 KB | 0 | 0.00%
+static/media/src/assets/curriculum/scrimba-logo.svg | 3.09 KB | 3.09 KB | 0 | 0.00%
+static/js/prism-swift-js.chunk.js | 3.08 KB | 3.08 KB | 0 | 0.00%
+static/js/prism-cshtml-js.chunk.js | 3.04 KB | 3.04 KB | 0 | 0.00%
+static/media/public/assets/ai-help/history.svg | 3.04 KB | 3.04 KB | 0 | 0.00%
+static/js/prism-haskell-js.chunk.js | 3.04 KB | 3.04 KB | 0 | 0.00%
+static/js/prism-markup-js.chunk.js | 2.92 KB | 2.92 KB | 0 | 0.00%
+static/js/prism-pug-js.chunk.js | 2.89 KB | 2.89 KB | 0 | 0.00%
+static/js/prism-java-js.chunk.js | 2.87 KB | 2.87 KB | 0 | 0.00%
+static/js/prism-plsql-js.chunk.js | 2.8 KB | 2.8 KB | 0 | 0.00%
+static/js/prism-lisp-js.chunk.js | 2.71 KB | 2.71 KB | 0 | 0.00%
+static/js/prism-cpp-js.chunk.js | 2.69 KB | 2.69 KB | 0 | 0.00%
+static/js/prism-js-templates-js.chunk.js | 2.68 KB | 2.68 KB | 0 | 0.00%
+static/js/prism-al-js.chunk.js | 2.68 KB | 2.68 KB | 0 | 0.00%
+static/media/src/assets/icons/survey.svg | 2.67 KB | 2.67 KB | 0 | 0.00%
+static/js/prism-bsl-js.chunk.js | 2.65 KB | 2.65 KB | 0 | 0.00%
+static/js/prism-svelte.chunk.js | 2.64 KB | 2.64 KB | 0 | 0.00%
+static/css/9672.chunk.css | 2.64 KB | 2.64 KB | 0 | 0.00%
+static/media/src/assets/mdn-plus-logo.svg | 2.61 KB | 2.61 KB | 0 | 0.00%
+static/js/prism-puppet-js.chunk.js | 2.61 KB | 2.61 KB | 0 | 0.00%
+static/js/prism-graphql-js.chunk.js | 2.59 KB | 2.59 KB | 0 | 0.00%
+static/js/prism-log-js.chunk.js | 2.59 KB | 2.59 KB | 0 | 0.00%
+static/js/prism-rust-js.chunk.js | 2.56 KB | 2.56 KB | 0 | 0.00%
+static/js/prism-purebasic-js.chunk.js | 2.54 KB | 2.54 KB | 0 | 0.00%
+static/js/prism-js-extras-js.chunk.js | 2.53 KB | 2.53 KB | 0 | 0.00%
+static/js/prism-jsx-js.chunk.js | 2.5 KB | 2.5 KB | 0 | 0.00%
+static/js/prism-kumir-js.chunk.js | 2.48 KB | 2.48 KB | 0 | 0.00%
+static/media/src/assets/icons/star.svg | 2.47 KB | 2.47 KB | 0 | 0.00%
+static/js/prism-uorazor-js.chunk.js | 2.46 KB | 2.46 KB | 0 | 0.00%
+static/js/6221.chunk.js | 2.46 KB | 2.46 KB | 0 | 0.00%
+static/js/prism-purescript-js.chunk.js | 2.39 KB | 2.39 KB | 0 | 0.00%
+static/js/prism-zig-js.chunk.js | 2.38 KB | 2.38 KB | 0 | 0.00%
+static/js/prism-plant-uml-js.chunk.js | 2.38 KB | 2.38 KB | 0 | 0.00%
+static/js/prism-d-js.chunk.js | 2.32 KB | 2.32 KB | 0 | 0.00%
+static/media/src/assets/icons/curriculum-modules-underline.svg | 2.31 KB | 2.31 KB | 0 | 0.00%
+static/js/prism-perl-js.chunk.js | 2.31 KB | 2.31 KB | 0 | 0.00%
+static/js/prism-haml-js.chunk.js | 2.3 KB | 2.3 KB | 0 | 0.00%
+static/js/prism-web-idl-js.chunk.js | 2.3 KB | 2.3 KB | 0 | 0.00%
+static/media/src/assets/icons/mastodon.svg | 2.23 KB | 2.23 KB | 0 | 0.00%
+static/js/prism-powershell-js.chunk.js | 2.22 KB | 2.22 KB | 0 | 0.00%
+static/js/prism-fsharp-js.chunk.js | 2.2 KB | 2.2 KB | 0 | 0.00%
+static/media/src/assets/icons/curriculum-resources.svg | 2.19 KB | 2.19 KB | 0 | 0.00%
+static/js/prism-python-js.chunk.js | 2.19 KB | 2.19 KB | 0 | 0.00%
+static/js/prism-cil-js.chunk.js | 2.19 KB | 2.19 KB | 0 | 0.00%
+static/js/prism-verilog-js.chunk.js | 2.18 KB | 2.18 KB | 0 | 0.00%
+static/media/src/assets/icons/eye.svg | 2.17 KB | 2.17 KB | 0 | 0.00%
+static/js/prism-liquid-js.chunk.js | 2.17 KB | 2.17 KB | 0 | 0.00%
+static/js/prism-icu-message-format-js.chunk.js | 2.17 KB | 2.17 KB | 0 | 0.00%
+static/js/prism-mermaid-js.chunk.js | 2.16 KB | 2.16 KB | 0 | 0.00%
+static/js/prism-apex-js.chunk.js | 2.16 KB | 2.16 KB | 0 | 0.00%
+static/js/prism-moonscript-js.chunk.js | 2.13 KB | 2.13 KB | 0 | 0.00%
+static/media/src/assets/mdn-footer-logo.svg | 2.12 KB | 2.12 KB | 0 | 0.00%
+static/js/prism-vala-js.chunk.js | 2.08 KB | 2.08 KB | 0 | 0.00%
+static/js/prism-smarty-js.chunk.js | 2.07 KB | 2.07 KB | 0 | 0.00%
+static/media/src/assets/icons/curriculum-landing-started-employment.svg | 2.06 KB | 2.06 KB | 0 | 0.00%
+static/js/prism-qsharp-js.chunk.js | 2.06 KB | 2.06 KB | 0 | 0.00%
+static/js/prism-nevod-js.chunk.js | 2.05 KB | 2.05 KB | 0 | 0.00%
+static/js/prism-livescript-js.chunk.js | 2.05 KB | 2.05 KB | 0 | 0.00%
+static/js/prism-powerquery-js.chunk.js | 2.04 KB | 2.04 KB | 0 | 0.00%
+static/js/prism-yaml-js.chunk.js | 2.03 KB | 2.03 KB | 0 | 0.00%
+static/js/prism-visual-basic-js.chunk.js | 2.02 KB | 2.02 KB | 0 | 0.00%
+static/js/prism-http-js.chunk.js | 2.01 KB | 2.01 KB | 0 | 0.00%
+static/js/prism-kotlin-js.chunk.js | 2 KB | 2 KB | 0 | 0.00%
+static/js/prism-pascal-js.chunk.js | 2 KB | 2 KB | 0 | 0.00%
+static/js/prism-concurnas-js.chunk.js | 1.98 KB | 1.98 KB | 0 | 0.00%
+static/js/prism-c-js.chunk.js | 1.97 KB | 1.97 KB | 0 | 0.00%
+static/js/prism-xeora-js.chunk.js | 1.97 KB | 1.97 KB | 0 | 0.00%
+static/js/prism-v-js.chunk.js | 1.96 KB | 1.96 KB | 0 | 0.00%
+static/media/public/assets/observatory/assessment.svg | 1.95 KB | 1.95 KB | 0 | 0.00%
+static/js/prism-elixir-js.chunk.js | 1.93 KB | 1.93 KB | 0 | 0.00%
+static/js/prism-basic-js.chunk.js | 1.92 KB | 1.92 KB | 0 | 0.00%
+static/js/prism-ftl-js.chunk.js | 1.9 KB | 1.9 KB | 0 | 0.00%
+static/js/prism-unrealscript-js.chunk.js | 1.89 KB | 1.89 KB | 0 | 0.00%
+static/js/prism-applescript-js.chunk.js | 1.88 KB | 1.88 KB | 0 | 0.00%
+static/js/prism-n1ql-js.chunk.js | 1.88 KB | 1.88 KB | 0 | 0.00%
+static/js/prism-naniscript-js.chunk.js | 1.87 KB | 1.87 KB | 0 | 0.00%
+static/js/5790.chunk.js | 1.84 KB | 1.84 KB | 0 | 0.00%
+static/js/prism-asmatmel-js.chunk.js | 1.82 KB | 1.82 KB | 0 | 0.00%
+static/js/prism-vbnet-js.chunk.js | 1.81 KB | 1.81 KB | 0 | 0.00%
+static/js/prism-io-js.chunk.js | 1.8 KB | 1.8 KB | 0 | 0.00%
+static/js/prism-q-js.chunk.js | 1.8 KB | 1.8 KB | 0 | 0.00%
+static/js/prism-splunk-spl-js.chunk.js | 1.79 KB | 1.79 KB | 0 | 0.00%
+static/media/src/assets/icons/prefix.svg | 1.78 KB | 1.78 KB | 0 | 0.00%
+static/js/prism-bqn-js.chunk.js | 1.78 KB | 1.78 KB | 0 | 0.00%
+static/css/876.chunk.css | 1.77 KB | 1.77 KB | 0 | 0.00%
+static/js/prism-batch-js.chunk.js | 1.76 KB | 1.76 KB | 0 | 0.00%
+static/media/src/assets/icons/star-filled.svg | 1.76 KB | 1.76 KB | 0 | 0.00%
+static/js/prism-maxscript-js.chunk.js | 1.75 KB | 1.75 KB | 0 | 0.00%
+static/js/prism-stata-js.chunk.js | 1.75 KB | 1.75 KB | 0 | 0.00%
+static/media/src/assets/icons/curriculum-landing-started-advanced.svg | 1.74 KB | 1.74 KB | 0 | 0.00%
+static/js/prism-hlsl-js.chunk.js | 1.74 KB | 1.74 KB | 0 | 0.00%
+static/media/src/assets/icons/bell.svg | 1.74 KB | 1.74 KB | 0 | 0.00%
+static/media/src/assets/moz-logo.svg | 1.73 KB | 1.73 KB | 0 | 0.00%
+static/js/prism-cooklang-js.chunk.js | 1.73 KB | 1.73 KB | 0 | 0.00%
+static/js/prism-groovy-js.chunk.js | 1.7 KB | 1.7 KB | 0 | 0.00%
+static/media/src/assets/icons/samsunginternet.svg | 1.7 KB | 1.7 KB | 0 | 0.00%
+static/js/prism-tremor-js.chunk.js | 1.69 KB | 1.69 KB | 0 | 0.00%
+static/js/prism-soy-js.chunk.js | 1.68 KB | 1.68 KB | 0 | 0.00%
+static/js/prism-dart-js.chunk.js | 1.68 KB | 1.68 KB | 0 | 0.00%
+static/media/src/assets/icons/curriculum-landing-started-educator.svg | 1.68 KB | 1.68 KB | 0 | 0.00%
+static/js/prism-cue-js.chunk.js | 1.68 KB | 1.68 KB | 0 | 0.00%
+static/js/prism-haxe-js.chunk.js | 1.67 KB | 1.67 KB | 0 | 0.00%
+static/js/prism-rescript-js.chunk.js | 1.66 KB | 1.66 KB | 0 | 0.00%
+static/js/prism-docker-js.chunk.js | 1.66 KB | 1.66 KB | 0 | 0.00%
+static/js/prism-javastacktrace-js.chunk.js | 1.64 KB | 1.64 KB | 0 | 0.00%
+static/js/prism-kusto-js.chunk.js | 1.63 KB | 1.63 KB | 0 | 0.00%
+static/js/prism-sml-js.chunk.js | 1.63 KB | 1.63 KB | 0 | 0.00%
+static/js/prism-stan-js.chunk.js | 1.62 KB | 1.62 KB | 0 | 0.00%
+static/media/src/assets/icons/chatgpt.svg | 1.61 KB | 1.61 KB | 0 | 0.00%
+static/js/prism-tcl-js.chunk.js | 1.6 KB | 1.6 KB | 0 | 0.00%
+static/js/prism-robotframework-js.chunk.js | 1.59 KB | 1.59 KB | 0 | 0.00%
+static/media/src/assets/icons/curriculum-landing-started-beginner.svg | 1.58 KB | 1.58 KB | 0 | 0.00%
+static/js/prism-jolie-js.chunk.js | 1.56 KB | 1.56 KB | 0 | 0.00%
+static/media/src/assets/icons/curriculum-landing-about-bullet.svg | 1.54 KB | 1.54 KB | 0 | 0.00%
+static/js/prism-odin-js.chunk.js | 1.54 KB | 1.54 KB | 0 | 0.00%
+static/css/3018.chunk.css | 1.54 KB | 1.54 KB | 0 | 0.00%
+static/js/prism-qml-js.chunk.js | 1.54 KB | 1.54 KB | 0 | 0.00%
+static/js/prism-parser-js.chunk.js | 1.53 KB | 1.53 KB | 0 | 0.00%
+static/js/prism-coffeescript-js.chunk.js | 1.52 KB | 1.52 KB | 0 | 0.00%
+static/media/src/assets/icons/eye-filled.svg | 1.52 KB | 1.52 KB | 0 | 0.00%
+static/js/prism-jsdoc-js.chunk.js | 1.51 KB | 1.51 KB | 0 | 0.00%
+static/js/prism-javadoc-js.chunk.js | 1.51 KB | 1.51 KB | 0 | 0.00%
+static/js/prism-hcl-js.chunk.js | 1.49 KB | 1.49 KB | 0 | 0.00%
+static/js/prism-typoscript-js.chunk.js | 1.48 KB | 1.48 KB | 0 | 0.00%
+static/js/prism-gradle-js.chunk.js | 1.47 KB | 1.47 KB | 0 | 0.00%
+static/js/5495.chunk.js | 1.47 KB | 1.47 KB | 0 | 0.00%
+static/js/prism-scala-js.chunk.js | 1.46 KB | 1.46 KB | 0 | 0.00%
+static/js/prism-smali-js.chunk.js | 1.46 KB | 1.46 KB | 0 | 0.00%
+static/js/prism-pascaligo-js.chunk.js | 1.45 KB | 1.45 KB | 0 | 0.00%
+static/js/prism-wren-js.chunk.js | 1.45 KB | 1.45 KB | 0 | 0.00%
+static/media/src/assets/mdn-logo.svg | 1.43 KB | 1.43 KB | 0 | 0.00%
+static/js/prism-scss-js.chunk.js | 1.43 KB | 1.43 KB | 0 | 0.00%
+static/js/prism-iecst-js.chunk.js | 1.42 KB | 1.42 KB | 0 | 0.00%
+static/js/prism-crystal-js.chunk.js | 1.41 KB | 1.41 KB | 0 | 0.00%
+static/js/prism-typescript-js.chunk.js | 1.4 KB | 1.4 KB | 0 | 0.00%
+static/js/prism-bicep-js.chunk.js | 1.39 KB | 1.39 KB | 0 | 0.00%
+static/js/prism-regex-js.chunk.js | 1.39 KB | 1.39 KB | 0 | 0.00%
+static/media/src/assets/icons/curriculum-landing-about-pace.svg | 1.38 KB | 1.38 KB | 0 | 0.00%
+static/js/prism-nix-js.chunk.js | 1.37 KB | 1.37 KB | 0 | 0.00%
+static/js/prism-armasm-js.chunk.js | 1.37 KB | 1.37 KB | 0 | 0.00%
+static/js/prism-fortran-js.chunk.js | 1.36 KB | 1.36 KB | 0 | 0.00%
+static/js/prism-css-js.chunk.js | 1.36 KB | 1.36 KB | 0 | 0.00%
+static/js/prism-peoplecode-js.chunk.js | 1.35 KB | 1.35 KB | 0 | 0.00%
+static/media/public/assets/ai-help/context.svg | 1.35 KB | 1.35 KB | 0 | 0.00%
+static/media/src/assets/icons/message-question.svg | 1.35 KB | 1.35 KB | 0 | 0.00%
+static/js/prism-dhall-js.chunk.js | 1.35 KB | 1.35 KB | 0 | 0.00%
+static/media/src/assets/icons/curriculum-about-educators.svg | 1.34 KB | 1.34 KB | 0 | 0.00%
+static/js/prism-velocity-js.chunk.js | 1.33 KB | 1.33 KB | 0 | 0.00%
+static/js/prism-uri-js.chunk.js | 1.33 KB | 1.33 KB | 0 | 0.00%
+static/js/prism-promql-js.chunk.js | 1.33 KB | 1.33 KB | 0 | 0.00%
+static/js/prism-csp-js.chunk.js | 1.33 KB | 1.33 KB | 0 | 0.00%
+static/js/prism-cfscript-js.chunk.js | 1.33 KB | 1.33 KB | 0 | 0.00%
+static/js/prism-lilypond-js.chunk.js | 1.32 KB | 1.32 KB | 0 | 0.00%
+static/js/prism-wasm-js.chunk.js | 1.31 KB | 1.31 KB | 0 | 0.00%
+static/js/prism-antlr4-js.chunk.js | 1.31 KB | 1.31 KB | 0 | 0.00%
+static/js/prism-dot-js.chunk.js | 1.3 KB | 1.3 KB | 0 | 0.00%
+static/media/src/assets/community/discord-dark.svg | 1.29 KB | 1.29 KB | 0 | 0.00%
+static/js/prism-chaiscript-js.chunk.js | 1.29 KB | 1.29 KB | 0 | 0.00%
+static/css/2107.chunk.css | 1.29 KB | 1.29 KB | 0 | 0.00%
+static/media/src/assets/community/discord.svg | 1.29 KB | 1.29 KB | 0 | 0.00%
+static/media/src/assets/icons/add.svg | 1.28 KB | 1.28 KB | 0 | 0.00%
+static/js/prism-jq-js.chunk.js | 1.28 KB | 1.28 KB | 0 | 0.00%
+static/js/prism-mata-js.chunk.js | 1.28 KB | 1.28 KB | 0 | 0.00%
+static/js/prism-tt2-js.chunk.js | 1.28 KB | 1.28 KB | 0 | 0.00%
+static/js/prism-lolcode-js.chunk.js | 1.27 KB | 1.27 KB | 0 | 0.00%
+static/js/prism-ocaml-js.chunk.js | 1.27 KB | 1.27 KB | 0 | 0.00%
+static/js/prism-wiki-js.chunk.js | 1.27 KB | 1.27 KB | 0 | 0.00%
+static/media/src/assets/curriculum-landing-arrow.svg | 1.26 KB | 1.26 KB | 0 | 0.00%
+static/media/src/assets/icons/curriculum-mdn-resource.svg | 1.25 KB | 1.25 KB | 0 | 0.00%
+static/media/src/assets/icons/bell-filled.svg | 1.24 KB | 1.24 KB | 0 | 0.00%
+static/js/prism-django-js.chunk.js | 1.24 KB | 1.24 KB | 0 | 0.00%
+static/js/prism-nim-js.chunk.js | 1.24 KB | 1.24 KB | 0 | 0.00%
+static/js/prism-magma-js.chunk.js | 1.23 KB | 1.23 KB | 0 | 0.00%
+static/js/prism-xojo-js.chunk.js | 1.22 KB | 1.22 KB | 0 | 0.00%
+static/media/src/assets/icons/curriculum-ext-resource.svg | 1.21 KB | 1.21 KB | 0 | 0.00%
+static/js/prism-bro-js.chunk.js | 1.21 KB | 1.21 KB | 0 | 0.00%
+static/media/public/assets/curriculum/curriculum-topic-scripting.svg | 1.2 KB | 1.2 KB | 0 | 0.00%
+static/js/prism-aspnet-js.chunk.js | 1.2 KB | 1.2 KB | 0 | 0.00%
+static/js/prism-squirrel-js.chunk.js | 1.2 KB | 1.2 KB | 0 | 0.00%
+static/js/prism-glsl-js.chunk.js | 1.2 KB | 1.2 KB | 0 | 0.00%
+static/js/prism-brightscript-js.chunk.js | 1.19 KB | 1.19 KB | 0 | 0.00%
+static/js/prism-sass-js.chunk.js | 1.19 KB | 1.19 KB | 0 | 0.00%
+static/media/src/assets/about/web-check.svg | 1.19 KB | 1.19 KB | 0 | 0.00%
+static/js/prism-vhdl-js.chunk.js | 1.18 KB | 1.18 KB | 0 | 0.00%
+static/js/prism-solidity-js.chunk.js | 1.18 KB | 1.18 KB | 0 | 0.00%
+static/js/prism-markup-templating-js.chunk.js | 1.18 KB | 1.18 KB | 0 | 0.00%
+static/js/prism-gn-js.chunk.js | 1.16 KB | 1.16 KB | 0 | 0.00%
+static/js/prism-latte-js.chunk.js | 1.16 KB | 1.16 KB | 0 | 0.00%
+static/media/public/assets/curriculum/curriculum-topic-tooling.svg | 1.16 KB | 1.16 KB | 0 | 0.00%
+static/media/src/assets/icons/curriculum-bullet.svg | 1.16 KB | 1.16 KB | 0 | 0.00%
+static/js/prism-aql-js.chunk.js | 1.15 KB | 1.15 KB | 0 | 0.00%
+static/js/prism-mizar-js.chunk.js | 1.15 KB | 1.15 KB | 0 | 0.00%
+static/js/prism-julia-js.chunk.js | 1.14 KB | 1.14 KB | 0 | 0.00%
+static/js/prism-cypher-js.chunk.js | 1.14 KB | 1.14 KB | 0 | 0.00%
+static/media/src/assets/icons/safari.svg | 1.13 KB | 1.13 KB | 0 | 0.00%
+static/js/prism-gap-js.chunk.js | 1.13 KB | 1.13 KB | 0 | 0.00%
+static/js/prism-latex-js.chunk.js | 1.13 KB | 1.13 KB | 0 | 0.00%
+static/js/prism-apl-js.chunk.js | 1.12 KB | 1.12 KB | 0 | 0.00%
+static/js/prism-elm-js.chunk.js | 1.12 KB | 1.12 KB | 0 | 0.00%
+static/media/src/assets/icons/baseline/chrome.svg | 1.11 KB | 1.11 KB | 0 | 0.00%
+static/js/prism-keyman-js.chunk.js | 1.11 KB | 1.11 KB | 0 | 0.00%
+static/js/prism-neon-js.chunk.js | 1.11 KB | 1.11 KB | 0 | 0.00%
+static/js/prism-avro-idl-js.chunk.js | 1.11 KB | 1.11 KB | 0 | 0.00%
+static/js/prism-qore-js.chunk.js | 1.11 KB | 1.11 KB | 0 | 0.00%
+static/media/src/assets/about/collaborative.svg | 1.1 KB | 1.1 KB | 0 | 0.00%
+static/js/prism-excel-formula-js.chunk.js | 1.1 KB | 1.1 KB | 0 | 0.00%
+static/js/prism-protobuf-js.chunk.js | 1.09 KB | 1.09 KB | 0 | 0.00%
+static/js/prism-shell-session-js.chunk.js | 1.08 KB | 1.08 KB | 0 | 0.00%
+static/js/prism-go-js.chunk.js | 1.07 KB | 1.07 KB | 0 | 0.00%
+static/media/src/assets/icons/curriculum-landing-about-beginner.svg | 1.07 KB | 1.07 KB | 0 | 0.00%
+static/js/prism-toml-js.chunk.js | 1.07 KB | 1.07 KB | 0 | 0.00%
+static/js/prism-sparql-js.chunk.js | 1.06 KB | 1.06 KB | 0 | 0.00%
+static/media/src/assets/curriculum-scrim-bg.svg | 1.06 KB | 1.06 KB | 0 | 0.00%
+static/media/src/assets/icons/trash.svg | 1.06 KB | 1.06 KB | 0 | 0.00%
+static/media/public/assets/ai-help/lightbulb-question.svg | 1.05 KB | 1.05 KB | 0 | 0.00%
+static/js/prism-eiffel-js.chunk.js | 1.05 KB | 1.05 KB | 0 | 0.00%
+static/media/src/assets/icons/curriculum-landing-about-free.svg | 1.05 KB | 1.05 KB | 0 | 0.00%
+static/js/prism-makefile-js.chunk.js | 1.05 KB | 1.05 KB | 0 | 0.00%
+static/media/src/assets/community/video-bg-dark.svg | 1.04 KB | 1.04 KB | 0 | 0.00%
+static/media/src/assets/community/video-bg.svg | 1.04 KB | 1.04 KB | 0 | 0.00%
+static/media/src/assets/icons/bell-ring.svg | 1.04 KB | 1.04 KB | 0 | 0.00%
+static/media/public/assets/observatory/summary-icon.svg | 1.04 KB | 1.04 KB | 0 | 0.00%
+static/js/prism-icon-js.chunk.js | 1.03 KB | 1.03 KB | 0 | 0.00%
+static/media/src/assets/icons/simple-firefox.svg | 1.03 KB | 1.03 KB | 0 | 0.00%
+static/js/prism-gdscript-js.chunk.js | 1.03 KB | 1.03 KB | 0 | 0.00%
+static/js/prism-flow-js.chunk.js | 1.03 KB | 1.03 KB | 0 | 0.00%
+static/media/src/assets/about/collaborative-sm.svg | 1.02 KB | 1.02 KB | 0 | 0.00%
+static/js/prism-turtle-js.chunk.js | 1.02 KB | 1.02 KB | 0 | 0.00%
+static/js/prism-ada-js.chunk.js | 1.01 KB | 1.01 KB | 0 | 0.00%
+static/js/prism-handlebars-js.chunk.js | 1.01 KB | 1.01 KB | 0 | 0.00%
+static/js/prism-abnf-js.chunk.js | 1 KB | 1 KB | 0 | 0.00%
+static/media/src/assets/icons/curriculum-about-detail.svg | 1 KB | 1 KB | 0 | 0.00%
+static/js/prism-twig-js.chunk.js | 1020 bytes | 1020 bytes | 0 | 0.00%
+static/js/prism-monkey-js.chunk.js | 1010 bytes | 1010 bytes | 0 | 0.00%
+static/js/prism-bbj-js.chunk.js | 1000 bytes | 1000 bytes | 0 | 0.00%
+static/js/prism-asm6502-js.chunk.js | 998 bytes | 998 bytes | 0 | 0.00%
+static/js/prism-wolfram-js.chunk.js | 998 bytes | 998 bytes | 0 | 0.00%
+static/js/prism-mel-js.chunk.js | 996 bytes | 996 bytes | 0 | 0.00%
+static/js/prism-supercollider-js.chunk.js | 993 bytes | 993 bytes | 0 | 0.00%
+static/js/prism-javadoclike-js.chunk.js | 991 bytes | 991 bytes | 0 | 0.00%
+static/js/prism-actionscript-js.chunk.js | 986 bytes | 986 bytes | 0 | 0.00%
+static/js/prism-dataweave-js.chunk.js | 984 bytes | 984 bytes | 0 | 0.00%
+static/js/prism-parigp-js.chunk.js | 980 bytes | 980 bytes | 0 | 0.00%
+static/js/prism-dns-zone-file-js.chunk.js | 967 bytes | 967 bytes | 0 | 0.00%
+static/js/prism-autoit-js.chunk.js | 962 bytes | 962 bytes | 0 | 0.00%
+static/media/src/assets/icons/question-mark.svg | 961 bytes | 961 bytes | 0 | 0.00%
+static/media/src/assets/icons/curriculum-about-students.svg | 960 bytes | 960 bytes | 0 | 0.00%
+static/js/prism-oz-js.chunk.js | 951 bytes | 951 bytes | 0 | 0.00%
+static/js/prism-reason-js.chunk.js | 951 bytes | 951 bytes | 0 | 0.00%
+static/media/src/assets/curriculum/scrim-hexagons.svg | 947 bytes | 947 bytes | 0 | 0.00%
+static/js/prism-openqasm-js.chunk.js | 946 bytes | 946 bytes | 0 | 0.00%
+static/js/prism-j-js.chunk.js | 944 bytes | 944 bytes | 0 | 0.00%
+static/media/public/assets/observatory/scanning.svg | 939 bytes | 939 bytes | 0 | 0.00%
+static/js/prism-pcaxis-js.chunk.js | 938 bytes | 938 bytes | 0 | 0.00%
+static/js/prism-firestore-security-rules-js.chunk.js | 924 bytes | 924 bytes | 0 | 0.00%
+static/js/prism-rip-js.chunk.js | 900 bytes | 900 bytes | 0 | 0.00%
+static/js/prism-erlang-js.chunk.js | 898 bytes | 898 bytes | 0 | 0.00%
+static/js/prism-jsstacktrace-js.chunk.js | 897 bytes | 897 bytes | 0 | 0.00%
+static/js/prism-ichigojam-js.chunk.js | 891 bytes | 891 bytes | 0 | 0.00%
+static/media/src/assets/icons/edge.svg | 887 bytes | 887 bytes | 0 | 0.00%
+static/media/src/assets/icons/history.svg | 887 bytes | 887 bytes | 0 | 0.00%
+static/media/src/assets/icons/language.svg | 887 bytes | 887 bytes | 0 | 0.00%
+static/js/prism-systemd-js.chunk.js | 884 bytes | 884 bytes | 0 | 0.00%
+static/media/public/assets/curriculum/curriculum-topic-practices.svg | 882 bytes | 882 bytes | 0 | 0.00%
+static/media/src/assets/icons/ie.svg | 881 bytes | 881 bytes | 0 | 0.00%
+static/js/prism-agda-js.chunk.js | 880 bytes | 880 bytes | 0 | 0.00%
+static/media/src/assets/curriculum-partner-bg.svg | 878 bytes | 878 bytes | 0 | 0.00%
+static/media/public/assets/observatory/security.svg | 873 bytes | 873 bytes | 0 | 0.00%
+static/media/src/assets/icons/thumbs-down.svg | 870 bytes | 870 bytes | 0 | 0.00%
+static/js/6188.chunk.js | 867 bytes | 867 bytes | 0 | 0.00%
+static/js/prism-nginx-js.chunk.js | 858 bytes | 858 bytes | 0 | 0.00%
+static/media/src/assets/icons/deprecated.svg | 840 bytes | 840 bytes | 0 | 0.00%
+static/media/src/assets/icons/thumbs-up.svg | 840 bytes | 840 bytes | 0 | 0.00%
+static/js/prism-clike-js.chunk.js | 839 bytes | 839 bytes | 0 | 0.00%
+static/js/prism-awk-js.chunk.js | 830 bytes | 830 bytes | 0 | 0.00%
+static/js/prism-nasm-js.chunk.js | 829 bytes | 829 bytes | 0 | 0.00%
+static/js/prism-solution-file-js.chunk.js | 829 bytes | 829 bytes | 0 | 0.00%
+static/js/prism-objectivec-js.chunk.js | 820 bytes | 820 bytes | 0 | 0.00%
+static/js/prism-less-js.chunk.js | 814 bytes | 814 bytes | 0 | 0.00%
+static/media/src/assets/icons/play.svg | 813 bytes | 813 bytes | 0 | 0.00%
+static/media/src/assets/icons/curriculum-partner-underline-large.svg | 791 bytes | 791 bytes | 0 | 0.00%
+static/js/prism-idris-js.chunk.js | 788 bytes | 788 bytes | 0 | 0.00%
+static/media/public/assets/curriculum/curriculum-topic-styling.svg | 785 bytes | 785 bytes | 0 | 0.00%
+static/js/prism-smalltalk-js.chunk.js | 777 bytes | 777 bytes | 0 | 0.00%
+static/js/prism-phpdoc-js.chunk.js | 775 bytes | 775 bytes | 0 | 0.00%
+static/media/src/assets/icons/curriculum-partner-underline-small.svg | 772 bytes | 772 bytes | 0 | 0.00%
+static/js/prism-t4-templating-js.chunk.js | 768 bytes | 768 bytes | 0 | 0.00%
+static/media/src/assets/icons/theme-light.svg | 766 bytes | 766 bytes | 0 | 0.00%
+static/js/prism-warpscript-js.chunk.js | 756 bytes | 756 bytes | 0 | 0.00%
+static/media/src/assets/icons/add-filled.svg | 756 bytes | 756 bytes | 0 | 0.00%
+static/media/src/assets/icons/progress-check.svg | 738 bytes | 738 bytes | 0 | 0.00%
+static/js/prism-ini-js.chunk.js | 736 bytes | 736 bytes | 0 | 0.00%
+static/js/prism-diff-js.chunk.js | 735 bytes | 735 bytes | 0 | 0.00%
+static/media/public/assets/observatory/fail-icon.svg | 733 bytes | 733 bytes | 0 | 0.00%
+static/js/prism-jexl-js.chunk.js | 729 bytes | 729 bytes | 0 | 0.00%
+static/js/prism-lua-js.chunk.js | 726 bytes | 726 bytes | 0 | 0.00%
+static/js/prism-bison-js.chunk.js | 724 bytes | 724 bytes | 0 | 0.00%
+static/media/src/assets/icons/github-mark-small.svg | 722 bytes | 722 bytes | 0 | 0.00%
+static/media/public/assets/observatory/lines.svg | 714 bytes | 714 bytes | 0 | 0.00%
+static/js/prism-rego-js.chunk.js | 713 bytes | 713 bytes | 0 | 0.00%
+static/js/prism-birb-js.chunk.js | 710 bytes | 710 bytes | 0 | 0.00%
+static/js/prism-n4js-js.chunk.js | 707 bytes | 707 bytes | 0 | 0.00%
+static/media/src/assets/icons/curriculum-about-not.svg | 694 bytes | 694 bytes | 0 | 0.00%
+static/media/public/assets/observatory/mdn.svg | 681 bytes | 681 bytes | 0 | 0.00%
+static/js/prism-llvm-js.chunk.js | 679 bytes | 679 bytes | 0 | 0.00%
+static/media/src/assets/icons/alert-circle.svg | 672 bytes | 672 bytes | 0 | 0.00%
+static/js/prism-gettext-js.chunk.js | 666 bytes | 666 bytes | 0 | 0.00%
+static/media/src/assets/about/inclusive.svg | 666 bytes | 666 bytes | 0 | 0.00%
+static/media/src/assets/icons/padlock.svg | 654 bytes | 654 bytes | 0 | 0.00%
+static/js/prism-gedcom-js.chunk.js | 652 bytes | 652 bytes | 0 | 0.00%
+static/js/prism-r-js.chunk.js | 651 bytes | 651 bytes | 0 | 0.00%
+static/media/src/assets/icons/new-topic.svg | 651 bytes | 651 bytes | 0 | 0.00%
+static/media/src/assets/icons/curriculum-about-covered.svg | 646 bytes | 646 bytes | 0 | 0.00%
+static/media/src/assets/icons/sidebar-filled.svg | 640 bytes | 640 bytes | 0 | 0.00%
+static/js/prism-linker-script-js.chunk.js | 635 bytes | 635 bytes | 0 | 0.00%
+static/js/prism-processing-js.chunk.js | 635 bytes | 635 bytes | 0 | 0.00%
+static/js/prism-erb-js.chunk.js | 627 bytes | 627 bytes | 0 | 0.00%
+static/media/src/assets/about/education.svg | 627 bytes | 627 bytes | 0 | 0.00%
+static/media/src/assets/about/inclusive-sm.svg | 619 bytes | 619 bytes | 0 | 0.00%
+static/js/prism-hoon-js.chunk.js | 616 bytes | 616 bytes | 0 | 0.00%
+static/media/src/assets/icons/altname.svg | 616 bytes | 616 bytes | 0 | 0.00%
+static/media/src/assets/icons/fullscreen-enter.svg | 615 bytes | 615 bytes | 0 | 0.00%
+static/media/src/assets/community/youtube-play.svg | 610 bytes | 610 bytes | 0 | 0.00%
+static/media/src/assets/icons/baseline/low-dark.svg | 607 bytes | 607 bytes | 0 | 0.00%
+static/media/src/assets/icons/baseline/low.svg | 607 bytes | 607 bytes | 0 | 0.00%
+static/media/src/assets/icons/opera.svg | 606 bytes | 606 bytes | 0 | 0.00%
+static/media/src/assets/about/handshake.svg | 591 bytes | 591 bytes | 0 | 0.00%
+static/media/src/assets/icons/progress-helper.svg | 588 bytes | 588 bytes | 0 | 0.00%
+static/media/src/assets/icons/quote.svg | 588 bytes | 588 bytes | 0 | 0.00%
+static/js/prism-ejs-js.chunk.js | 586 bytes | 586 bytes | 0 | 0.00%
+static/js/prism-bbcode-js.chunk.js | 584 bytes | 584 bytes | 0 | 0.00%
+static/js/prism-roboconf-js.chunk.js | 584 bytes | 584 bytes | 0 | 0.00%
+static/media/src/assets/icons/desktop.svg | 584 bytes | 584 bytes | 0 | 0.00%
+static/media/src/assets/icons/server.svg | 583 bytes | 583 bytes | 0 | 0.00%
+static/js/prism-json-js.chunk.js | 579 bytes | 579 bytes | 0 | 0.00%
+static/media/src/assets/icons/baseline/browser-cross.svg | 575 bytes | 575 bytes | 0 | 0.00%
+static/media/src/assets/clippy.svg | 572 bytes | 572 bytes | 0 | 0.00%
+static/js/prism-matlab-js.chunk.js | 564 bytes | 564 bytes | 0 | 0.00%
+static/media/src/assets/community/community-calls-dark.svg | 559 bytes | 559 bytes | 0 | 0.00%
+static/media/src/assets/community/community-calls.svg | 559 bytes | 559 bytes | 0 | 0.00%
+static/media/src/assets/about/dot-dark.svg | 556 bytes | 556 bytes | 0 | 0.00%
+static/media/src/assets/about/dot.svg | 556 bytes | 556 bytes | 0 | 0.00%
+static/js/prism-go-module-js.chunk.js | 555 bytes | 555 bytes | 0 | 0.00%
+static/media/src/assets/icons/return.svg | 551 bytes | 551 bytes | 0 | 0.00%
+static/media/src/assets/icons/curriculum-started-underline.svg | 549 bytes | 549 bytes | 0 | 0.00%
+static/media/src/assets/icons/disabled.svg | 543 bytes | 543 bytes | 0 | 0.00%
+static/media/src/assets/icons/webview.svg | 543 bytes | 543 bytes | 0 | 0.00%
+static/js/prism-json5-js.chunk.js | 534 bytes | 534 bytes | 0 | 0.00%
+static/media/src/assets/icons/edit.svg | 534 bytes | 534 bytes | 0 | 0.00%
+static/media/src/assets/icons/baseline/browser-check.svg | 528 bytes | 528 bytes | 0 | 0.00%
+static/media/src/assets/icons/ai-help.svg | 522 bytes | 522 bytes | 0 | 0.00%
+static/js/prism-etlua-js.chunk.js | 521 bytes | 521 bytes | 0 | 0.00%
+static/media/src/assets/icons/message.svg | 519 bytes | 519 bytes | 0 | 0.00%
+static/js/prism-tap-js.chunk.js | 511 bytes | 511 bytes | 0 | 0.00%
+static/media/src/assets/icons/feedback.svg | 511 bytes | 511 bytes | 0 | 0.00%
+static/media/src/assets/about/text-box-check-outline.svg | 509 bytes | 509 bytes | 0 | 0.00%
+static/js/prism-ebnf-js.chunk.js | 505 bytes | 505 bytes | 0 | 0.00%
+static/media/src/assets/icons/baseline/limited-dark.svg | 505 bytes | 505 bytes | 0 | 0.00%
+static/media/src/assets/icons/baseline/limited.svg | 505 bytes | 505 bytes | 0 | 0.00%
+static/js/prism-false-js.chunk.js | 501 bytes | 501 bytes | 0 | 0.00%
+static/css/5247.chunk.css | 498 bytes | 498 bytes | 0 | 0.00%
+static/media/src/assets/about/accurate-sm.svg | 489 bytes | 489 bytes | 0 | 0.00%
+static/js/prism-editorconfig-js.chunk.js | 486 bytes | 486 bytes | 0 | 0.00%
+static/media/src/assets/icons/unknown.svg | 480 bytes | 480 bytes | 0 | 0.00%
+static/js/prism-prolog-js.chunk.js | 479 bytes | 479 bytes | 0 | 0.00%
+static/js/prism-ignore-js.chunk.js | 472 bytes | 472 bytes | 0 | 0.00%
+static/media/src/assets/about/accurate.svg | 470 bytes | 470 bytes | 0 | 0.00%
+static/media/src/assets/icons/ellipses.svg | 470 bytes | 470 bytes | 0 | 0.00%
+static/js/prism-php-extras-js.chunk.js | 465 bytes | 465 bytes | 0 | 0.00%
+static/media/src/assets/icons/menu-filled.svg | 465 bytes | 465 bytes | 0 | 0.00%
+static/media/src/assets/icons/chrome.svg | 463 bytes | 463 bytes | 0 | 0.00%
+static/media/src/assets/icons/external.svg | 461 bytes | 461 bytes | 0 | 0.00%
+static/media/public/assets/observatory/pass-icon.svg | 458 bytes | 458 bytes | 0 | 0.00%
+static/js/prism-tsx-js.chunk.js | 444 bytes | 444 bytes | 0 | 0.00%
+static/media/src/assets/icons/sidebar.svg | 442 bytes | 442 bytes | 0 | 0.00%
+static/js/prism-properties-js.chunk.js | 441 bytes | 441 bytes | 0 | 0.00%
+static/media/src/assets/icons/note-deprecated.svg | 438 bytes | 438 bytes | 0 | 0.00%
+static/js/prism-xml-doc-js.chunk.js | 437 bytes | 437 bytes | 0 | 0.00%
+static/js/prism-yang-js.chunk.js | 434 bytes | 434 bytes | 0 | 0.00%
+static/js/prism-bnf-js.chunk.js | 433 bytes | 433 bytes | 0 | 0.00%
+static/media/src/assets/icons/warning.svg | 431 bytes | 431 bytes | 0 | 0.00%
+static/media/src/assets/icons/theme-os-default.svg | 417 bytes | 417 bytes | 0 | 0.00%
+static/js/prism-racket-js.chunk.js | 415 bytes | 415 bytes | 0 | 0.00%
+static/media/src/assets/icons/footnote.svg | 408 bytes | 408 bytes | 0 | 0.00%
+static/media/src/assets/m-logo.svg | 402 bytes | 402 bytes | 0 | 0.00%
+static/js/prism-nand2tetris-hdl-js.chunk.js | 401 bytes | 401 bytes | 0 | 0.00%
+static/media/src/assets/curriculum/scrim-bg.png | 395 bytes | 395 bytes | 0 | 0.00%
+static/js/prism-cilkcpp-js.chunk.js | 394 bytes | 394 bytes | 0 | 0.00%
+static/media/src/assets/icons/theme-dark.svg | 392 bytes | 392 bytes | 0 | 0.00%
+static/media/src/assets/icons/preview.svg | 390 bytes | 390 bytes | 0 | 0.00%
+static/media/src/assets/icons/edit-filled.svg | 377 bytes | 377 bytes | 0 | 0.00%
+static/media/src/assets/icons/trash-filled.svg | 373 bytes | 373 bytes | 0 | 0.00%
+static/media/src/assets/community/quote-start-dark.svg | 370 bytes | 370 bytes | 0 | 0.00%
+static/media/src/assets/community/quote-start.svg | 370 bytes | 370 bytes | 0 | 0.00%
+static/media/src/assets/community/quote-end-dark.svg | 369 bytes | 369 bytes | 0 | 0.00%
+static/media/src/assets/community/quote-end.svg | 368 bytes | 368 bytes | 0 | 0.00%
+static/js/prism-git-js.chunk.js | 365 bytes | 365 bytes | 0 | 0.00%
+static/media/src/assets/icons/baseline/high-dark.svg | 363 bytes | 363 bytes | 0 | 0.00%
+static/media/src/assets/icons/baseline/high.svg | 363 bytes | 363 bytes | 0 | 0.00%
+static/js/prism-brainfuck-js.chunk.js | 361 bytes | 361 bytes | 0 | 0.00%
+static/js/prism-gcode-js.chunk.js | 353 bytes | 353 bytes | 0 | 0.00%
+static/media/public/assets/observatory/tooltip-arrow.svg | 348 bytes | 348 bytes | 0 | 0.00%
+static/media/src/assets/icons/queued.svg | 347 bytes | 347 bytes | 0 | 0.00%
+static/media/src/assets/icons/partial.svg | 345 bytes | 345 bytes | 0 | 0.00%
+static/js/prism-jsonp-js.chunk.js | 342 bytes | 342 bytes | 0 | 0.00%
+static/media/src/assets/icons/critical.svg | 340 bytes | 340 bytes | 0 | 0.00%
+static/js/prism-cilkc-js.chunk.js | 339 bytes | 339 bytes | 0 | 0.00%
+static/media/src/assets/icons/experimental.svg | 338 bytes | 338 bytes | 0 | 0.00%
+static/media/src/assets/icons/more.svg | 327 bytes | 327 bytes | 0 | 0.00%
+static/media/public/assets/observatory/stars.svg | 323 bytes | 323 bytes | 0 | 0.00%
+static/media/src/assets/icons/nodejs.svg | 323 bytes | 323 bytes | 0 | 0.00%
+static/js/prism-arff-js.chunk.js | 322 bytes | 322 bytes | 0 | 0.00%
+static/media/src/assets/icons/feed.svg | 317 bytes | 317 bytes | 0 | 0.00%
+static/media/src/assets/icons/no.svg | 314 bytes | 314 bytes | 0 | 0.00%
+static/js/prism-hpkp-js.chunk.js | 311 bytes | 311 bytes | 0 | 0.00%
+static/media/src/assets/icons/queue.svg | 310 bytes | 310 bytes | 0 | 0.00%
+static/media/public/assets/curriculum/curriculum-topic-standards.svg | 309 bytes | 309 bytes | 0 | 0.00%
+static/media/src/assets/icons/yes-circle.svg | 309 bytes | 309 bytes | 0 | 0.00%
+static/media/src/assets/icons/nonstandard.svg | 308 bytes | 308 bytes | 0 | 0.00%
+static/media/src/assets/icons/note-warning.svg | 308 bytes | 308 bytes | 0 | 0.00%
+static/media/src/assets/icons/twitter-x.svg | 308 bytes | 308 bytes | 0 | 0.00%
+static/media/src/assets/icons/send.svg | 302 bytes | 302 bytes | 0 | 0.00%
+static/media/src/assets/icons/bookmark-filled.svg | 294 bytes | 294 bytes | 0 | 0.00%
+static/media/src/assets/icons/highlight.svg | 292 bytes | 292 bytes | 0 | 0.00%
+static/media/src/assets/icons/mobile.svg | 285 bytes | 285 bytes | 0 | 0.00%
+static/media/src/assets/icons/bookmark.svg | 279 bytes | 279 bytes | 0 | 0.00%
+static/js/prism-hsts-js.chunk.js | 274 bytes | 274 bytes | 0 | 0.00%
+static/media/src/assets/icons/previous.svg | 272 bytes | 272 bytes | 0 | 0.00%
+static/css/6188.chunk.css | 266 bytes | 266 bytes | 0 | 0.00%
+static/media/src/assets/icons/search.svg | 262 bytes | 262 bytes | 0 | 0.00%
+static/media/src/assets/icons/next.svg | 255 bytes | 255 bytes | 0 | 0.00%
+static/media/src/assets/icons/information.svg | 251 bytes | 251 bytes | 0 | 0.00%
+static/media/public/assets/observatory/results-icon.svg | 250 bytes | 250 bytes | 0 | 0.00%
+static/css/107.chunk.css | 245 bytes | 245 bytes | 0 | 0.00%
+static/media/src/assets/icons/menu.svg | 245 bytes | 245 bytes | 0 | 0.00%
+static/js/prism-t4-cs-js.chunk.js | 227 bytes | 227 bytes | 0 | 0.00%
+static/media/src/assets/icons/yes.svg | 214 bytes | 214 bytes | 0 | 0.00%
+static/js/prism-csv-js.chunk.js | 205 bytes | 205 bytes | 0 | 0.00%
+static/js/prism-t4-vb-js.chunk.js | 205 bytes | 205 bytes | 0 | 0.00%
+static/js/4271.chunk.js | 201 bytes | 201 bytes | 0 | 0.00%
+static/media/src/assets/icons/note-info.svg | 195 bytes | 195 bytes | 0 | 0.00%
+static/media/src/assets/icons/checkmark.svg | 189 bytes | 189 bytes | 0 | 0.00%
+static/media/src/assets/icons/curriculum-next.svg | 173 bytes | 173 bytes | 0 | 0.00%
+static/media/src/assets/icons/curriculum-prev.svg | 173 bytes | 173 bytes | 0 | 0.00%
+static/media/src/assets/icons/chevron.svg | 172 bytes | 172 bytes | 0 | 0.00%
+static/media/src/assets/icons/filter.svg | 170 bytes | 170 bytes | 0 | 0.00%
+static/css/6221.chunk.css | 167 bytes | 167 bytes | 0 | 0.00%
+static/media/src/assets/icons/cancel.svg | 160 bytes | 160 bytes | 0 | 0.00%
+static/media/src/assets/lines.svg | 158 bytes | 158 bytes | 0 | 0.00%
+static/media/src/assets/about/line-dot.svg | 133 bytes | 133 bytes | 0 | 0.00%
+static/media/src/assets/icons/small-arrow.svg | 131 bytes | 131 bytes | 0 | 0.00%
+static/css/5495.chunk.css | 130 bytes | 130 bytes | 0 | 0.00%
+
+</div>
+</details>
+
+<!--- bundlestats-action-comment --->
+","https://github.com/mdn/yari/pull/12383#issuecomment-2566969766","True","False","False","False",""
+"12383","10","merged","dependabot[bot]","2025-01-01 11:36:57","","32f054b8c47420927ea6a7a5831b7494707517bb","False","","<NA>","<NA>","","True","False","False","False",""
+"12383","11","closed","dependabot[bot]","2025-01-01 11:36:57","","","False","","<NA>","<NA>","","True","False","False","False",""
+"12383","12","head_ref_deleted","dependabot[bot]","2025-01-01 11:36:59","","","False","","<NA>","<NA>","","True","False","False","False",""
+"12383","13","cross-referenced","github-actions[bot]","2025-01-01 11:37:28","","","False","","<NA>","<NA>","","True","False","False","False",""

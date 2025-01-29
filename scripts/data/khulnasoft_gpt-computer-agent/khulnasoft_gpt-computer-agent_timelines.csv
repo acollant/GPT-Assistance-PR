@@ -1,0 +1,367 @@
+"pull_number","event_number","event","actor","time","state","commit_id","referenced","sha","title","body","html_url","is_bot","is_chatgpt","is_first_chatgpt","is_proceeding_chatgpt","chatgpt_event"
+"80","0","committed","dependabot[bot]","2025-01-01 09:38:16","","","False","6dac42eeee28a26d75d6c45f5d1bdf5cc87f388c","<NA>","<NA>","https://github.com/khulnasoft/gpt-computer-agent/commit/6dac42eeee28a26d75d6c45f5d1bdf5cc87f388c","True","False","False","False",""
+"80","1","pulled","dependabot[bot]","2025-01-01 09:38:17","open","","False","","⬆ Bump upsonic from 0.28.4 to 0.34.3","Bumps [upsonic](https://github.com/Upsonic/Upsonic) from 0.28.4 to 0.34.3.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href=""https://github.com/Upsonic/Upsonic/releases"">upsonic's releases</a>.</em></p>
+<blockquote>
+<h2>Upsonic v0.34.3</h2>
+<p><strong>Full Changelog</strong>: <a href=""https://github.com/Upsonic/Client/compare/v0.34.2...v0.34.3"">https://github.com/Upsonic/Client/compare/v0.34.2...v0.34.3</a></p>
+<h2>Upsonic v0.34.2</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Added current datetime in tester mode by <a href=""https://github.com/hazargurbuzz""><code>@​hazargurbuzz</code></a> in <a href=""https://redirect.github.com/Upsonic/Client/pull/24"">Upsonic/Client#24</a></li>
+<li>doc: Added comments inside the function by <a href=""https://github.com/hazargurbuzz""><code>@​hazargurbuzz</code></a> in <a href=""https://redirect.github.com/Upsonic/Client/pull/26"">Upsonic/Client#26</a></li>
+<li>doc: Added comments inside dump_module function by <a href=""https://github.com/hazargurbuzz""><code>@​hazargurbuzz</code></a> in <a href=""https://redirect.github.com/Upsonic/Client/pull/29"">Upsonic/Client#29</a></li>
+<li>feat: Added user name print logging after welcome message by <a href=""https://github.com/hazargurbuzz""><code>@​hazargurbuzz</code></a> in <a href=""https://redirect.github.com/Upsonic/Client/pull/30"">Upsonic/Client#30</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href=""https://github.com/Upsonic/Client/compare/v0.34.1...v0.34.2"">https://github.com/Upsonic/Client/compare/v0.34.1...v0.34.2</a></p>
+<h2>Upsonic v0.34.1</h2>
+<p><strong>Full Changelog</strong>: <a href=""https://github.com/Upsonic/Client/compare/v0.34.0...v0.34.1"">https://github.com/Upsonic/Client/compare/v0.34.0...v0.34.1</a></p>
+<h2>Upsonic v0.34.0</h2>
+<p><strong>Full Changelog</strong>: <a href=""https://github.com/Upsonic/Client/compare/v0.33.1...v0.34.0"">https://github.com/Upsonic/Client/compare/v0.33.1...v0.34.0</a></p>
+<h2>Upsonic v0.33.1</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>refactor: Added types to the functions by <a href=""https://github.com/hazargurbuzz""><code>@​hazargurbuzz</code></a> in <a href=""https://redirect.github.com/Upsonic/Client/pull/22"">Upsonic/Client#22</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href=""https://github.com/hazargurbuzz""><code>@​hazargurbuzz</code></a> made their first contribution in <a href=""https://redirect.github.com/Upsonic/Client/pull/22"">Upsonic/Client#22</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href=""https://github.com/Upsonic/Client/compare/v0.32.0...v0.33.1"">https://github.com/Upsonic/Client/compare/v0.32.0...v0.33.1</a></p>
+<h2>Upsonic v0.32.0</h2>
+<p><strong>Full Changelog</strong>: <a href=""https://github.com/Upsonic/Client/compare/v0.30.7...v0.32.0"">https://github.com/Upsonic/Client/compare/v0.30.7...v0.32.0</a></p>
+<h2>Upsonic v0.30.7</h2>
+<p><strong>Full Changelog</strong>: <a href=""https://github.com/Upsonic/Client/compare/v0.30.2...v0.30.7"">https://github.com/Upsonic/Client/compare/v0.30.2...v0.30.7</a></p>
+<h2>Upsonic v0.30.2</h2>
+<p><strong>Full Changelog</strong>: <a href=""https://github.com/Upsonic/Client/compare/v0.30.0...v0.30.2"">https://github.com/Upsonic/Client/compare/v0.30.0...v0.30.2</a></p>
+<h2>Upsonic v0.30.0</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Added print mechanism for exception on dump operation by <a href=""https://github.com/onuratakan""><code>@​onuratakan</code></a> in <a href=""https://redirect.github.com/Upsonic/Client/pull/21"">Upsonic/Client#21</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href=""https://github.com/Upsonic/Client/compare/v0.28.4...v0.30.0"">https://github.com/Upsonic/Client/compare/v0.28.4...v0.30.0</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href=""https://github.com/Upsonic/Client/commit/426ae0e283cf3850baa99c0021ddd6b77c7bb0ae""><code>426ae0e</code></a> Changed version number to v0.34.3</li>
+<li><a href=""https://github.com/Upsonic/Client/commit/859549dc0ae02318916853f547b69f96774098f1""><code>859549d</code></a> fix: Resolved TypeError for list[any]</li>
+<li><a href=""https://github.com/Upsonic/Client/commit/c8452e4520d92792ee95df0f937b8e1642f1c4bb""><code>c8452e4</code></a> fix: Resolved TypeError for list[int]</li>
+<li><a href=""https://github.com/Upsonic/Client/commit/0ee487c60e9efea7a3a012722f8bafed480bdc18""><code>0ee487c</code></a> fix: Resolved the list typing problem</li>
+<li><a href=""https://github.com/Upsonic/Client/commit/200efeb4565f80f192270726354d1cfabbd2a5b8""><code>200efeb</code></a> Changed version number to v0.34.2</li>
+<li><a href=""https://github.com/Upsonic/Client/commit/4eba3a1add28914266070735e860104135821a12""><code>4eba3a1</code></a> Merge pull request <a href=""https://redirect.github.com/Upsonic/Upsonic/issues/30"">#30</a> from Upsonic/logging_un1</li>
+<li><a href=""https://github.com/Upsonic/Client/commit/5cec4b1e77de655edc85ffe9e7e47f92fb697aeb""><code>5cec4b1</code></a> feat: Added an try except block for get_username function</li>
+<li><a href=""https://github.com/Upsonic/Client/commit/5ee798c6273bc66f2e1a83dcb98b886353717a60""><code>5ee798c</code></a> Merge pull request <a href=""https://redirect.github.com/Upsonic/Upsonic/issues/29"">#29</a> from Upsonic/comment_a1dm</li>
+<li><a href=""https://github.com/Upsonic/Client/commit/0aaf5f0b4ac855c051695b8ba41e4e6736867b84""><code>0aaf5f0</code></a> feat: Added user name print logging after welcome message</li>
+<li><a href=""https://github.com/Upsonic/Client/commit/0742eb18de9e8c54c79a75ac0240621a490d8772""><code>0742eb1</code></a> doc: Added comments inside dump_module function</li>
+<li>Additional commits viewable in <a href=""https://github.com/Upsonic/Upsonic/compare/v0.28.4...v0.34.3"">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=upsonic&package-manager=pip&previous-version=0.28.4&new-version=0.34.3)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>
+
+## Summary by Sourcery
+
+Update Upsonic to version 0.34.3.
+
+New Features:
+- Print the user name after the welcome message.
+
+Bug Fixes:
+- Resolve `TypeError` for `list[any]` and `list[int]`.
+- Fix list typing issues.
+
+Enhancements:
+- Add current datetime in tester mode.
+- Add comments inside the `dump_module` function.
+- Add user name print logging after the welcome message.
+- Add type annotations to functions.
+- Add print mechanism for exceptions on dump operations.
+
+Tests:
+- Add a try-except block for the get_username function.","https://github.com/khulnasoft/gpt-computer-agent/pull/80","True","False","False","False",""
+"80","2","labeled","dependabot[bot]","2025-01-01 09:38:18","","","False","","<NA>","<NA>","","True","False","False","False",""
+"80","3","labeled","dependabot[bot]","2025-01-01 09:38:18","","","False","","<NA>","<NA>","","True","False","False","False",""
+"80","4","commented","stackblitz[bot]","2025-01-01 09:38:20","","","False","","<NA>","<a href=""https://stackblitz.com/~/github.com/khulnasoft/gpt-computer-agent/pull/80""><img src=""https://developer.stackblitz.com/img/review_pr_small.svg"" alt=""Review PR in StackBlitz Codeflow"" align=""left"" width=""103"" height=""20""></a> _Run & review this pull request in [StackBlitz Codeflow](https://stackblitz.com/~/github.com/khulnasoft/gpt-computer-agent/pull/80)._
+","https://github.com/khulnasoft/gpt-computer-agent/pull/80#issuecomment-2566930052","True","False","False","False",""
+"80","5","commented","sourcery-ai[bot]","2025-01-01 09:38:23","","","False","","<NA>","<!-- Generated by sourcery-ai[bot]: start review_guide -->
+
+## Reviewer's Guide by Sourcery
+
+This PR bumps the version of upsonic from 0.28.4 to 0.34.3, introducing several new features, bug fixes, and documentation improvements. The changes primarily involve updating the `requirements.txt` file to reflect the new version and removing now-redundant package specifications from `requirements.in`.
+
+#### Sequence diagram for enhanced user welcome flow
+
+```mermaid
+sequenceDiagram
+    actor User
+    participant Client as Upsonic Client
+    participant System as System
+
+    User->>Client: Initialize client
+    Client->>Client: print_welcome_message()
+    Client->>System: get_username()
+    alt Username retrieved successfully
+        System-->>Client: return username
+        Client->>User: Display welcome with username
+    else Username retrieval fails
+        System-->>Client: raise exception
+        Client->>User: Display welcome without username
+    end
+```
+
+#### Class diagram showing Upsonic client changes
+
+```mermaid
+classDiagram
+    class UpsonicClient {
+        +dump_module()
+        +get_username()
+        +list[any] operations
+        +list[int] operations
+        +print_welcome_message()
+    }
+    note for UpsonicClient ""Added type hints and improved error handling""
+```
+
+### File-Level Changes
+
+| Change | Details | Files |
+| ------ | ------- | ----- |
+| Updated upsonic dependency | <ul><li>Bumped upsonic version from 0.28.4 to 0.34.3.</li></ul> | `requirements.txt` |
+| Removed now-redundant direct dependencies | <ul><li>Removed direct specifications for packages now installed transitively via upsonic.</li><li>Removed pyperclip, google, duckduckgo-search, beautifulsoup4, pytesseract, pywifi-controls, and pynput from requirements.in.</li></ul> | `requirements.in`<br/>`requirements.txt` |
+| Added new dependencies | <ul><li>Added beautifulsoup4, curl-cffi, duckduckgo-search, evdev, google, orjson, pexpect, pillow, ptyprocess, pynput, pytesseract, python-xlib, python3-xlib, pywifi-controls, soupsieve, and termcolor as dependencies.</li></ul> | `requirements.txt` |
+| Updated existing dependencies | <ul><li>Updated cryptography from 41.0.3 to 40.0.2.</li><li>Updated pyqt5-qt5 from 5.15.2 to 5.15.16.</li><li>Removed dependency on pyreadline3.</li><li>Removed dependency on pywin32.</li></ul> | `requirements.txt` |
+| Removed unnecessary comments | <ul><li>Removed comments related to default tools and unsafe packages in requirements.txt.</li></ul> | `requirements.txt` |
+| Updated transitive dependencies | <ul><li>Updated transitive dependencies as needed by the new upsonic version and other changes.</li></ul> | `requirements.txt` |
+
+---
+
+<details>
+<summary>Tips and commands</summary>
+
+#### Interacting with Sourcery
+
+- **Trigger a new review:** Comment `@sourcery-ai review` on the pull request.
+- **Continue discussions:** Reply directly to Sourcery's review comments.
+- **Generate a GitHub issue from a review comment:** Ask Sourcery to create an
+  issue from a review comment by replying to it.
+- **Generate a pull request title:** Write `@sourcery-ai` anywhere in the pull
+  request title to generate a title at any time.
+- **Generate a pull request summary:** Write `@sourcery-ai summary` anywhere in
+  the pull request body to generate a PR summary at any time. You can also use
+  this command to specify where the summary should be inserted.
+
+#### Customizing Your Experience
+
+Access your [dashboard](https://app.sourcery.ai) to:
+- Enable or disable review features such as the Sourcery-generated pull request
+  summary, the reviewer's guide, and others.
+- Change the review language.
+- Add, remove or edit custom review instructions.
+- Adjust other review settings.
+
+#### Getting Help
+
+- [Contact our support team](mailto:support@sourcery.ai) for questions or feedback.
+- Visit our [documentation](https://docs.sourcery.ai) for detailed guides and information.
+- Keep in touch with the Sourcery team by following us on [X/Twitter](https://x.com/SourceryAI), [LinkedIn](https://www.linkedin.com/company/sourcery-ai/) or [GitHub](https://github.com/sourcery-ai).
+
+</details>
+
+<!-- Generated by sourcery-ai[bot]: end review_guide -->","https://github.com/khulnasoft/gpt-computer-agent/pull/80#issuecomment-2566930065","True","False","False","False",""
+"80","6","commented","coderabbitai[bot]","2025-01-01 09:38:26","","","False","","<NA>","<!-- This is an auto-generated comment: summarize by coderabbit.ai -->
+<!-- This is an auto-generated comment: skip review by coderabbit.ai -->
+
+> [!IMPORTANT]
+> ## Review skipped
+> 
+> Bot user detected.
+> 
+> To trigger a single review, invoke the `@coderabbitai review` command.
+> 
+> You can disable this status message by setting the `reviews.review_status` to `false` in the CodeRabbit configuration file.
+
+<!-- end of auto-generated comment: skip review by coderabbit.ai -->
+
+<!-- tips_start -->
+
+---
+
+
+
+<details>
+<summary>🪧 Tips</summary>
+
+### Chat
+
+There are 3 ways to chat with [CodeRabbit](https://coderabbit.ai):
+
+- Review comments: Directly reply to a review comment made by CodeRabbit. Example:
+  - `I pushed a fix in commit <commit_id>, please review it.`
+  - `Generate unit testing code for this file.`
+  - `Open a follow-up GitHub issue for this discussion.`
+- Files and specific lines of code (under the ""Files changed"" tab): Tag `@coderabbitai` in a new review comment at the desired location with your query. Examples:
+  - `@coderabbitai generate unit testing code for this file.`
+  -	`@coderabbitai modularize this function.`
+- PR comments: Tag `@coderabbitai` in a new PR comment to ask questions about the PR branch. For the best results, please provide a very specific query, as very limited context is provided in this mode. Examples:
+  - `@coderabbitai gather interesting stats about this repository and render them as a table. Additionally, render a pie chart showing the language distribution in the codebase.`
+  - `@coderabbitai read src/utils.ts and generate unit testing code.`
+  - `@coderabbitai read the files in the src/scheduler package and generate a class diagram using mermaid and a README in the markdown format.`
+  - `@coderabbitai help me debug CodeRabbit configuration file.`
+
+Note: Be mindful of the bot's finite context window. It's strongly recommended to break down tasks such as reading entire modules into smaller chunks. For a focused discussion, use review comments to chat about specific files and their changes, instead of using the PR comments.
+
+### CodeRabbit Commands (Invoked using PR comments)
+
+- `@coderabbitai pause` to pause the reviews on a PR.
+- `@coderabbitai resume` to resume the paused reviews.
+- `@coderabbitai review` to trigger an incremental review. This is useful when automatic reviews are disabled for the repository.
+- `@coderabbitai full review` to do a full review from scratch and review all the files again.
+- `@coderabbitai summary` to regenerate the summary of the PR.
+- `@coderabbitai generate docstrings` to [generate docstrings](https://docs.coderabbit.ai/finishing-touches/docstrings) for this PR. ([Beta](https://docs.coderabbit.ai/early-access#beta))
+- `@coderabbitai resolve` resolve all the CodeRabbit review comments.
+- `@coderabbitai configuration` to show the current CodeRabbit configuration for the repository.
+- `@coderabbitai help` to get help.
+
+### Other keywords and placeholders
+
+- Add `@coderabbitai ignore` anywhere in the PR description to prevent this PR from being reviewed.
+- Add `@coderabbitai summary` to generate the high-level summary at a specific location in the PR description.
+- Add `@coderabbitai` anywhere in the PR title to generate the title automatically.
+
+### CodeRabbit Configuration File (`.coderabbit.yaml`)
+
+- You can programmatically configure CodeRabbit by adding a `.coderabbit.yaml` file to the root of your repository.
+- Please see the [configuration documentation](https://docs.coderabbit.ai/guides/configure-coderabbit) for more information.
+- If your editor has YAML language server enabled, you can add the path at the top of this file to enable auto-completion and validation: `# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json`
+
+### Documentation and Community
+
+- Visit our [Documentation](https://docs.coderabbit.ai) for detailed information on how to use CodeRabbit.
+- Join our [Discord Community](http://discord.gg/coderabbit) to get help, request features, and share feedback.
+- Follow us on [X/Twitter](https://twitter.com/coderabbitai) for updates and announcements.
+
+</details>
+
+<!-- tips_end -->","https://github.com/khulnasoft/gpt-computer-agent/pull/80#issuecomment-2566930085","True","False","False","False",""
+"80","7","reviewed","sourcery-ai[bot]","2025-01-01 09:38:27","commented","6dac42eeee28a26d75d6c45f5d1bdf5cc87f388c","False","","<NA>","We have skipped reviewing this pull request. It seems to have been created by a bot (hey, dependabot[bot]!). We assume it knows what it's doing!","https://github.com/khulnasoft/gpt-computer-agent/pull/80#pullrequestreview-2526813850","True","False","False","False",""
+"80","8","commented","codiumai-pr-agent-free[bot]","2025-01-01 09:39:14","","","False","","<NA>","## CI Failure Feedback 🧐
+
+#### (Checks updated until commit https://github.com/khulnasoft/gpt-computer-agent/commit/6dac42eeee28a26d75d6c45f5d1bdf5cc87f388c)
+
+
+<table><tr><td>
+
+**Action:** windows</td></tr>
+<tr><td>
+
+**Failed stage:** [Install Dependencies](https://github.com/khulnasoft/gpt-computer-agent/actions/runs/12569388874/job/35037997425) [❌]
+
+</td></tr>
+<tr><td>
+
+**Failure summary:**
+
+The action failed due to a dependency resolution error:<br> <li> The package <code>gpt-computer-agent</code> requires <code>pyqt5-qt5==5.15.16</code><br> <li> However, this specific version (5.15.16) of pyqt5-qt5 is not available in the package repository<br> <li> Only version 5.15.2 of pyqt5-qt5 was found<br> <li> This caused pip to fail with ""No matching distribution found for pyqt5-qt5==5.15.16""<br>
+
+</td></tr>
+<tr><td>
+
+<details><summary>Relevant error logs:</summary>
+
+
+```yaml
+1:  ##[group]Operating System
+2:  Microsoft Windows Server 2022
+...
+
+742:  Installing build dependencies: finished with status 'done'
+743:  Getting requirements to build wheel: started
+744:  Getting requirements to build wheel: finished with status 'done'
+745:  Preparing metadata (pyproject.toml): started
+746:  Preparing metadata (pyproject.toml): finished with status 'done'
+747:  Collecting pyqt5==5.15.10 (from gpt_computer_agent==0.22.4)
+748:  Downloading PyQt5-5.15.10-cp37-abi3-win_amd64.whl.metadata (2.2 kB)
+749:  INFO: pip is looking at multiple versions of gpt-computer-agent to determine which version is compatible with other requirements. This could take a while.
+750:  ERROR: Ignored the following versions that require a different python version: 1.21.2 Requires-Python >=3.7,<3.11; 1.21.3 Requires-Python >=3.7,<3.11; 1.21.4 Requires-Python >=3.7,<3.11; 1.21.5 Requires-Python >=3.7,<3.11; 1.21.6 Requires-Python >=3.7,<3.11
+751:  ERROR: Could not find a version that satisfies the requirement pyqt5-qt5==5.15.16 (from gpt-computer-agent) (from versions: 5.15.2)
+752:  ERROR: No matching distribution found for pyqt5-qt5==5.15.16
+...
+
+1071:  Installing build dependencies: finished with status 'done'
+1072:  Getting requirements to build wheel: started
+1073:  Getting requirements to build wheel: finished with status 'done'
+1074:  Preparing metadata (pyproject.toml): started
+1075:  Preparing metadata (pyproject.toml): finished with status 'done'
+1076:  Collecting pyqt5==5.15.10 (from gpt_computer_agent==0.22.4)
+1077:  Using cached PyQt5-5.15.10-cp37-abi3-win_amd64.whl.metadata (2.2 kB)
+1078:  INFO: pip is looking at multiple versions of gpt-computer-agent to determine which version is compatible with other requirements. This could take a while.
+1079:  ERROR: Ignored the following versions that require a different python version: 1.21.2 Requires-Python >=3.7,<3.11; 1.21.3 Requires-Python >=3.7,<3.11; 1.21.4 Requires-Python >=3.7,<3.11; 1.21.5 Requires-Python >=3.7,<3.11; 1.21.6 Requires-Python >=3.7,<3.11
+1080:  ERROR: Could not find a version that satisfies the requirement pyqt5-qt5==5.15.16 (from gpt-computer-agent) (from versions: 5.15.2)
+1081:  ERROR: No matching distribution found for pyqt5-qt5==5.15.16
+1082:  ##[error]Process completed with exit code 1.
+
+```
+</details></td></tr></table>
+<hr>
+
+<details><summary><strong>✨ CI feedback usage guide:</strong></summary><hr>
+
+The CI feedback tool (`/checks)` automatically triggers when a PR has a failed check.
+The tool analyzes the failed checks and provides several feedbacks:
+- Failed stage
+- Failed test name
+- Failure summary
+- Relevant error logs
+
+In addition to being automatically triggered, the tool can also be invoked manually by commenting on a PR:
+```
+/checks ""https://github.com/{repo_name}/actions/runs/{run_number}/job/{job_number}""
+```
+where `{repo_name}` is the name of the repository, `{run_number}` is the run number of the failed check, and `{job_number}` is the job number of the failed check.
+
+#### Configuration options
+- `enable_auto_checks_feedback` - if set to true, the tool will automatically provide feedback when a check is failed. Default is true.
+- `excluded_checks_list` - a list of checks to exclude from the feedback, for example: [""check1"", ""check2""]. Default is an empty list.
+- `enable_help_text` - if set to true, the tool will provide a help message with the feedback. Default is true.
+- `persistent_comment` - if set to true, the tool will overwrite a previous checks comment with the new feedback. Default is true.
+- `final_update_message` - if `persistent_comment` is true and updating a previous checks message, the tool will also create a new message: ""Persistent checks updated to latest commit"". Default is true.
+
+See more information about the `checks` tool in the [docs](https://pr-agent-docs.codium.ai/tools/ci_feedback/).
+
+</details>
+","https://github.com/khulnasoft/gpt-computer-agent/pull/80#issuecomment-2566930344","True","False","False","False",""
+"80","9","commented","dependabot[bot]","2025-01-06 16:21:42","","","False","","<NA>","Dependabot tried to update this pull request, but something went wrong. We're looking into it, but in the meantime you can retry the update by commenting `@dependabot rebase`.","https://github.com/khulnasoft/gpt-computer-agent/pull/80#issuecomment-2573450665","True","False","False","False",""

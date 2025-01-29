@@ -1,0 +1,58 @@
+"pull_number","event_number","event","actor","time","state","commit_id","referenced","sha","title","body","html_url","is_bot","is_chatgpt","is_first_chatgpt","is_proceeding_chatgpt","chatgpt_event"
+"17405","0","committed","vlangf","2025-01-01 15:25:17","","","False","03c67753638c25bb1bb1b69056d2cb56b686ebf1","<NA>","<NA>","https://github.com/run-llama/llama_index/commit/03c67753638c25bb1bb1b69056d2cb56b686ebf1","False","False","False","False",""
+"17405","1","pulled","vlangf","2025-01-01 15:31:32","closed","","False","","Add support for gpt-4o-2024-08-06 to multi modal llms","# Description
+
+Adding support for the newly released gpt-4o-2024-11-20 model in multi modal llms.
+This model has already been added to llm, but has not been added to multi modal llms
+
+
+Fixes # (issue)
+
+## New Package?
+
+Did I fill in the `tool.llamahub` section in the `pyproject.toml` and provide a detailed README.md for my new integration or package?
+
+- [x] Yes
+- [ ] No
+
+## Version Bump?
+
+Did I bump the version in the `pyproject.toml` file of the package I am updating? (Except for the `llama-index-core` package)
+
+- [ ] Yes
+- [ ] No
+
+## Type of Change
+
+Please delete options that are not relevant.
+
+- [ ] Bug fix (non-breaking change which fixes an issue)
+- [x] New feature (non-breaking change which adds functionality)
+- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
+- [ ] This change requires a documentation update
+
+## How Has This Been Tested?
+
+Your pull-request will likely not be merged unless it is covered by some form of impactful unit testing.
+
+- [ ] I added new unit tests to cover this change
+- [ ] I believe this change is already covered by existing unit tests
+
+## Suggested Checklist:
+
+- [x] I have performed a self-review of my own code
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have made corresponding changes to the documentation
+- [ ] I have added Google Colab support for the newly added notebooks.
+- [ ] My changes generate no new warnings
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [ ] New and existing unit tests pass locally with my changes
+- [ ] I ran `make format; make lint` to appease the lint gods
+","https://github.com/run-llama/llama_index/pull/17405","False","True","True","False",""
+"17405","2","labeled","dosubot[bot]","2025-01-01 15:31:36","","","False","","<NA>","<NA>","","True","False","False","False",""
+"17405","3","reviewed","logan-markewich","2025-01-01 23:05:54","approved","03c67753638c25bb1bb1b69056d2cb56b686ebf1","False","","<NA>","<NA>","https://github.com/run-llama/llama_index/pull/17405#pullrequestreview-2526941361","False","False","False","True","1"
+"17405","4","labeled","dosubot[bot]","2025-01-01 23:05:57","","","False","","<NA>","<NA>","","True","False","False","False",""
+"17405","5","auto_squash_enabled","logan-markewich","2025-01-01 23:06:03","","","False","","<NA>","<NA>","","False","False","False","False",""
+"17405","6","auto_merge_disabled","logan-markewich","2025-01-02 02:11:54","","","False","","<NA>","<NA>","","False","False","False","False",""
+"17405","7","merged","logan-markewich","2025-01-02 02:12:00","","ad3be7fec4fa0f032661f9783c462a45cf3f6a3f","False","","<NA>","<NA>","","False","False","False","False",""
+"17405","8","closed","logan-markewich","2025-01-02 02:12:00","","","False","","<NA>","<NA>","","False","False","False","False",""

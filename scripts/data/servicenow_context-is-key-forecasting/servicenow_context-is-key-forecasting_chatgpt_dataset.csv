@@ -1,0 +1,65 @@
+pull_number,event_number,event,actor,time,sha,title,body,html_url,is_bot,is_chatgpt,is_first_chatgpt,is_proceeding_chatgpt,chatgpt_event,is_open,is_closed,is_merged,opened_at,closed_at,merged_at,closed_by,merged_by,resolved_at,resolved_by,is_contributor,is_reviewer,is_maintainer_response,maintainer_responded_at,maintainer_responded_by,maintainer_responded_event,maintainer_latency,is_contributor_response,contributor_responded_at,contributor_responded_event,contributor_latency,next_event_number,next_event,next_event_time,next_event_actor,avg_previous_response_time,median_previous_response_time,next_event_latency
+13,1,pulled,ishaan-jaff,2025-01-01 18:13:10,,"Add LiteLLM - support for Vertex AI, Gemini, Anthropic, Bedrock (100+LLMs)","# Add LiteLLM - support for Vertex AI, Gemini, Anthropic, Bedrock (100+LLMs)
+
+# What's changing
+
+This PR adds support for the above mentioned LLMs using LiteLLM https://github.com/BerriAI/litellm/ 
+LiteLLM is a lightweight package to simplify LLM API calls - use any llm as a drop in replacement for gpt-4o.
+
+Example
+
+```python
+from litellm import completion
+import os
+
+## set ENV variables
+os.environ[""OPENAI_API_KEY""] = ""your-openai-key""
+os.environ[""ANTHROPIC_API_KEY""] = ""your-cohere-key""
+
+messages = [{ ""content"": ""Hello, how are you?"",""role"": ""user""}]
+
+# openai call
+response = completion(model=""openai/gpt-4o"", messages=messages)
+
+# anthropic call
+response = completion(model=""anthropic/claude-3-sonnet-20240229"", messages=messages)
+print(response)
+```
+
+### Response (OpenAI Format)
+
+```json
+{
+    ""id"": ""chatcmpl-565d891b-a42e-4c39-8d14-82a1f5208885"",
+    ""created"": 1734366691,
+    ""model"": ""claude-3-sonnet-20240229"",
+    ""object"": ""chat.completion"",
+    ""system_fingerprint"": null,
+    ""choices"": [
+        {
+            ""finish_reason"": ""stop"",
+            ""index"": 0,
+            ""message"": {
+                ""content"": ""Hello! As an AI language model, I don't have feelings, but I'm operating properly and ready to assist you with any questions or tasks you may have. How can I help you today?"",
+                ""role"": ""assistant"",
+                ""tool_calls"": null,
+                ""function_call"": null
+            }
+        }
+    ],
+    ""usage"": {
+        ""completion_tokens"": 43,
+        ""prompt_tokens"": 13,
+        ""total_tokens"": 56,
+        ""completion_tokens_details"": null,
+        ""prompt_tokens_details"": {
+            ""audio_tokens"": null,
+            ""cached_tokens"": 0
+        },
+        ""cache_creation_input_tokens"": 0,
+        ""cache_read_input_tokens"": 0
+    }
+}
+```
+
+",https://github.com/ServiceNow/context-is-key-forecasting/pull/13,False,True,True,False,,True,False,False,2025-01-01 18:13:10,,,,,,,True,False,False,2025-01-06 21:38:14,ashok-arjun,commented,123.41777777777777,False,,,,8,commented,2025-01-06 21:38:14,ashok-arjun,,,123.41777777777777

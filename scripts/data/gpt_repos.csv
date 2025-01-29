@@ -1,0 +1,94 @@
+repo_name,stars,nb_commits,nb_pulls,nb_chatgpt,nb_issues,contributors,forks,watchers,size,created_at,push_at,is_forked,language,topics
+tylerism/recipe-generator,0,27,1,1,1,1,0,0,148,2024-11-08 19:11:57+00:00,2025-01-01 00:13:26+00:00,False,JavaScript,[]
+raghusharma1/python-beginner-projects,0,1767,513,2,513,236,0,0,101536,2024-09-10 08:19:25+00:00,2025-01-28 11:39:57+00:00,True,Python,[]
+kaushalpowar/talk_to_pdf,8,60,37,4,38,1,5,8,2596,2023-04-19 12:29:01+00:00,2025-01-02 17:05:47+00:00,False,Python,"['ai', 'gpt-3', 'llm', 'nlp', 'nlp-machine-learning', 'opeanai', 'ghdesktop', 'github', 'learn']"
+Team-Deep-Impact/Deep-Impact,1,112,71,1,71,6,1,1,1675,2024-05-18 01:01:59+00:00,2025-01-22 06:47:47+00:00,False,JavaScript,[]
+bhavya1099/golang-grpc-realworld-example,0,78,8,1,8,1,0,0,294,2024-12-11 04:46:27+00:00,2025-01-02 09:09:07+00:00,True,,[]
+LangChain-OpenTutorial/LangChain-OpenTutorial,113,1739,438,1,573,83,103,113,437364,2024-12-14 14:33:57+00:00,2025-01-26 19:48:37+00:00,False,Jupyter Notebook,"['agent', 'langchain', 'langgraph']"
+EliahKagan/findrepo2-experiment,0,149,271,1,274,2,0,0,24807,2023-02-14 23:53:41+00:00,2025-01-08 23:09:18+00:00,False,Jupyter Notebook,[]
+VishnuDurairaj/Data-Analyst-CoPilot,3,7,2,1,2,1,2,3,759,2024-09-23 05:40:03+00:00,2024-10-16 07:36:13+00:00,False,Python,[]
+run-llama/llama_index,38384,5904,6607,1,12410,478,5493,38384,249293,2022-11-02 04:24:54+00:00,2025-01-28 17:51:21+00:00,False,Python,"['agents', 'application', 'data', 'fine-tuning', 'framework', 'llamaindex', 'llm', 'rag', 'vector-database', 'multi-agents']"
+khulnasoft/gpt-computer-agent,27,128,79,2,83,5,11,27,2361,2024-06-04 19:48:09+00:00,2025-01-06 16:10:09+00:00,False,Python,"['agent-based-model', 'agentops', 'assistent', 'chatgpt', 'gpt-4', 'gpt4', 'openai', 'ubuntu', 'langchain', 'ai']"
+iloveitaly/gmail-digest,4,71,18,1,18,3,1,4,390,2024-07-25 12:27:19+00:00,2025-01-27 14:31:53+00:00,False,Python,"['ai', 'digest', 'email', 'gmail', 'gmail-api', 'llm']"
+khulnasoft/pr-insight,0,138,92,1,99,7,4,0,8305,2024-06-12 21:52:37+00:00,2025-01-27 04:07:35+00:00,False,Python,[]
+0xPlaygrounds/rig,2714,367,159,1,240,28,255,2714,11046,2024-06-05 13:42:28+00:00,2025-01-28 03:36:04+00:00,False,Rust,"['ai', 'llm', 'agent', 'artificial-intelligence', 'automation', 'large-language-model', 'rust', 'scalable-ai', 'generative-ai', 'llmops']"
+jonaypelluz/craftAPIxplorer,0,76,129,1,129,2,0,0,15099,2020-02-26 09:39:29+00:00,2025-01-01 18:42:25+00:00,False,JavaScript,[]
+BoundaryML/baml,1940,1735,1055,1,1362,40,70,1940,77581,2023-10-06 18:57:41+00:00,2025-01-28 18:15:52+00:00,False,Rust,"['baml', 'llm', 'boundaryml', 'guardrails', 'llm-playground', 'playground', 'vscode', 'structured-data', 'prompt', 'prompt-config', 'prompt-templates', 'structured-generation', 'structured-output']"
+raghusharma1/java-springboot,0,2,881,8,881,1,1,0,2207,2024-09-06 08:03:05+00:00,2025-01-28 11:43:18+00:00,True,,[]
+gs1068/slack-gpt-bot,0,20,10,1,11,2,0,0,58,2024-12-01 06:03:15+00:00,2025-01-22 17:31:52+00:00,False,Go,"['go', 'openai', 'slack-bot']"
+diksha-shrivastava13/bolt-ai-assistant,0,18,6,1,6,5,0,0,46,2024-11-22 11:25:36+00:00,2025-01-01 14:41:13+00:00,False,Python,[]
+brave/pull-merge,19,252,226,2,234,5,1,19,626,2023-10-09 13:12:09+00:00,2025-01-28 09:09:20+00:00,False,JavaScript,"['ci', 'github-actions', 'llm', 'openai', 'pull-request']"
+LiveBench/LiveBench,430,100,18,1,124,10,37,430,15059,2024-06-12 12:13:57+00:00,2025-01-28 16:38:36+00:00,False,Python,[]
+microsoft/Build-your-own-copilot-Solution-Accelerator,151,532,287,1,292,16,88,151,91381,2024-03-05 06:00:39+00:00,2025-01-28 13:13:36+00:00,False,TypeScript,[]
+BerriAI/litellm,16708,19224,3758,1,7850,359,1983,16708,297370,2023-07-27 00:09:52+00:00,2025-01-28 17:40:25+00:00,False,Python,"['anthropic', 'langchain', 'llm', 'llmops', 'openai', 'ai-gateway', 'azure-openai', 'bedrock', 'gateway', 'openai-proxy', 'vertex-ai', 'llm-gateway']"
+gitbai-ster/ChatGPT-Shortcut,0,403,50,1,50,6,0,0,16594,2023-04-20 07:57:11+00:00,2025-01-23 14:50:09+00:00,True,TypeScript,[]
+hotwellkz/dev-magic-generator,0,65,7,5,7,2,0,0,492,2025-01-01 16:13:54+00:00,2025-01-01 22:21:47+00:00,False,TypeScript,[]
+derogab/voicemail,1,73,30,1,30,2,0,1,1071,2024-07-24 23:50:10+00:00,2025-01-01 15:12:02+00:00,False,TypeScript,"['ai', 'cloudflare-workers', 'voicemail']"
+mdn/yari,1202,9648,9743,2,12239,191,515,1202,145101,2019-05-22 21:00:31+00:00,2025-01-28 14:31:42+00:00,False,TypeScript,"['yari', 'mdn']"
+mendersoftware/mender,1012,4008,1735,1,1735,65,197,1012,13608,2015-12-07 09:36:43+00:00,2025-01-28 07:35:52+00:00,False,C++,[]
+TEN-framework/TEN-Agent,4106,765,366,1,547,28,446,4106,31634,2024-06-19 14:26:15+00:00,2025-01-28 09:16:56+00:00,False,Python,"['agent', 'gemini', 'gpt-4', 'llm', 'multimodal', 'nextjs14', 'openai', 'realtime', 'voice-assistant', 'cpp', 'golang', 'python', 'ai', 'gpt-4o', 'rag', 'vision', 'real-time', 'asr', 'low-latency', 'tts']"
+heristop/gutenku,13,759,187,1,192,2,0,13,425069,2023-02-10 16:46:51+00:00,2025-01-28 00:00:05+00:00,False,TypeScript,"['poem-generator', 'vue3', 'haiku-generator', 'natural-language', 'markov-chain', 'gutenberg-project', 'gpt-4-api', 'apollo-server', 'dall-e-3']"
+joiecruz/limitless-platform,0,1259,37,6,37,2,0,0,5425,2024-12-07 04:57:41+00:00,2025-01-17 03:15:27+00:00,False,TypeScript,[]
+slack-samples/bolt-js-assistant-template,6,11,23,1,23,3,2,6,177,2024-09-04 22:33:48+00:00,2025-01-07 21:07:21+00:00,False,JavaScript,[]
+Alec2435/mcp-bot,31,2,7,1,7,1,11,31,139,2024-12-12 19:21:29+00:00,2025-01-01 21:56:36+00:00,False,TypeScript,[]
+FullStackWithLawrence/aws-openai,59,1764,546,1,555,7,37,59,44805,2023-09-11 17:34:03+00:00,2025-01-22 01:10:07+00:00,False,Python,"['aws', 'aws-api-gateway', 'aws-lambda', 'gpt-35-turbo', 'gpt-4', 'openai', 'python', 'python3', 'terraform', 'openai-api', 'openai-api-python', 'chat-ui-kit-react', 'react', 'langchain', 'langchain-app', 'langchain-python', '12-factor', 'github-actions', 'unit-testing', 'ci-cd']"
+coderabbitai/openai-chat-tokens,2,96,76,1,77,10,1,2,525,2024-03-18 18:42:17+00:00,2025-01-21 20:49:17+00:00,True,TypeScript,"['openai', 'function-calling']"
+zy111x/ChatGPT_prompts,0,403,9,1,9,6,0,0,16594,2024-10-28 07:40:14+00:00,2025-01-23 17:18:03+00:00,True,TypeScript,[]
+childmindresearch/AIMLESS,0,10,5,1,5,2,0,0,29091,2024-11-05 15:35:21+00:00,2025-01-01 07:52:20+00:00,False,Jupyter Notebook,[]
+nahuu1/melaet,0,75,6,2,6,2,0,0,710,2024-12-22 12:05:57+00:00,2025-01-28 12:44:51+00:00,False,TypeScript,[]
+stefanb/rye,1,1593,190,1,190,13,0,1,117036,2023-12-02 06:29:31+00:00,2025-01-21 21:08:24+00:00,True,Go,[]
+PolicyEngine/policyengine-app,43,2964,948,1,2306,66,114,43,233687,2022-10-24 12:26:22+00:00,2025-01-27 11:21:17+00:00,False,JavaScript,[]
+EngineeringKiosk/PodcastPipelines,0,63,26,1,26,3,0,0,333,2022-06-05 10:53:00+00:00,2025-01-01 20:21:26+00:00,False,JavaScript,[]
+NatoBoram/lame,0,40,26,1,30,2,0,0,252,2024-09-13 22:57:20+00:00,2025-01-10 03:05:18+00:00,False,Go,"['leopardsatemyface', 'openai', 'reddit']"
+sik2/chat_2nd_2412,0,2,5,1,5,1,14,0,53,2024-12-31 04:34:56+00:00,2025-01-01 19:12:52+00:00,False,HTML,[]
+mastra-ai/mastra,1404,6234,1589,1,1609,26,58,1404,103994,2024-08-06 20:44:31+00:00,2025-01-28 18:17:45+00:00,False,TypeScript,"['agents', 'ai', 'chatbots', 'javascript', 'llm', 'nextjs', 'nodejs', 'reactjs', 'typescript', 'workflows', 'evals', 'mcp', 'tts']"
+bitterlemonking/supastarter1,0,2,63,1,63,1,1,0,2240,2024-11-11 21:25:43+00:00,2025-01-01 02:05:01+00:00,False,TypeScript,[]
+iyaki/content-curator,0,1012,35,1,35,3,0,0,2071,2024-05-23 17:36:57+00:00,2025-01-22 12:18:57+00:00,False,HTML,[]
+mozilla-ai/lumigator,131,928,512,1,760,19,15,131,8900,2024-03-18 17:52:00+00:00,2025-01-28 17:23:18+00:00,False,Python,[]
+MJHR89/slack-bedrock-assistant,0,3,15,1,15,2,0,0,356,2024-10-24 17:52:06+00:00,2025-01-01 14:09:49+00:00,False,JavaScript,[]
+Harmanpreet-Microsoft/psl-byo-main,0,621,119,3,119,19,0,0,70245,2024-11-18 08:40:22+00:00,2025-01-22 06:09:59+00:00,True,TypeScript,[]
+DIYgod/RSSHub,34954,13720,12211,1,17966,431,7702,34954,330051,2018-04-02 14:43:21+00:00,2025-01-28 16:23:33+00:00,False,TypeScript,"['rss', 'twitter', 'weibo', 'bilibili', 'wechat', 'zhihu', 'pixiv', 'dribbble', 'instagram', 'youtube', 'douban', 'v2ex', 'telegram', 'spotify', 'tiktok', 'lofter', 'rsshub', 'ximalaya']"
+slack-samples/bolt-python-ai-chatbot,38,25,38,1,42,5,14,38,38,2024-07-31 12:35:04+00:00,2025-01-17 20:27:35+00:00,False,Python,[]
+Undertone0809/gcop,153,86,156,1,164,2,8,153,2762,2024-06-20 13:30:19+00:00,2025-01-04 08:42:09+00:00,False,Python,"['commit-message', 'git', 'llm', 'openai']"
+davidmigloz/pixels2flutter,189,115,95,1,107,3,40,189,18674,2023-11-17 18:14:17+00:00,2025-01-01 14:58:46+00:00,False,Dart,"['flutter', 'gpt-4-vision', 'llms', 'openai']"
+ioBroker/ioBroker.javascript,327,2965,682,1,1814,74,119,327,381577,2014-08-20 15:25:28+00:00,2025-01-27 09:47:37+00:00,False,JavaScript,"['iobroker', 'smarthome', 'home-automation', 'script-engine', 'blockly', 'javascript']"
+SuperDataScience-Community-Projects/SDS-CP017-ai-recipe-wizard,0,53,12,1,12,10,9,0,17548,2024-12-14 15:02:15+00:00,2025-01-16 15:10:15+00:00,False,Jupyter Notebook,[]
+ServiceNow/context-is-key-forecasting,43,822,10,1,16,7,8,43,7164,2024-10-07 15:00:30+00:00,2025-01-23 20:56:20+00:00,False,Jupyter Notebook,[]
+Roopan-Microsoft/psl-cwyd-main,0,1115,135,1,135,56,7,0,38189,2024-10-06 13:46:59+00:00,2025-01-24 08:24:08+00:00,True,Python,[]
+masomaster/advent-translation,0,121,31,1,31,2,0,0,14086,2023-11-08 06:09:53+00:00,2025-01-15 09:56:27+00:00,False,JavaScript,[]
+GuilhermeStracini/hello-world-nextjs,1,532,502,2,504,6,0,1,4983,2022-01-17 10:49:34+00:00,2025-01-27 23:13:16+00:00,False,JavaScript,"['examples', 'hello-world', 'learn', 'learning', 'nextjs', 'tests', 'hello-world-nextjs']"
+mamezou-tech/mamezou-tech-site,8,3735,1656,1,1681,64,1,8,377487,2021-08-01 01:45:19+00:00,2025-01-28 08:43:32+00:00,False,TypeScript,[]
+erodrigufer/maguet,0,27,6,1,6,2,0,0,2403,2023-04-01 00:38:25+00:00,2025-01-01 22:57:24+00:00,False,Go,[]
+FullStackWithLawrence/openai-hello-world,3,361,93,1,93,5,0,3,321,2024-01-08 16:11:03+00:00,2025-01-22 01:44:05+00:00,False,Python,"['black', 'ci-cd', 'docker', 'docker-compose', 'docker-container', 'dockerfile', 'flake8', 'github-actions', 'mergify', 'openai-api', 'pre-commit', 'prettier-eslint', 'pylint', 'python', 'semantic-release', 'unit-testing', 'chatcompletion', 'chatgpt', 'gpt']"
+hanstanawi/telegram-gpt,3,644,323,1,341,2,0,3,2864,2023-11-28 12:19:19+00:00,2025-01-22 21:47:17+00:00,False,TypeScript,"['nodejs', 'openai', 'telegram-bot', 'typescript', 'nestjs']"
+akshatjain04/go-samples,0,581,77,1,77,161,2,0,2836,2024-01-18 11:12:18+00:00,2025-01-21 12:53:46+00:00,True,,[]
+ammar-knowledge/ant-design,0,27353,900,4,900,374,1,0,183473,2023-07-19 17:37:54+00:00,2025-01-24 18:20:58+00:00,True,TypeScript,[]
+descope-sample-apps/docs-gpt,8,71,36,1,37,2,0,8,446,2024-04-17 21:04:41+00:00,2025-01-17 02:22:03+00:00,False,TypeScript,[]
+hangyav/textLSP,56,169,35,1,47,3,3,56,397,2022-11-18 08:37:17+00:00,2025-01-10 08:57:37+00:00,False,Python,"['grammar-checker', 'language-server', 'language-server-protocol', 'latex', 'org-mode', 'spellchecker', 'artificial-intelligence', 'pygls']"
+yubincho/animarket,0,7,1,1,1,1,0,0,45172,2025-01-01 08:57:47+00:00,2025-01-18 03:39:03+00:00,False,,[]
+Taewan-P/gpt_mobile,606,419,57,1,106,8,51,606,6910,2023-03-06 13:54:34+00:00,2025-01-28 09:02:38+00:00,False,Kotlin,"['android', 'chatgpt', 'claude', 'compose', 'gemini', 'jetpack-compose', 'chatbots', 'jetpack', 'kotlin', 'anthropic', 'google', 'openai', 'hacktoberfest', 'ollama', 'ollama-api', 'ollama-app', 'groq', 'groq-api', 'collaborate', 'deepseek']"
+pavlicic1marko/AI-integrations,0,60,12,1,12,1,0,0,62,2024-12-26 15:48:55+00:00,2025-01-16 17:07:20+00:00,False,Python,[]
+midday-ai/languine,1329,244,52,1,70,12,76,1329,9517,2024-12-11 12:59:06+00:00,2025-01-28 15:52:53+00:00,False,TypeScript,[]
+SillyTavern/SillyTavern,9787,8658,1613,1,3342,191,2644,9787,200637,2023-02-09 10:19:24+00:00,2025-01-28 17:57:25+00:00,False,JavaScript,"['ai', 'characters', 'chat', 'llm', 'openai']"
+dlt-hub/dlt,3020,3466,1513,1,2221,84,203,3020,85298,2022-01-26 09:51:04+00:00,2025-01-28 14:12:50+00:00,False,Python,"['data', 'python', 'data-engineering', 'data-lake', 'data-loading', 'data-warehouse', 'elt', 'extract', 'load', 'transform']"
+przeprogramowani/gpt-debugger,6,56,30,1,30,3,0,6,577,2024-03-28 06:32:13+00:00,2025-01-01 01:20:21+00:00,False,TypeScript,[]
+NixOS/nixpkgs,19101,745088,331867,7,376380,377,14785,19101,4833424,2012-06-04 02:49:46+00:00,2025-01-28 18:12:37+00:00,False,Nix,"['nixpkgs', 'nix', 'nixos', 'linux', 'hacktoberfest']"
+n3d1117/chatgpt-telegram-bot,3182,614,193,1,557,45,1467,3182,737,2022-12-04 16:03:58+00:00,2024-12-28 11:23:49+00:00,False,Python,"['chatgpt', 'openai', 'python', 'telegram-bot', 'dall-e', 'whisper']"
+ammar-knowledge/semantic-prs,0,740,109,1,109,5,0,0,16283,2023-04-25 11:58:13+00:00,2025-01-27 21:34:06+00:00,True,TypeScript,[]
+frdel/agent-zero,5665,320,108,1,301,10,1252,5665,19047,2024-06-10 09:10:45+00:00,2025-01-21 14:29:16+00:00,False,Python,[]
+Significant-Gravitas/AutoGPT,170905,6289,5027,1,8137,438,44931,170905,203744,2023-03-16 09:21:07+00:00,2025-01-28 18:10:35+00:00,False,Python,"['ai', 'gpt-4', 'openai', 'python', 'artificial-intelligence', 'autonomous-agents']"
+microsoft/graphrag,21954,312,809,1,1409,48,2176,21954,185246,2024-03-27 17:57:52+00:00,2025-01-28 17:57:57+00:00,False,Python,"['graphrag', 'rag', 'llm', 'llms', 'gpt', 'gpt-4', 'gpt4']"
+GPTTF-pyeoDa/pyeoDa-BACK,0,14,7,1,7,2,0,0,434,2024-12-17 00:22:25+00:00,2025-01-02 01:26:11+00:00,False,TypeScript,[]
+milliorn/chatgpt-cli,1,58,38,1,40,4,1,1,149,2023-05-12 21:57:25+00:00,2025-01-01 21:54:00+00:00,False,Go,"['ai', 'artificial-intelligence', 'chatbot', 'cli', 'command-line-tool', 'conversational-ai', 'developer-tool', 'gpt-3', 'interactive', 'language-model', 'natural-language-processing', 'nlp', 'openai', 'chatgpt', 'chatgpt3', 'command-line-interface', 'chatbots', 'openai-gpt3', 'terminal', 'text-generation']"
+TripleAConsortium/GPTWrite,0,9,17,1,17,1,0,0,24,2024-02-27 23:16:04+00:00,2025-01-01 00:21:37+00:00,False,Python,"['ai', 'assistant', 'assistant-chat-bots', 'book', 'books', 'chatgpt', 'gpt-3', 'openai', 'openai-api', 'openai-chatgpt', 'python', 'python-3', 'python3']"
+peoplesj/bolt-js-assistant-template,0,2,13,1,13,1,0,0,245,2024-10-22 15:10:32+00:00,2025-01-01 22:27:41+00:00,False,JavaScript,[]
+ecigar13/azure-container-networking,0,1423,259,1,259,57,0,0,72933,2022-05-06 04:45:03+00:00,2025-01-19 01:02:34+00:00,True,Go,[]
+JuliettKhar/reviewer-lib,2,70,29,1,29,2,0,2,182,2024-07-29 23:53:32+00:00,2025-01-19 09:52:53+00:00,False,TypeScript,[]
+openai/openai-realtime-api-beta,846,23,27,1,98,5,238,846,147,2024-09-30 21:11:38+00:00,2024-11-07 22:51:02+00:00,False,JavaScript,"['javascript', 'nodejs', 'openai', 'typescript']"
+clemax2505/gaming-forge-hub,0,521,57,2,57,2,0,0,39031,2024-11-20 10:43:28+00:00,2025-01-22 09:35:59+00:00,False,TypeScript,[]
+raghusharma1/learning-go,0,214,289,2,289,5,0,0,963,2024-08-30 07:58:26+00:00,2025-01-10 11:37:49+00:00,True,,[]
+blorm-network/ZerePy,520,310,88,1,101,25,164,520,885,2024-11-21 16:10:18+00:00,2025-01-28 17:41:46+00:00,False,Python,[]
+raghusharma1/APIsFulfillment,0,24,762,8,762,3,0,0,3440,2024-10-11 08:57:45+00:00,2025-01-28 11:43:39+00:00,True,,[]
+gusye1234/llm-as-function,22,18,6,1,6,4,11,22,88,2023-12-15 08:11:37+00:00,2025-01-09 09:32:22+00:00,False,Python,"['developer-tools', 'gpt', 'llm', 'tools']"
+freelawproject/courtlistener,587,18387,2201,1,4709,72,157,587,260785,2014-07-25 13:22:00+00:00,2025-01-28 17:15:59+00:00,False,Python,"['courts', 'government', 'government-data', 'legaltech']"
+mendersoftware/meta-mender,168,3551,2247,1,2247,73,190,168,8133,2015-12-07 09:37:44+00:00,2025-01-23 13:53:59+00:00,False,BitBake,[]

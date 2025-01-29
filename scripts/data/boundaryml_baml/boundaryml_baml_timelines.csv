@@ -1,0 +1,208 @@
+"pull_number","event_number","event","actor","time","state","commit_id","referenced","sha","title","body","html_url","is_bot","is_chatgpt","is_first_chatgpt","is_proceeding_chatgpt","chatgpt_event"
+"1286","0","committed","antoniosarosi","2025-01-01 17:52:45","","","False","32c0a3a8bdbe98d9d3a6f30e08710954ced1006b","<NA>","<NA>","https://github.com/BoundaryML/baml/commit/32c0a3a8bdbe98d9d3a6f30e08710954ced1006b","False","False","False","False",""
+"1286","1","pulled","antoniosarosi","2025-01-01 17:54:26","closed","","False","","Include type aliases in Jinja","`is_subtype_of` now works with type aliases and this also allows better error reporting:
+
+```baml
+type ProjectId = int
+
+function NormalAlias(pid: ProjectId) -> string {
+  client ""openai/gpt-4o""
+  prompt #""Pid: {{ pid.id }}. Generate a fake name for it.""#
+}
+```
+Error:
+
+```
+// warning: 'pid' is a type alias ProjectId (resolves to int), expected class
+//   -->  class/type_aliases_jinja.baml:5
+//    | 
+//  4 |   client ""openai/gpt-4o""
+//  5 |   prompt #""Pid: {{ pid.id }}. Generate a fake name for it.""#
+//    | 
+```
+
+<!-- ELLIPSIS_HIDDEN -->
+
+
+----
+
+> [!IMPORTANT]
+> Add support for type aliases in Jinja templates, enhancing type checking and error reporting.
+> 
+>   - **Behavior**:
+>     - `is_subtype_of` now supports type aliases, improving error reporting in Jinja templates.
+>     - Type aliases are validated for cycles, with errors reported for infinite cycles.
+>   - **Validation**:
+>     - `validate()` in `cycle.rs` checks for non-structural type alias cycles and reports them.
+>     - `validate()` in `template_strings.rs` includes type aliases in defined types for Jinja validation.
+>   - **Type System**:
+>     - Adds `Alias` and `RecursiveTypeAlias` variants to `Type` enum in `types.rs`.
+>     - Updates `is_subtype_of()` to handle alias resolution.
+>   - **Parser Database**:
+>     - `resolve_type_aliases()` in `types/mod.rs` resolves type aliases before cycle validation.
+>     - `recursive_alias_cycles` replaces `structural_recursive_alias_cycles` in `repr.rs` and `mod.rs`.
+>   - **Testing**:
+>     - Adds `type_aliases_jinja.baml` to test type alias handling in Jinja templates.
+>     - Updates existing tests to cover new type alias functionality.
+> 
+> <sup>This description was created by </sup>[<img alt=""Ellipsis"" src=""https://img.shields.io/badge/Ellipsis-blue?color=175173"">](https://www.ellipsis.dev?ref=BoundaryML%2Fbaml&utm_source=github&utm_medium=referral)<sup> for da038bdb1b96996535e112feab2313ec33db5ed2. It will automatically update as commits are pushed.</sup>
+
+
+<!-- ELLIPSIS_HIDDEN -->","https://github.com/BoundaryML/baml/pull/1286","False","True","True","False",""
+"1286","2","commented","vercel[bot]","2025-01-01 17:54:32","","","False","","<NA>","[vc]: #w6xDO4fOeJqJDpjXYxDShIiUXYdU5vP9XZJ1twaDoKs=:eyJpc01vbm9yZXBvIjp0cnVlLCJ0eXBlIjoiZ2l0aHViIiwicHJvamVjdHMiOlt7Im5hbWUiOiJiYW1sIiwiaW5zcGVjdG9yVXJsIjoiaHR0cHM6Ly92ZXJjZWwuY29tL2dsb28vYmFtbC9DWlhpVGhSMVBVdTIxNXZLZ2VRVlVSNlBwTWZyIiwicHJldmlld1VybCI6ImJhbWwtZ2l0LWFudG9uaW8tdHlwZS1hbGlhc2VzLWluLWppbmphLWV4cHJzLWdsb28udmVyY2VsLmFwcCIsIm5leHRDb21taXRTdGF0dXMiOiJERVBMT1lFRCIsImxpdmVGZWVkYmFjayI6eyJyZXNvbHZlZCI6MCwidW5yZXNvbHZlZCI6MCwidG90YWwiOjAsImxpbmsiOiJiYW1sLWdpdC1hbnRvbmlvLXR5cGUtYWxpYXNlcy1pbi1qaW5qYS1leHBycy1nbG9vLnZlcmNlbC5hcHAifSwicm9vdERpcmVjdG9yeSI6InR5cGVzY3JpcHQvZmlkZGxlLWZyb250ZW5kIn1dfQ==
+**The latest updates on your projects**. Learn more about [Vercel for Git ↗︎](https://vercel.link/github-learn-more)
+
+| Name | Status | Preview | Comments | Updated (UTC) |
+| :--- | :----- | :------ | :------- | :------ |
+| **baml** | ✅ Ready ([Inspect](https://vercel.com/gloo/baml/CZXiThR1PUu215vKgeQVUR6PpMfr)) | [Visit Preview](https://baml-git-antonio-type-aliases-in-jinja-exprs-gloo.vercel.app) | 💬 [**Add feedback**](https://vercel.live/open-feedback/baml-git-antonio-type-aliases-in-jinja-exprs-gloo.vercel.app?via=pr-comment-feedback-link) | Jan 1, 2025 6:26pm |
+
+","https://github.com/BoundaryML/baml/pull/1286#issuecomment-2567094623","True","False","False","False",""
+"1286","3","reviewed","ellipsis-dev[bot]","2025-01-01 17:55:37","commented","32c0a3a8bdbe98d9d3a6f30e08710954ced1006b","False","","<NA>",":+1: Looks good to me! Reviewed everything up to 32c0a3a8bdbe98d9d3a6f30e08710954ced1006b in <ellipsistime>1 minute and 0 seconds</ellipsistime>
+
+<details>
+<summary>More details</summary>
+
+ - Looked at `591` lines of code in `10` files
+ - Skipped `0` files when reviewing.
+ - Skipped posting `5` drafted comments based on config settings.
+
+
+<details>
+<summary>1. <code>engine/baml-lib/baml-core/src/validate/validation_pipeline/validations/cycle.rs:20</code></summary>
+
+- **Draft comment:** 
+The variable `non_structural_type_aliases` is correctly named to reflect its purpose of holding non-structural cycles. This aligns with the PR's intent to handle type alias cycles more effectively.
+- **Reason this comment was not posted:** 
+Confidence changes required: `0%`
+The function `validate` in `cycle.rs` is responsible for checking type alias cycles. The comment on line 17 mentions that cycles are allowed only for maps and lists, which is consistent with the changes in the PR. The variable `non_structural_type_aliases` is correctly renamed to reflect its purpose of holding non-structural cycles. The function `report_infinite_cycles` is used to report these cycles, which aligns with the PR's intent to handle type alias cycles more effectively.
+
+</details>
+
+<details>
+<summary>2. <code>engine/baml-lib/baml-core/src/validate/validation_pipeline/validations/template_strings.rs:21</code></summary>
+
+- **Draft comment:** 
+Including `walk_type_aliases` to add type aliases to `defined_types` ensures that type aliases are considered during template string validation, aligning with the PR's intent.
+- **Reason this comment was not posted:** 
+Confidence changes required: `0%`
+The function `validate` in `template_strings.rs` is responsible for validating template strings. The addition of `walk_type_aliases` to include type aliases in the validation process aligns with the PR's intent to handle type aliases more effectively. This change ensures that type aliases are considered when validating template strings, which is consistent with the PR description.
+
+</details>
+
+<details>
+<summary>3. <code>engine/baml-lib/jinja/src/evaluate_type/types.rs:43</code></summary>
+
+- **Draft comment:** 
+The `Type` enum now includes `Alias` and `RecursiveTypeAlias`, and the `is_subtype_of` method has been updated to handle these, aligning with the PR's intent to handle type aliases more effectively.
+- **Reason this comment was not posted:** 
+Confidence changes required: `0%`
+The `Type` enum in `types.rs` has been extended to include `Alias` and `RecursiveTypeAlias`, which aligns with the PR's intent to handle type aliases more effectively. The `is_subtype_of` method has been updated to handle these new variants, ensuring that type alias resolution is considered during type checking. This change is consistent with the PR description and improves the handling of type aliases.
+
+</details>
+
+<details>
+<summary>4. <code>engine/baml-lib/parser-database/src/types/mod.rs:82</code></summary>
+
+- **Draft comment:** 
+The `resolve_type_aliases` function now computes `recursive_alias_cycles` using Tarjan's algorithm, ensuring type alias cycles are detected and resolved appropriately, aligning with the PR's intent.
+- **Reason this comment was not posted:** 
+Confidence changes required: `0%`
+The `resolve_type_aliases` function in `mod.rs` is responsible for resolving type aliases. The function now computes `recursive_alias_cycles` using Tarjan's algorithm, which aligns with the PR's intent to handle type alias cycles more effectively. This change ensures that type alias cycles are detected and resolved appropriately, consistent with the PR description.
+
+</details>
+
+<details>
+<summary>5. <code>engine/baml-lib/parser-database/src/walkers/mod.rs:295</code></summary>
+
+- **Draft comment:** 
+The `to_jinja_type` function now correctly handles `TypeAlias` by including `Alias` and `RecursiveTypeAlias`, ensuring type aliases are represented in Jinja types, aligning with the PR's intent.
+- **Reason this comment was not posted:** 
+Confidence changes required: `0%`
+The `to_jinja_type` function in `mod.rs` converts `FieldType` to `Type`. The handling of `TypeAlias` has been updated to include `Alias` and `RecursiveTypeAlias`, which aligns with the PR's intent to handle type aliases more effectively. This change ensures that type aliases are correctly represented in Jinja types, consistent with the PR description.
+
+</details>
+
+
+Workflow ID: <workflowid>`wflow_OajdfxE0FVbE1HRl`</workflowid>
+
+</details>
+
+
+----
+You can customize Ellipsis with :+1: / :-1: [feedback](https://docs.ellipsis.dev/review), review rules, user-specific overrides, `quiet` mode, and [more](https://docs.ellipsis.dev/config).
+","https://github.com/BoundaryML/baml/pull/1286#pullrequestreview-2526906731","True","False","False","False",""
+"1286","4","deployed","vercel[bot]","2025-01-01 17:59:21","","","False","","<NA>","<NA>","","True","False","False","False",""
+"1286","5","committed","antoniosarosi","2025-01-01 18:00:08","","","False","0b4ea0b369f882a66bc48be71e0dcb41b1991b99","<NA>","<NA>","https://github.com/BoundaryML/baml/commit/0b4ea0b369f882a66bc48be71e0dcb41b1991b99","False","False","False","False",""
+"1286","6","reviewed","ellipsis-dev[bot]","2025-01-01 18:01:08","commented","0b4ea0b369f882a66bc48be71e0dcb41b1991b99","False","","<NA>",":+1: Looks good to me! Incremental review on 0b4ea0b369f882a66bc48be71e0dcb41b1991b99 in <ellipsistime>45 seconds</ellipsistime>
+
+<details>
+<summary>More details</summary>
+
+ - Looked at `69` lines of code in `3` files
+ - Skipped `0` files when reviewing.
+ - Skipped posting `1` drafted comments based on config settings.
+
+
+<details>
+<summary>1. <code>engine/baml-lib/parser-database/src/walkers/mod.rs:152</code></summary>
+
+- **Draft comment:** 
+The function `is_recursive_type_alias` is defined twice, once here and once in `parser-database/src/lib.rs`. Consider defining it once and reusing it to avoid redundancy.
+- **Reason this comment was not posted:** 
+Decided after close inspection that this draft comment was likely wrong and/or not actionable:
+Without seeing lib.rs, I cannot verify if this function is actually duplicated. The comment could be correct, but it requires knowledge of another file to validate. Following our rules, if understanding requires more context from other files, we should delete the comment.
+The function duplication could be a real issue that would benefit from being fixed. By removing this comment, we might miss an opportunity to improve code organization.
+While the duplication might be real, we cannot verify it without seeing lib.rs. It's better to err on the side of caution than to keep a potentially incorrect comment.
+Remove the comment since we cannot verify the claimed duplication without seeing the other file, and our rules state that cross-file issues should be ignored.
+
+</details>
+
+
+Workflow ID: <workflowid>`wflow_4i3q7UuPRlYSggjP`</workflowid>
+
+</details>
+
+
+----
+You can customize Ellipsis with :+1: / :-1: [feedback](https://docs.ellipsis.dev/review), review rules, user-specific overrides, `quiet` mode, and [more](https://docs.ellipsis.dev/config).
+","https://github.com/BoundaryML/baml/pull/1286#pullrequestreview-2526907341","True","False","False","False",""
+"1286","7","deployed","vercel[bot]","2025-01-01 18:06:30","","","False","","<NA>","<NA>","","True","False","False","False",""
+"1286","8","committed","antoniosarosi","2025-01-01 18:13:23","","","False","da038bdb1b96996535e112feab2313ec33db5ed2","<NA>","<NA>","https://github.com/BoundaryML/baml/commit/da038bdb1b96996535e112feab2313ec33db5ed2","False","False","False","False",""
+"1286","9","reviewed","ellipsis-dev[bot]","2025-01-01 18:14:14","commented","da038bdb1b96996535e112feab2313ec33db5ed2","False","","<NA>",":+1: Looks good to me! Incremental review on da038bdb1b96996535e112feab2313ec33db5ed2 in <ellipsistime>34 seconds</ellipsistime>
+
+<details>
+<summary>More details</summary>
+
+ - Looked at `19` lines of code in `1` files
+ - Skipped `0` files when reviewing.
+ - Skipped posting `1` drafted comments based on config settings.
+
+
+<details>
+<summary>1. <code>integ-tests/python/tests/test_functions.py:40</code></summary>
+
+- **Draft comment:** 
+Unresolved merge conflict markers found. Please resolve the conflict in the import section.
+- **Reason this comment was not posted:** 
+Comment looked like it was already resolved.
+
+</details>
+
+
+Workflow ID: <workflowid>`wflow_HmGZki3gk4FO64LE`</workflowid>
+
+</details>
+
+
+----
+You can customize Ellipsis with :+1: / :-1: [feedback](https://docs.ellipsis.dev/review), review rules, user-specific overrides, `quiet` mode, and [more](https://docs.ellipsis.dev/config).
+","https://github.com/BoundaryML/baml/pull/1286#pullrequestreview-2526908841","True","False","False","False",""
+"1286","10","committed","antoniosarosi","2025-01-01 18:14:15","","","False","2e5ca04cef788e3248d2afb3dd00a4f1286735d5","<NA>","<NA>","https://github.com/BoundaryML/baml/commit/2e5ca04cef788e3248d2afb3dd00a4f1286735d5","False","False","False","False",""
+"1286","11","committed","antoniosarosi","2025-01-01 18:19:00","","","False","6c97885724afa296afedc163e01b12e60a0a09a2","<NA>","<NA>","https://github.com/BoundaryML/baml/commit/6c97885724afa296afedc163e01b12e60a0a09a2","False","False","False","False",""
+"1286","12","reviewed","ellipsis-dev[bot]","2025-01-01 18:21:04","commented","6c97885724afa296afedc163e01b12e60a0a09a2","False","","<NA>","Skipped PR review on 6c97885724afa296afedc163e01b12e60a0a09a2 because no changed files had a supported extension. If you think this was in error, please [contact us](https://docs.ellipsis.dev/contact) and we'll fix it right away.","https://github.com/BoundaryML/baml/pull/1286#pullrequestreview-2526909645","True","False","False","False",""
+"1286","13","added_to_merge_queue","antoniosarosi","2025-01-01 18:22:44","","","False","","<NA>","<NA>","","False","False","False","False",""
+"1286","14","merged","antoniosarosi","2025-01-01 18:24:30","","207eab8e2591577ecc863ff57c3572f268b41773","False","","<NA>","<NA>","","False","False","False","False",""
+"1286","15","removed_from_merge_queue","github-merge-queue[bot]","2025-01-01 18:24:30","","","False","","<NA>","<NA>","","True","False","False","False",""
+"1286","16","closed","antoniosarosi","2025-01-01 18:24:30","","","False","","<NA>","<NA>","","False","False","False","False",""
+"1286","17","head_ref_deleted","antoniosarosi","2025-01-01 18:24:31","","","False","","<NA>","<NA>","","False","False","False","False",""
+"1286","18","deployed","vercel[bot]","2025-01-01 18:26:08","","","False","","<NA>","<NA>","","True","False","False","False",""
