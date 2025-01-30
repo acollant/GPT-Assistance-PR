@@ -29,22 +29,26 @@ pip install -r requirements.txt
     - Identify GPT related events: python3 scripts/process_gpt_data.py
 
 ## Directory structure
+```
 GPT-Assistance-PR/
 │   README.md
 │   requirements.txt    
-│
+│   download_gpt_data.sh
+│   collect_gpt_data.sh 
 └───scripts/
-│   │   
-│   │   
-│   │   
+│   │   search_gpt.py
+│   │   collect_participants.py
+│   │   apply_filters.py
+│   │   collect_gpt_data.py
+│   │   preprocess_gpt_data.py 
+│   │   get_gpt_events.py
+│   │   process_gpt_data.py
 │   │
 │   └───data/
-│   │   │   
+│   │   │   gtp_pulls.cvs
+│   │   │   gtp_repos.cvs
+│   │   │   gpt_filtered_pulls
 │   │   
-│   │   
-│   └───Inspection/
-│   │   │  
-│   │
-│   │
-│   └───results/
-│       │   
+
+```
+
