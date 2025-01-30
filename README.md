@@ -18,7 +18,7 @@ source gpt_pr/bin/activate
 pip install -r requirements.txt
 ```
 ## How to use code
-```python
+```Shell
  1. To download data, run sh download_gpt_data.sh that will run the following Python files:
   - Search gpt: python3 scripts/search_gpt.py
   - Collect participants gpt: python3 scripts/collect_participants.py  
