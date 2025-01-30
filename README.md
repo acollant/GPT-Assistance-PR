@@ -18,17 +18,14 @@ source gpt_pr/bin/activate
 pip install -r requirements.txt
 ```
 ## How to use code
-```Shell
- 1. To download data, run sh download_gpt_data.sh that will run the following Python files:
+### 1. To download data, run sh download_gpt_data.sh that will run the following Python files:
   - Search gpt: python3 scripts/search_gpt.py
   - Collect project participants: python3 scripts/collect_participants.py  
   - Apply_filters to filter participants and stars criteria: python3 scripts/apply_filters.py 
-```
-```Shell
-2. To collect data, run sh collect_gpt_data.sh that will locally create all the projects used for the analysis:
+### 2. To collect data, run sh collect_gpt_data.sh that will locally create all the projects used for the analysis:
     - Collect GPT raw data: python3 scripts/collect_gpt_data.py
-    - Convert row data in CSV format timelimes: python3 scripts/preprocess_gpt_data.py -n &&
-    - Add GPT to timelines:  python3 scripts/get_gpt_events.py -n &&
-    - Identify GPT related events: python3 scripts/process_gpt_data.py -n &&
+    - Convert row data in CSV format timelimes: python3 scripts/preprocess_gpt_data.py 
+    - Add GPT to timelines:  python3 scripts/get_gpt_events.py
+    - Identify GPT related events: python3 scripts/process_gpt_data.py
     
 ```
