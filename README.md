@@ -27,5 +27,24 @@ pip install -r requirements.txt
     - Convert row data in CSV format timelimes: python3 scripts/preprocess_gpt_data.py 
     - Add GPT to timelines:  python3 scripts/get_gpt_events.py
     - Identify GPT related events: python3 scripts/process_gpt_data.py
-    
-```
+
+## Directory structure
+GPT-Assistance-PR/
+│   README.md
+│   requirements.txt    
+│
+└───scripts/
+│   │   
+│   │   
+│   │   
+│   │
+│   └───data/
+│   │   │   
+│   │   
+│   │   
+│   └───Inspection/
+│   │   │  
+│   │
+│   │
+│   └───results/
+│       │   
