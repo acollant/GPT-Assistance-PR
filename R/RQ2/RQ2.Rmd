@@ -1,1 +1,94 @@
+---
+editor_options:
+  markdown:
+    wrap: 72
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r}
+library(lme4) 
+library(nlme) 
+library(glmmTMB) 
+library(ggplot2)
+library(tidyverse)
+library(dplyr)
+library(magrittr)
+library(easystats)
+library(lmerTest)
+library(stargazer)
+
+library(effsize)
+library(rcompanion)
+```
+
+```{r}
+options(scipen = 999)
+```
+
+```{r}
+explain <- function(model) {
+  print(performance(model))
+  statistics <- anova(model)
+  statistics$`Sum Sq` %<>% round(digits = 3)
+  print(statistics)
+  print(parameters(model, ci_method = "satterthwaite"))
+  class(model) <- "lmerMod"
+  stargazer(model, type = "text", star.cutoffs = c(0.05, 0.01, 0.001))
+}
+```
+
+```{r}
+
+distance <- read.table("distance.csv", header = TRUE, sep=",")
+str(distance)
+```
+
+
+```{r}
+
+
+distance$duration_gpt <- as.double(distance$duration_gpt) 
+distance$duration_no_gpt<- as.double(distance$duration_no_gpt) 
+
+```
+
+```{r}
+list=as.list(distance %>% select(phase) %>% distinct)
+list
+phases <- c("at_review", "at_waiting_before_change", "at_changed","at_resolution")
+phases 
+
+```
+
+```{r}
+
+for(p in phases){
+  print('phase:')
+  print(p)
+  at_phase <- distance %>% filter(phase == p)
+  at_phase_0 <- at_phase %>% filter(is_gpt_pr == 'GPT PR')
+  at_phase_1 <- at_phase %>% filter(is_no_gpt_pr == 'Not GPT PR')
+  test_g <- wilcox.test(at_phase_0$duration_gpt, at_phase_1$duration_no_gpt, paired=TRUE, alternative = 'greater') 
+  test_l <- wilcox.test(at_phase_0$duration_gpt, at_phase_1$duration_no_gpt, paired=TRUE, alternative = 'less')
+  print(test_g)
+  print(test_l)
+}
+  
+#at_review    <- distance %>% filter(phase == 'at_review')
+
+#at_review_0  <- at_review %>% filter(is_gpt_pr == 'GPT PR')
+#at_reviewt_1 <- at_review %>% filter(is_no_gpt_pr == 'Not GPT PR')
+
+
+#wilcox.test(at_review_0$duration_gpt, at_reviewt_1$duration_no_gpt,  paired=TRUE, alternative = 'greater') 
+
+#wilcox.test(at_review_0$duration_gpt, at_reviewt_1$duration_no_gpt, paired=TRUE, alternative = 'less')
+#, paired = TRUE
+
+
+```
+
+
 
