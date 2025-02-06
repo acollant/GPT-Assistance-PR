@@ -68,7 +68,8 @@ GPT-Assistance-PR/
 │   README.md
 │   requirements.txt    
 │   download_gpt_data.sh
-│   collect_gpt_data.sh 
+│   collect_gpt_data.sh
+│   inspect_gpt_data.sh
 └───scripts/
 │   │   search_gpt.py
 │   │   collect_participants.py
