@@ -6,6 +6,7 @@ from collections import Counter
 # from googletrans import Translator
 # from langdetect import detect_langs, LangDetectException
 import os
+import pathlib
 
 from common import (
     cleanup_files,
@@ -48,25 +49,19 @@ initialize()
     
 # @convert_dtypes
 def get_chatgpt_events(timelines, bots):
+    #logger = get_logger(__file__)
+    #logger.info(f"{timelines['is_bot']}: bots get_chatgpt_events")
     if timelines['body'].dtype != object: 
         timelines['body'] = timelines['body'].astype(str)
     # timelines['body'] = timelines['body'].apply(lambda x: translate_to_english(x))
     if timelines['title'].dtype != object: 
         timelines['title'] = timelines['title'].astype(str)
     # timelines['title'] = timelines['title'].apply(lambda x: translate_to_english(x))
-    human_events = timelines.query("~is_bot")
+    
+    human_events = timelines.query("~is_bot", engine='python')
     chatgpt_events = human_events.query("body.str.contains('gpt', case=False) or title.str.contains('gpt', case=False)", engine="python")
-    # chatgpt_events['combined'] = chatgpt_events['title'] + " " + chatgpt_events['body']
-    # chatgpt_events['chatgpt_response'] = chatgpt_events['combined'].apply(lambda x: query_gpt_turbo(x))
-    # chatgpt_events['is_chatgpt'] = chatgpt_events['chatgpt_response'].apply(lambda x: is_chatgpt_event(x))
-    # chatgpt_events.drop(columns=['combined'], inplace=True)
-    # chatgpt_events['2-gram'] = chatgpt_events.apply(lambda x: ', '.join(chatgpt_ngrams(str(x['title']) + " " + str(x['body']), 2)), axis=1)
-    # chatgpt_events['3-gram'] = chatgpt_events.apply(lambda x: ', '.join(chatgpt_ngrams(str(x['title']) + " " + str(x['body']), 3)), axis=1)
-    # local_ngram_counter = Counter()
-    # chatgpt_events.apply(lambda x: local_ngram_counter.update(chatgpt_ngrams((str(x['title']) + " " + str(x['body'])).lower(), 2)), axis=1)
-    # chatgpt_events.apply(lambda x: local_ngram_counter.update(chatgpt_ngrams((str(x['title']) + " " + str(x['body'])).lower(), 3)), axis=1)
     chatgpt_events = chatgpt_events.reset_index()
-    chatgpt_events['is_first'] = chatgpt_events.groupby('pull_number')['event_number'].transform(min) == chatgpt_events['event_number']
+    chatgpt_events['is_first'] = chatgpt_events.groupby('pull_number')['event_number'].transform("min") == chatgpt_events['event_number']
     chatgpt_events = chatgpt_events.set_index(['pull_number', 'event_number'])
     timelines['is_chatgpt'] = timelines.index.isin(chatgpt_events.index)
     timelines['is_first_chatgpt'] = timelines['is_chatgpt'] & chatgpt_events['is_first']
@@ -124,6 +119,7 @@ def export_timelines(project, timelines):
 def get_events(project, bots, owners):
     logger = get_logger(__file__)
     logger.info(f"{project}: Processing ChatGPT events")
+    
     timelines = import_timelines(project)
     timelines = add_bot(timelines, bots, owners)
     # chatgpt_events = get_chatgpt_events(timelines, bots)
@@ -132,6 +128,7 @@ def get_events(project, bots, owners):
     export_dataset(project, chatgpt_events, 'chatgpt_events')
     # export_dataset(project, chatgpt_events, 'heuristic_chatgpt_events')
     export_timelines(project, timelines)
+    
     # export_dataset(project, chatgpt_proceding_events, 'chatgpt_proceeding_events')
     # return local_ngram_counter
 
@@ -151,7 +148,10 @@ def export_ngrams():
             writer.writerow([ngram, freq])
 
 def main():
-    file_path = get_path('gpt_filtered_pulls')#+"/data/repository_with_gpt_pr.csv"
+    directory = pathlib.Path("data")
+    directory = pathlib.Path(__file__).parent / directory 
+
+    file_path = directory / pathlib.Path("gpt_filtered_pulls.csv")
     prs = pd.read_csv(file_path)
     
     projects = []
@@ -159,10 +159,15 @@ def main():
     pr_by_repo = prs.groupby("repo_name")["PR Number"].apply(list).to_dict()
     
     for project, pr_numbers in pr_by_repo.items():
+        projects.append(project)
+    
+    
+    for project, pr_numbers in pr_by_repo.items():
         if cleanup_files("chatgpt_events", force_refresh(), project):
             projects.append(project)
         else:
             print(f"Skip processing data for project {project}")
+    
     if projects:
         with joblib.Parallel(n_jobs=-1, verbose=50) as parallel:
             parallel(

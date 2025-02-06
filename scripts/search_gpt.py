@@ -203,7 +203,7 @@ def main():
     data_collector = GitHubDataCollector(github_client)
      
     search_string = 'GPT'
-    chatgpt_prs = data_collector.collect_data(search_string,'2025-01-01','2025-01-28')
+    chatgpt_prs = data_collector.collect_data(search_string,'2024-07-01','2024-07-01')
     CSVWriter.write_to_csv(directory / pathlib.Path("gpt_pulls.csv"), chatgpt_prs, ['repo_name', 'PR Title', 'PR Number', 'State', 'Created At','URL','URL status'])
 #   
     repositories = data_collector.get_repositories(chatgpt_prs)

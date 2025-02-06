@@ -197,6 +197,8 @@ def get_path(file, project=None):
         # Generated in sample_data.py
         "sampled_dataset": "sampled_dataset.csv",
         "sampled_dataset_json": "sampled_dataset.json",
+        "gpt_pull_requests": "gpt_pull_requests.csv",
+        "gpt_pull_requests_json": "gpt_pull_requests.json",
         # Generated in postprocess_data.py
         "statistics": "statistics.csv",
         # Generated in measure_features.py
@@ -262,7 +264,7 @@ def open_database(file):
 def convert_dtypes(function):
     def wrapper(*args, **kwargs):
         dataframe = function(*args, **kwargs)
-        for column in dataframe.filter(regex="^time|_at$"):
+        for column in dataframe.filter(regex=r"^time|_at$"):
             dataframe[column] = pd.to_datetime(dataframe[column]).dt.tz_localize(None)
         dataframe = dataframe.convert_dtypes()
         for column in dataframe.select_dtypes("string"):
@@ -321,8 +323,11 @@ def open_timelines_fixed(project):
 
 @convert_dtypes
 def import_timelines(project):
+    #return pd.read_csv(get_path("timelines", project))
     return pd.read_csv(get_path("timelines", project), converters={'referenced': lambda x: x == 'True'}, index_col=["pull_number", "event_number"], quoting=csv.QUOTE_ALL, escapechar="\\", low_memory=False)
-
+    #headers = [*pd.read_csv(get_path("timelines", project), nrows=1)]
+    #return pd.read_csv(get_path("timelines", project), index_col=["pull_number", "event_number"],
+    #                  low_memory=False, usecols=[c for c in headers if c != 'body'])
 @convert_dtypes
 def import_chatgpt_timelines(project):
     return pd.read_csv(get_path("chatgpt_dataset", project), converters={'referenced': lambda x: x == 'True'}, index_col=["pull_number", "event_number"], quoting=csv.QUOTE_ALL, escapechar="\\", low_memory=False)
@@ -334,7 +339,8 @@ def import_chatgpt_events(project):
 @convert_dtypes
 def import_pulls(project):
     return pd.read_csv(
-        get_path("pulls", project), index_col="number", quoting=csv.QUOTE_ALL, escapechar="\\", low_memory=False
+        #get_path("pulls", project), index_col="number", quoting=csv.QUOTE_ALL, escapechar="\\", low_memory=False
+        get_path("pulls", project), index_col="number", low_memory=False
     )
 
 

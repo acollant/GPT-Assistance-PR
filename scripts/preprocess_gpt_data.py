@@ -4,7 +4,7 @@ import re
 import joblib
 import pandas as pd
 import random
-
+import pathlib
 from common import (
     cleanup_files,
     force_refresh,
@@ -213,7 +213,12 @@ def preprocess_data(project, pr_numbers):
 
 
 def main():
-    file_path = get_path('gpt_filtered_pulls')#+"/data/repository_with_gpt_pr.csv"
+    directory = pathlib.Path("data")
+    directory = pathlib.Path(__file__).parent / directory 
+
+    file_path = directory / pathlib.Path("gpt_filtered_pulls.csv")#+"/data/repository_with_gpt_pr.csv"
+   
+    #file_path = get_path('gpt_filtered_pulls')#+"/data/repository_with_gpt_pr.csv"
     prs = pd.read_csv(file_path)
     projects = []
     pr_by_repo = prs.groupby("repo_name")["PR Number"].apply(list).to_dict()

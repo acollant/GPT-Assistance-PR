@@ -1,7 +1,7 @@
 import joblib
 import numpy as np
 import pandas as pd
-
+import pathlib
 from common import (
     cleanup_files,
     convert_dtypes,
@@ -224,7 +224,12 @@ def process_chatgpt_data(project):
 
 
 def main():
-    file_path = get_path('gpt_filtered_pulls')#+"/data/repository_with_gpt_pr.csv"
+    directory = pathlib.Path("data")
+    directory = pathlib.Path(__file__).parent / directory 
+
+    file_path = directory / pathlib.Path("gpt_filtered_pulls.csv")#+"/data/repository_with_gpt_pr.csv"
+   
+    #file_path = get_path('gpt_filtered_pulls')#+"/data/repository_with_gpt_pr.csv"
     prs = pd.read_csv(file_path)
     projects = []
 
