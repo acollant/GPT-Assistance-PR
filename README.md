@@ -77,12 +77,23 @@ GPT-Assistance-PR/
 │   │   preprocess_gpt_data.py 
 │   │   get_gpt_events.py
 │   │   process_gpt_data.py
+│   │   get_chatgpt_filename.py
+│   │   generate_gpt_json.py
+│   │   get_gpt_inspection_data.py
+│   │   exclude_no_gpt_pr.py
 │   │
 │   └───data/
-│   │   │   gtp_pulls.cvs
-│   │   │   gtp_repos.cvs
-│   │   │   gpt_filtered_pulls
-│   │   
-
+│   │   │   {project_name}_timelines.cvs
+│   │   │   {project_name}_timelines.db
+│   │   │   {project_name}_dataset.cvs
+│   │   │   {project_name}_events.cvs
+│   │   │   {project_name}_commits.db
+│   │   │   {project_name}_comments.cvs
+│   │   │   {project_name}_pulls.cvs
+│   │   │   {project_name}_pulls.db
+│   │   │   {project_name}_patches.cvs
+│   │   │   {project_name}_patches.cvs
+│   │   │   gpt_pulls.csv
+│   │   │   gpt_repos.cvs
 ```
 
