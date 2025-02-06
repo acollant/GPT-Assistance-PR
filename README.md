@@ -1,5 +1,5 @@
 # GPT-Assistance-PR
-The code in this repository that use GitHub API to obtain the GPT related projects and Pull Requests and analyse the impact on productivity on PR tasks. For more details, refer to the paper.
+The code in this repository uses GitHub API to obtain the GPT related projects and Pull Requests to analyse the whether the use of GPT has an impact on the time to merge on PR tasks. For more details, refer to the paper.
 
 ## Installation
 
@@ -19,8 +19,9 @@ pip install -r requirements.txt
 ```
 ## How to use code
 ### 1. Download data
-run sh download_gpt_data.sh that will run the following Python files:
-  - Search gpt: python3 scripts/search_gpt.py
+On the terminal, run sh download_gpt_data.sh that will executes the following Python files:
+  - Search gpt:
+    * python3 scripts/search_gpt.py
   - Collect project participants: python3 scripts/collect_participants.py  
   - Apply_filters to filter participants and stars criteria: python3 scripts/apply_filters.py 
 ### 2. Collect data
