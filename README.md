@@ -61,7 +61,7 @@ On the terminal, run **inspect_gpt_data.sh** that will create a json needed for 
   * is_correct: marked as no (heuristics are incorrect) or yes (heuristics are correct)
   * true_class: assistance or no assistance
 - Re-run exclude_no_gpt_pr.py
-  * this will override the wrong heuristic by adding the manually assessed results.
+  * this will override the wrong heuristics by adding the true-possitive obtained by the manual assessments.
 ## Directory structure
 ```
 GPT-Assistance-PR/
