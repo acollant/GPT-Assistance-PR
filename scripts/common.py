@@ -210,6 +210,7 @@ def get_path(file, project=None):
         "events_gpt": "events_gpt.csv",
         "projects_pulls": "projects_gpt.csv",
         "timelines_gpt": directory + f"{project}_timelines_gpt.csv",
+        "at_resolution_time": "at_resolution_time.csv",
     }
     
     return pathlib.Path(files[file])
