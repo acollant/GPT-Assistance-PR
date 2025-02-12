@@ -70,8 +70,12 @@ On the terminal, run **inspect_gpt_data.sh** that will create a json needed for 
   * Output file: **project_phases.json**
 ### 5. RQ Data and stats
 On the terminal, run **collect_gpt_stats.sh** that will generate the dataset used to ansewer the RQs:
-- get_chatgpt_filename.py
-  * checking this part!!
+- collect_gpt_pr_at_resolution.py
+  * []
+- get_gpt_pr_distance.py
+- collect_gpt_pr_stats.py
+- collect_gpt_pr_used.py
+  
 ## Directory structure
 ```
 GPT-Assistance-PR/
