@@ -61,12 +61,14 @@ On the terminal, run **inspect_gpt_data.sh** that will create a json needed for 
   * is_correct: marked as no (heuristics are incorrect) or yes (heuristics are correct)
   * true_class: assistance or no assistance
 - Re-run exclude_no_gpt_pr.py
-  * this will override the wrong heuristics by adding the true-possitive obtained by the manual assessments.
+  * This will override the wrong heuristics by adding the true-possitive obtained by the manual assessments.
 - Run create_gpt_timeline.py
-  * this will create a events_gpt.csv file that contains the classification for each event related to the PRs as assistance
-  * this will create a new timeline (**timeline_projectname_gpt.csv**) having the GTP events for each identified PR as assistance.
+  * This will create a events_gpt.csv file that contains the classification for each event related to the PRs as assistance
+  * This will create a new timeline (**timeline_projectname_gpt.csv**) having the GTP events for each identified PR as assistance.
 ### 4. GPT PR Phases
-- Output file: **project_phases.json**
+- Run process_gpt_pr_phases.py
+  * This will create the phases [*at_submission, at_review, at_waiting_before_change, at_at_change, at_resolution*]
+  * Output file: **project_phases.json**
 - 
 ## Directory structure
 ```
