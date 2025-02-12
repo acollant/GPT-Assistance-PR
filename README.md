@@ -66,10 +66,10 @@ On the terminal, run **inspect_gpt_data.sh** that will create a json needed for 
   * This will create a events_gpt.csv file that contains the classification for each event related to the PRs as assistance
   * This will create a new timeline (**timeline_projectname_gpt.csv**) having the GTP events for each identified PR as assistance.
 - Run process_gpt_pr_phases.py
-  * This will create the phases [*at_submission, at_review, at_waiting_before_change, at_at_change, at_resolution*] for the identified GPT PR and Events (assistance) and for Non-GPT PR (as non-assitance) used to answer RQ2.
+  * This will create the phases [*at_submission, at_review, at_waiting_before_change, at_at_change, at_resolution*] for the identified GPT PR and Events (assistance) and for Non-GPT PR (as non-assitance) used to answer RQs.
   * Output file: **project_phases.json**
 ### 5. RQ Data and stats
-
+On the terminal, run **collect_gpt_stats.sh** that will generate the dataset used to ansewer the RQs:
 - 
 ## Directory structure
 ```
