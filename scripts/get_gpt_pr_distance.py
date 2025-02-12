@@ -356,10 +356,8 @@ def main():
     df_.to_csv('distance.csv', index=False) 
     df_all.to_csv('distance_all.csv', index=False)
     
-    stats_distance()
-    #spearmanr()
-    #phases_summary_stats()
-
+    
+  
 
 if __name__ == "__main__":
     try:
