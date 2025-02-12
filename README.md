@@ -75,6 +75,9 @@ On the terminal, run **collect_gpt_stats.sh** that will generate the dataset use
   * Columns in the file: project,pull_number,actor,project_age_month,no_commits,PR_size(SLOC),no_changed_files,time_to_merge_h,is_gpt
   * Output file: **at_resolution.csv***
 - get_gpt_pr_distance.py
+  * This will find the closest Non GPT PR (non assistance) to a GPT PR (Assistance) based on the Euclidean distance by phases.
+  * The output file is used in a R program that is found in this repository (https://github.com/acollant/GPT-Assistance-PR/tree/main/R) to check whether the PRs are similar or not.
+  * Output file: **distance.csv***
 - collect_gpt_pr_stats.py
 - collect_gpt_pr_used.py
   
