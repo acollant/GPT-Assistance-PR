@@ -71,7 +71,9 @@ On the terminal, run **inspect_gpt_data.sh** that will create a json needed for 
 ### 5. RQ Data and stats
 On the terminal, run **collect_gpt_stats.sh** that will generate the dataset used to ansewer the RQs:
 - collect_gpt_pr_at_resolution.py
-  * []
+  * This will collect the data required for answering RQ1. This data is used in a R code that is found in this repository (https://github.com/acollant/GPT-Assistance-PR/tree/main/R)
+  * Columns in the file: project,pull_number,actor,project_age_month,no_commits,PR_size(SLOC),no_changed_files,time_to_merge_h,is_gpt
+  * Output file: **at_resolution.csv***
 - get_gpt_pr_distance.py
 - collect_gpt_pr_stats.py
 - collect_gpt_pr_used.py
