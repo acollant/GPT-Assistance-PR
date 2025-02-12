@@ -1,0 +1,342 @@
+[
+ {
+  "All-Hands-AI_OpenHands": {
+   "2728": {
+    "is_GPT_PR": 0,
+    "status": "open",
+    "language": "Python",
+    "stars": 45285,
+    "at_submission": {
+     "name": "at_submission",
+     "actor": "xingyaoww",
+     "actor_type": "CONTRIBUTOR",
+     "events": [
+      "https://github.com/All-Hands-AI/OpenHands/commit/67f84cca9308669b29cd3d6c7c893762d3194a20",
+      "https://github.com/All-Hands-AI/OpenHands/commit/cfe30f525d1e76660f6095dfb0220312d900eab5",
+      "https://github.com/All-Hands-AI/OpenHands/commit/6bd09a15391655ba1f9035c4b7bd33a9eb69fd14",
+      "https://github.com/All-Hands-AI/OpenHands/commit/e028146bd7a5968e2f4bb0fd1a0b5ad84f1324d6",
+      "https://github.com/All-Hands-AI/OpenHands/commit/d5b57192306ded1bd39633a48971ce587c98731a",
+      "https://github.com/All-Hands-AI/OpenHands/commit/71ddefccf975cdb2102e70d65b396f405a088a4d",
+      "https://github.com/All-Hands-AI/OpenHands/commit/94c07f2d7ba7b783f84fddee2273b974b18ebd68",
+      "https://github.com/All-Hands-AI/OpenHands/commit/a317a6b09ccc12d9b269c7fc2bd1bf447beb7944",
+      "https://github.com/All-Hands-AI/OpenHands/commit/c972f117bc294fd0e37f087a5761dde3fc0421a4",
+      "https://github.com/All-Hands-AI/OpenHands/commit/39aa98f9580ed54f042611188d09ee81e75fa98a",
+      "https://github.com/All-Hands-AI/OpenHands/commit/25647f0be85d07703c96dc360bda50aba2b41c84",
+      "https://github.com/All-Hands-AI/OpenHands/commit/6dea070171a10b5021ce4810af4740be4303b56e",
+      "https://github.com/All-Hands-AI/OpenHands/commit/972745b50c17101fb46227a060c81035ed38d71d",
+      "https://github.com/All-Hands-AI/OpenHands/commit/6f2efad93c46ddacd3b9cfb781bff74dc9d1abe0",
+      "https://github.com/All-Hands-AI/OpenHands/commit/dcb7abc04ef1622d333973bb342bf5774de22c08",
+      "https://github.com/All-Hands-AI/OpenHands/commit/47b98b728e1debd3cd4783bb3947c54ef3c544ef",
+      "https://github.com/All-Hands-AI/OpenHands/commit/f7ba5420a08dc3fda19c7282909740fad76840c0",
+      "https://github.com/All-Hands-AI/OpenHands/commit/903f19553fb84db7a9b1784f72a28af83e2584cb",
+      "https://github.com/All-Hands-AI/OpenHands/commit/c6a1e51eb0b0e50c0e0b168ca79cf719993dcb58"
+     ],
+     "commit_id": [
+      "67f84cca9308669b29cd3d6c7c893762d3194a20",
+      "cfe30f525d1e76660f6095dfb0220312d900eab5",
+      "6bd09a15391655ba1f9035c4b7bd33a9eb69fd14",
+      "e028146bd7a5968e2f4bb0fd1a0b5ad84f1324d6",
+      "d5b57192306ded1bd39633a48971ce587c98731a",
+      "71ddefccf975cdb2102e70d65b396f405a088a4d",
+      "94c07f2d7ba7b783f84fddee2273b974b18ebd68",
+      "a317a6b09ccc12d9b269c7fc2bd1bf447beb7944",
+      "c972f117bc294fd0e37f087a5761dde3fc0421a4",
+      "39aa98f9580ed54f042611188d09ee81e75fa98a",
+      "25647f0be85d07703c96dc360bda50aba2b41c84",
+      "6dea070171a10b5021ce4810af4740be4303b56e",
+      "972745b50c17101fb46227a060c81035ed38d71d",
+      "6f2efad93c46ddacd3b9cfb781bff74dc9d1abe0",
+      "dcb7abc04ef1622d333973bb342bf5774de22c08",
+      "47b98b728e1debd3cd4783bb3947c54ef3c544ef",
+      "f7ba5420a08dc3fda19c7282909740fad76840c0",
+      "903f19553fb84db7a9b1784f72a28af83e2584cb",
+      "c6a1e51eb0b0e50c0e0b168ca79cf719993dcb58"
+     ],
+     "gpt_assistance": 0,
+     "duration": 94.468,
+     "factors": {
+      "no_commits": 17,
+      "no_changed_files": 22,
+      "PR_size": 1238,
+      "project_age": 3
+     }
+    },
+    "at_review": {
+     "name": "at_review",
+     "actor": "enyst",
+     "actor_type": "REVIEWER",
+     "events": [
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#pullrequestreview-2152115710"
+     ],
+     "commit_id": [],
+     "gpt_assistance": 0,
+     "duration": 0.187,
+     "factors": {
+      "no_commits": 0,
+      "no_changed_files": 0,
+      "PR_size": 0,
+      "project_age": 3
+     }
+    },
+    "at_waiting_before_change": {
+     "name": "at_waiting_before_change",
+     "actor": "john-b-yang",
+     "actor_type": "CONTRIBUTOR",
+     "events": [
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661458737",
+      "https://github.com/All-Hands-AI/OpenHands/commit/ae0cbd7b2033a5089d7ebe4ce39d9759b39f369a",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#pullrequestreview-2152118637",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661460575",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661467337",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661467737",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661468078",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#pullrequestreview-2152130074",
+      "https://github.com/All-Hands-AI/OpenHands/commit/bb9170f666f35955109324b2c83e130dfbc92992",
+      "https://github.com/All-Hands-AI/OpenHands/commit/407d23eef3b5dd62a4cb3e3bd5e0d78066a71a2e",
+      "https://github.com/All-Hands-AI/OpenHands/commit/b55b6f02b4575f3ab30f9937721afd87a2a8ce0f",
+      "https://github.com/All-Hands-AI/OpenHands/commit/08d39a422f0a0656f2f0c4e12a0ee55488088cd9",
+      "https://github.com/All-Hands-AI/OpenHands/commit/100af51c04e74f8885370b259b7b3edf96146596",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661562425",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#issuecomment-2201253709",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#pullrequestreview-2152360864",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661611773",
+      "https://github.com/All-Hands-AI/OpenHands/commit/94f7845ede055991b139775e6fcf12d0af232108",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#pullrequestreview-2152361224",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#pullrequestreview-2152363286",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661613014",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661613590",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#pullrequestreview-2152364455",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661614009",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#pullrequestreview-2152365180",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661614129",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#pullrequestreview-2152365448",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661623684",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661623885",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#pullrequestreview-2152394983",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661630125",
+      "https://github.com/All-Hands-AI/OpenHands/commit/52ef691b847e66f037cf2ebc64c819e70132bff5",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#issuecomment-2201445831",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1663041822"
+     ],
+     "commit_id": [
+      "ae0cbd7b2033a5089d7ebe4ce39d9759b39f369a",
+      "bb9170f666f35955109324b2c83e130dfbc92992",
+      "407d23eef3b5dd62a4cb3e3bd5e0d78066a71a2e",
+      "b55b6f02b4575f3ab30f9937721afd87a2a8ce0f",
+      "08d39a422f0a0656f2f0c4e12a0ee55488088cd9",
+      "100af51c04e74f8885370b259b7b3edf96146596",
+      "94f7845ede055991b139775e6fcf12d0af232108",
+      "52ef691b847e66f037cf2ebc64c819e70132bff5"
+     ],
+     "gpt_assistance": 0,
+     "duration": 23.826,
+     "factors": {
+      "no_commits": 7,
+      "no_changed_files": 8,
+      "PR_size": 24,
+      "project_age": 3
+     }
+    },
+    "at_changed": null,
+    "at_waiting_after_accepted": null,
+    "at_resolution": {
+     "name": "at_resolution",
+     "actor": "neubig",
+     "actor_type": "REVIEWER",
+     "events": [
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#pullrequestreview-2152115710",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661458737",
+      "https://github.com/All-Hands-AI/OpenHands/commit/ae0cbd7b2033a5089d7ebe4ce39d9759b39f369a",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#pullrequestreview-2152118637",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661460575",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661467337",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661467737",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661468078",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#pullrequestreview-2152130074",
+      "https://github.com/All-Hands-AI/OpenHands/commit/bb9170f666f35955109324b2c83e130dfbc92992",
+      "https://github.com/All-Hands-AI/OpenHands/commit/407d23eef3b5dd62a4cb3e3bd5e0d78066a71a2e",
+      "https://github.com/All-Hands-AI/OpenHands/commit/b55b6f02b4575f3ab30f9937721afd87a2a8ce0f",
+      "https://github.com/All-Hands-AI/OpenHands/commit/08d39a422f0a0656f2f0c4e12a0ee55488088cd9",
+      "https://github.com/All-Hands-AI/OpenHands/commit/100af51c04e74f8885370b259b7b3edf96146596",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661562425",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#issuecomment-2201253709",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#pullrequestreview-2152360864",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661611773",
+      "https://github.com/All-Hands-AI/OpenHands/commit/94f7845ede055991b139775e6fcf12d0af232108",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#pullrequestreview-2152361224",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#pullrequestreview-2152363286",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661613014",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661613590",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#pullrequestreview-2152364455",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661614009",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#pullrequestreview-2152365180",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661614129",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#pullrequestreview-2152365448",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661623684",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661623885",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#pullrequestreview-2152394983",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661630125",
+      "https://github.com/All-Hands-AI/OpenHands/commit/52ef691b847e66f037cf2ebc64c819e70132bff5",
+      "https://github.com/All-Hands-AI/OpenHands/pull/2728#issuecomment-2201445831"
+     ],
+     "commit_id": [
+      "ae0cbd7b2033a5089d7ebe4ce39d9759b39f369a",
+      "bb9170f666f35955109324b2c83e130dfbc92992",
+      "407d23eef3b5dd62a4cb3e3bd5e0d78066a71a2e",
+      "b55b6f02b4575f3ab30f9937721afd87a2a8ce0f",
+      "08d39a422f0a0656f2f0c4e12a0ee55488088cd9",
+      "100af51c04e74f8885370b259b7b3edf96146596",
+      "94f7845ede055991b139775e6fcf12d0af232108",
+      "52ef691b847e66f037cf2ebc64c819e70132bff5"
+     ],
+     "gpt_assistance": 0,
+     "duration": 4.692,
+     "factors": {
+      "no_commits": 7,
+      "no_changed_files": 8,
+      "PR_size": 24,
+      "project_age": 3
+     }
+    }
+   }
+  }
+ },
+ {
+  "ESPresense_ESPresense.github.io": {
+   "147": {
+    "is_GPT_PR": 0,
+    "status": "open",
+    "language": "JavaScript",
+    "stars": 13,
+    "at_submission": {
+     "name": "at_submission",
+     "actor": "dependabot[bot]",
+     "actor_type": "CONTRIBUTOR",
+     "events": [
+      "https://github.com/ESPresense/ESPresense.github.io/commit/501ef794c9c2a311990373da3861b733ddc33fc0"
+     ],
+     "commit_id": [
+      "501ef794c9c2a311990373da3861b733ddc33fc0"
+     ],
+     "gpt_assistance": 0,
+     "duration": 0.0,
+     "factors": {
+      "no_commits": 1,
+      "no_changed_files": 2,
+      "PR_size": 202,
+      "project_age": 33
+     }
+    },
+    "at_review": {
+     "name": "at_review",
+     "actor": "coderabbitai[bot]",
+     "actor_type": "REVIEWER",
+     "events": [
+      "https://github.com/ESPresense/ESPresense.github.io/pull/147",
+      "https://github.com/ESPresense/ESPresense.github.io/pull/147#issuecomment-2199180942"
+     ],
+     "commit_id": [],
+     "gpt_assistance": 0,
+     "duration": 0.005,
+     "factors": {
+      "no_commits": 0,
+      "no_changed_files": 0,
+      "PR_size": 0,
+      "project_age": 33
+     }
+    },
+    "at_waiting_before_change": null,
+    "at_changed": {
+     "name": "at_change",
+     "actor": "dependabot[bot]",
+     "actor_type": "CONTRIBUTOR",
+     "events": [
+      "https://github.com/ESPresense/ESPresense.github.io/pull/147#issuecomment-2199180942",
+      "https://github.com/ESPresense/ESPresense.github.io/pull/147#issuecomment-2254862457"
+     ],
+     "commit_id": [],
+     "gpt_assistance": 0,
+     "duration": 0.005,
+     "factors": {
+      "no_commits": 0,
+      "no_changed_files": 0,
+      "PR_size": 0,
+      "project_age": 33
+     }
+    },
+    "at_waiting_after_accepted": null,
+    "at_resolution": {
+     "name": "at_resolution",
+     "actor": "dependabot[bot]",
+     "actor_type": "CONTRIBUTOR",
+     "events": [
+      "https://github.com/ESPresense/ESPresense.github.io/pull/147",
+      "https://github.com/ESPresense/ESPresense.github.io/pull/147#issuecomment-2199180942",
+      "https://github.com/ESPresense/ESPresense.github.io/pull/147#issuecomment-2254862457"
+     ],
+     "commit_id": [],
+     "gpt_assistance": 0,
+     "duration": 671.334,
+     "factors": {
+      "no_commits": 0,
+      "no_changed_files": 0,
+      "PR_size": 0,
+      "project_age": 34
+     }
+    }
+   }
+  }
+ },
+ {
+  "NixOS_nixfmt": {
+   "212": {
+    "is_GPT_PR": 1,
+    "status": "open",
+    "language": "Haskell",
+    "stars": 1011,
+    "at_submission": null,
+    "at_review": null,
+    "at_waiting_before_change": {
+     "name": "at_waiting_before_change",
+     "actor": "piegamesde",
+     "actor_type": "CONTRIBUTOR",
+     "events": [
+      "https://github.com/NixOS/nixfmt/commit/508917fab06a7fc0949e19f83baa87a39d894ff3"
+     ],
+     "commit_id": [
+      "508917fab06a7fc0949e19f83baa87a39d894ff3"
+     ],
+     "gpt_assistance": 0,
+     "duration": 0.148,
+     "factors": {
+      "no_commits": 1,
+      "no_changed_files": 1,
+      "PR_size": 24,
+      "project_age": 70
+     }
+    },
+    "at_changed": {
+     "name": "at_change",
+     "actor": "dasj",
+     "actor_type": "CONTRIBUTOR",
+     "events": [
+      "https://github.com/NixOS/nixfmt/pull/212#issuecomment-2296631955"
+     ],
+     "commit_id": [],
+     "gpt_assistance": 0,
+     "duration": 1163.311,
+     "factors": {
+      "no_commits": 0,
+      "no_changed_files": 0,
+      "PR_size": 0,
+      "project_age": 70
+     }
+    },
+    "at_waiting_after_accepted": null,
+    "at_resolution": null
+   }
+  }
+ }
+]

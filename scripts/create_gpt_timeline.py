@@ -80,11 +80,8 @@ def main():
         print(project)
         timeline = import_project_timelines(project) 
         merged_df = pd.merge(timeline, events_gpt, on='html_url', how ='left')
-        #export_timelines(project)
         export_timeline_gpt(project,merged_df)
-        #merged_df.to_csv("timeline_1_"+project+'.csv',sep=',',index=False)
-        #print(merged_df)
-        #input('stop merged')
+      
 
 
 

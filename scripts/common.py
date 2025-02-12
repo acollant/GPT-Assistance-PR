@@ -181,7 +181,7 @@ def get_path(file, project=None):
         # Generated manually
         "bots": "bots.csv",
         # Generated in process_data.py
-        "dataset": directory + f"{project}_dataset.csv",
+        "dataset": directory + f"{project}_chatgpt_dataset.csv",
         # Generated in get_chatgpt_events.py
         "chatgpt_events": directory + f"{project}_chatgpt_events.csv",
         "heuristic_chatgpt_events": directory + f"{project}_heuristic_chatgpt_events.csv",
@@ -208,9 +208,10 @@ def get_path(file, project=None):
         # Generated in measure_features_contributors.py
         "features_contributors": directory + f"{project}_features_contributors.csv",
         "events_gpt": "events_gpt.csv",
-        "projects_pulls":"projects_gpt.csv",
+        "projects_pulls": "projects_gpt.csv",
         "timelines_gpt": directory + f"{project}_timelines_gpt.csv",
     }
+    
     return pathlib.Path(files[file])
 
 def get_csv(file_name):
@@ -335,7 +336,8 @@ def open_timelines_fixed(project):
     return open_database(get_path("timelines_fixed", project))
 
 def import_project_pulls():
-    headers = [*pd.read_csv(get_path("projects_pulls"), nrows=1)]
+    #print("path:",get_path("projects_pulls"))
+    #headers = [*pd.read_csv(get_path("projects_pulls"), nrows=1)]
     return  pd.read_csv(get_path("projects_pulls"), header=0, usecols=["owner_login" , "name", "number","is_gpt"] , 
                         low_memory=False,
                         quoting=csv.QUOTE_ALL, escapechar="\\")
