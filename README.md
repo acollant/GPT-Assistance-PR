@@ -68,7 +68,7 @@ On the terminal, run **inspect_gpt_data.sh** that will create a json needed for 
 - Run process_gpt_pr_phases.py
   * This will create the phases [*at_submission, at_review, at_waiting_before_change, at_at_change, at_resolution*] for the identified GPT PR and Events (assistance) and for Non-GPT PR (as non-assitance) used to answer RQ2.
   * Output file: **project_phases.json**
-### 5. GPT PR Phases and Phases
+### 5. RQ Data and stats
 
 - 
 ## Directory structure
