@@ -1,0 +1,5 @@
+owner_login,name,number,event,html_url,is_gpt_for
+NixOS,nixfmt,212,pulled,https://github.com/NixOS/nixfmt/pull/212,gpt not assistance
+NixOS,nixfmt,212,commented,https://github.com/NixOS/nixfmt/pull/212#issuecomment-2294101132,gpt not assistance
+All-Hands-AI,OpenHands,2728,commented,https://github.com/All-Hands-AI/OpenHands/pull/2728#issuecomment-2201445831,gpt not assistance
+ESPresense,ESPresense.github.io,147,,,gpt not assistance

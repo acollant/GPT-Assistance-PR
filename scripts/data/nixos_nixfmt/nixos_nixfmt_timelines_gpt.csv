@@ -1,0 +1,22 @@
+pull_number,event_number,event_x,actor,time,state,commit_id,referenced,sha,title,body,html_url,is_bot,is_chatgpt,is_first_chatgpt,is_proceeding_chatgpt,chatgpt_event,owner_login,name,number,event_y,is_gpt_for
+212,0,pulled,dasj,2024-07-01 12:29:41,closed,,False,,Predoc: Fix quadratic complexities in nest and offset,"I honestly don't understand why this makes it faster, but for me the test suite runs ~2s faster now. This is an AI-generated contribution. The GPT explanation is:
+
+By abstracting the transformation logic into a single function `transform`, we can pass different transformations for nesting and offsetting. This way, we avoid repeated traversals and ensure each element is processed exactly once.
+
+This change ensures linear complexity for the `nest` and `offset` functions. We leverage the `map` function to traverse and transform the `Doc` structure only once, applying the necessary changes to each element.",https://github.com/NixOS/nixfmt/pull/212,False,True,True,False,,NixOS,nixfmt,212.0,pulled,gpt not assistance
+212,1,commented,github-actions[bot],2024-07-01 12:29:53,,,False,,,[Nixpkgs diff](https://github.com/infinixbot/nixpkgs/commits/nixfmt-212),https://github.com/NixOS/nixfmt/pull/212#issuecomment-2200019176,True,False,False,False,,,,,,
+212,2,committed,dasj,2024-07-01 12:32:08,,,False,508917fab06a7fc0949e19f83baa87a39d894ff3,,,https://github.com/NixOS/nixfmt/commit/508917fab06a7fc0949e19f83baa87a39d894ff3,False,False,False,False,,,,,,
+212,3,head_ref_force_pushed,dasj,2024-07-01 12:32:13,,508917fab06a7fc0949e19f83baa87a39d894ff3,False,,,,,False,False,False,False,,ESPresense,ESPresense.github.io,147.0,,gpt not assistance
+212,4,commented,piegamesde,2024-07-01 12:38:45,,,False,,,"Someone who actually knows Haskell should vet this, but my gut feeling is that the complexity is still quadratic, and that the performance improvement is of other nature (or just measurement noise).",https://github.com/NixOS/nixfmt/pull/212#issuecomment-2200036353,False,False,False,True,0.0,,,,,
+212,5,commented,dasj,2024-07-01 12:48:29,,,False,,,"Now that I look at it, isn't `nest x` the same as `offset 1 x`?",https://github.com/NixOS/nixfmt/pull/212#issuecomment-2200056105,False,False,False,False,,,,,,
+212,6,commented,piegamesde,2024-07-01 17:22:35,,,False,,,They're doing similar things but on different fields of `Text`,https://github.com/NixOS/nixfmt/pull/212#issuecomment-2200668757,False,False,False,False,,,,,,
+212,7,convert_to_draft,infinisil,2024-08-06 18:42:54,,,False,,,,,False,False,False,False,,ESPresense,ESPresense.github.io,147.0,,gpt not assistance
+212,8,commented,nixos-discourse,2024-08-06 19:03:03,,,False,,,"This pull request has been mentioned on **NixOS Discourse**. There might be relevant details there:
+
+https://discourse.nixos.org/t/formatting-team-meeting-2024-08-06/50222/1
+",https://github.com/NixOS/nixfmt/pull/212#issuecomment-2271953152,False,False,False,False,,,,,,
+212,9,commented,mangoiv,2024-08-16 19:38:22,,,False,,,"I cannot verify this speedup locally and I would be very surprised, this changes anything significantly. Unlike chatgpt claims, this does not remove any quadratic complexity, either, it just renamed `map` to `transform` now, if you resubstitute you can see that. ",https://github.com/NixOS/nixfmt/pull/212#issuecomment-2294101132,False,True,False,False,,NixOS,nixfmt,212.0,commented,gpt not assistance
+212,10,commented,tchoutri,2024-08-16 23:25:48,,,False,,,From a cursory glance it appears that it is just a rephrasing of the previous code without real improvement on the data structures or operations.,https://github.com/NixOS/nixfmt/pull/212#issuecomment-2294442627,False,False,False,True,9.0,,,,,
+212,11,commented,infinisil,2024-08-19 13:50:53,,,False,,,Let's close this then,https://github.com/NixOS/nixfmt/pull/212#issuecomment-2296631955,False,False,False,False,,,,,,
+212,12,closed,infinisil,2024-08-19 13:50:53,,,False,,,,,False,False,False,False,,ESPresense,ESPresense.github.io,147.0,,gpt not assistance
+212,13,head_ref_deleted,infinisil,2024-08-19 13:50:55,,,False,,,,,False,False,False,False,,ESPresense,ESPresense.github.io,147.0,,gpt not assistance

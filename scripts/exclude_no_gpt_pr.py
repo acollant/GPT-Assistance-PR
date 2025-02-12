@@ -82,7 +82,7 @@ def compare_labelled(data):
         json.dump(data, jsonFile, indent=4) 
        
 
-def x():    
+def apply_on_attributes():    
     file_name_out = 'gpt_pr_mention_all_out_labelled_match.json'
     data = get_json(file_name_out)
     total_h1 = 0
@@ -295,7 +295,7 @@ def check_events_gpt():
 
 
 def apply_all_patterns(data, file_name_out ):
-    df_true = get_csv('true_class.csv') #original
+    #
     
     for all_pr in data:
         for each_pr in all_pr:
@@ -352,11 +352,15 @@ def apply_all_patterns(data, file_name_out ):
                 if each_pr['gpt_projectname'] == 'yes' or each_pr['gpt_title'] == 'yes' or each_pr['gpt_filenames'] == 'yes' or each_pr['gpt_comments'] == 'yes':
                     each_pr['classification'] = 'no assistance'
             
-            class_ = df_true.loc[(df_true['url'] == url)] #df_true[['true_class']][(df_true['url'] == url)]
-            if not class_.empty:
-                print('overrride:', df_true.at[class_.index.values[0],'true_class'])
-                each_pr['classification'] = df_true.at[class_.index.values[0],'true_class']
-                #input("override")
+            directory = pathlib.Path("data")
+            directory = pathlib.Path(__file__).parent / directory 
+            true_file = directory / pathlib.Path("true_class.csv")
+            if true_file.is_file():
+                df_true = get_csv('true_class.csv') #original
+                class_ = df_true.loc[(df_true['url'] == url)] #df_true[['true_class']][(df_true['url'] == url)]
+                if not class_.empty:
+                    print('overrride:', df_true.at[class_.index.values[0],'true_class'])
+                    each_pr['classification'] = df_true.at[class_.index.values[0],'true_class']
                 
     with open(file_name_out, "w") as jsonFile:
         json.dump(data, jsonFile, indent=7)
@@ -684,18 +688,19 @@ def main():
     
     #data = get_json(file_name_in)
     ##check_body(data)
-
-    # ================== process for patternS ==================
     data = get_json(file_name_in)
-    #apply_all_patterns(data,file_name_out) #add where gpt related pattern is found
-    ##exit()
-    ## =============================================
-
+   
     # ================== process for pattern ==================
     ##file_name_out = 'gpt_pr_mention_all_out.json' #use only when call apply_all_pattern
-    apply_all_pattern(data, file_name_out) #only pr 
+    #apply_all_pattern(data, file_name_out) #only pr 
     #stats(file_name_out)
     #========================================================
+
+    # ================== process for patternS ==================
+    #file_name_out = directory / pathlib.Path('gpt_pr_mention_all_out_labelled.json')
+    apply_all_patterns(data,file_name_out) #add where gpt related pattern is found
+    ##exit()
+    ## =============================================
 
 
     #============= stats ==============================

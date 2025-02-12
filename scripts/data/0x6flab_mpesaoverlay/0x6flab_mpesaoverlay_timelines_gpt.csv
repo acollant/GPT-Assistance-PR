@@ -1,0 +1,192 @@
+pull_number,event_number,event_x,actor,time,state,commit_id,referenced,sha,title,body,html_url,is_bot,is_chatgpt,is_first_chatgpt,is_proceeding_chatgpt,chatgpt_event,owner_login,name,number,event_y,is_gpt_for
+125,0,committed,dependabot[bot],2024-07-01 00:24:20,,,False,fa6da6ce975f17c67c351fdf09d7571bfc716343,,,https://github.com/0x6flab/mpesaoverlay/commit/fa6da6ce975f17c67c351fdf09d7571bfc716343,True,False,False,False,,,,,,
+125,1,pulled,dependabot[bot],2024-07-01 00:24:21,closed,,False,,chore(deps): Bump github.com/prometheus/client_golang from 1.18.0 to 1.19.1,"Bumps [github.com/prometheus/client_golang](https://github.com/prometheus/client_golang) from 1.18.0 to 1.19.1.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href=""https://github.com/prometheus/client_golang/releases"">github.com/prometheus/client_golang's releases</a>.</em></p>
+<blockquote>
+<h2>v1.19.1</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Security patches for <code>golang.org/x/sys</code> and <code>google.golang.org/protobuf</code></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href=""https://github.com/lukasauk""><code>@​lukasauk</code></a> made their first contribution in <a href=""https://redirect.github.com/prometheus/client_golang/pull/1494"">prometheus/client_golang#1494</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href=""https://github.com/prometheus/client_golang/compare/v1.19.0...v1.19.1"">https://github.com/prometheus/client_golang/compare/v1.19.0...v1.19.1</a></p>
+<h2>v1.19.0</h2>
+<h2>What's Changed</h2>
+<p>The module <code>prometheus/common v0.48.0</code> introduced an incompatibility when used together with client_golang (See <a href=""https://redirect.github.com/prometheus/client_golang/pull/1448"">prometheus/client_golang#1448</a> for more details). If your project uses client_golang and you want to use <code>prometheus/common v0.48.0</code> or higher, please update client_golang to v1.19.0.</p>
+<ul>
+<li>[CHANGE] Minimum required go version is now 1.20 (we also test client_golang against new 1.22 version). <a href=""https://redirect.github.com/prometheus/client_golang/issues/1445"">#1445</a> <a href=""https://redirect.github.com/prometheus/client_golang/issues/1449"">#1449</a></li>
+<li>[FEATURE] collectors: Add version collector. <a href=""https://redirect.github.com/prometheus/client_golang/issues/1422"">#1422</a> <a href=""https://redirect.github.com/prometheus/client_golang/issues/1427"">#1427</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href=""https://github.com/michurin""><code>@​michurin</code></a> made their first contribution in <a href=""https://redirect.github.com/prometheus/client_golang/pull/1423"">prometheus/client_golang#1423</a></li>
+<li><a href=""https://github.com/kavu""><code>@​kavu</code></a> made their first contribution in <a href=""https://redirect.github.com/prometheus/client_golang/pull/1445"">prometheus/client_golang#1445</a></li>
+<li><a href=""https://github.com/ywwg""><code>@​ywwg</code></a> made their first contribution in <a href=""https://redirect.github.com/prometheus/client_golang/pull/1448"">prometheus/client_golang#1448</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href=""https://github.com/prometheus/client_golang/compare/v1.18.0...v1.19.0"">https://github.com/prometheus/client_golang/compare/v1.18.0...v1.19.0</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href=""https://github.com/prometheus/client_golang/blob/main/CHANGELOG.md"">github.com/prometheus/client_golang's changelog</a>.</em></p>
+<blockquote>
+<h2>Unreleased</h2>
+<h2>1.19.0 / 2023-02-27</h2>
+<p>The module <code>prometheus/common v0.48.0</code> introduced an incompatibility when used together with client_golang (See <a href=""https://redirect.github.com/prometheus/client_golang/pull/1448"">prometheus/client_golang#1448</a> for more details). If your project uses client_golang and you want to use <code>prometheus/common v0.48.0</code> or higher, please update client_golang to v1.19.0.</p>
+<ul>
+<li>[CHANGE] Minimum required go version is now 1.20 (we also test client_golang against new 1.22 version). <a href=""https://redirect.github.com/prometheus/client_golang/issues/1445"">#1445</a> <a href=""https://redirect.github.com/prometheus/client_golang/issues/1449"">#1449</a></li>
+<li>[FEATURE] collectors: Add version collector. <a href=""https://redirect.github.com/prometheus/client_golang/issues/1422"">#1422</a> <a href=""https://redirect.github.com/prometheus/client_golang/issues/1427"">#1427</a></li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href=""https://github.com/prometheus/client_golang/commit/6e3f4b1091875216850a486b1c2eb0e5ea852f98""><code>6e3f4b1</code></a> Cut 1.19.1 (<a href=""https://redirect.github.com/prometheus/client_golang/issues/1494"">#1494</a>)</li>
+<li><a href=""https://github.com/prometheus/client_golang/commit/cad1bfa2b87c26affca469785dd6b166936f696c""><code>cad1bfa</code></a> Merge pull request <a href=""https://redirect.github.com/prometheus/client_golang/issues/1454"">#1454</a> from prometheus/small-nits</li>
+<li><a href=""https://github.com/prometheus/client_golang/commit/0aa8c9f68b59bbb17c8c871eb89d615ad19998ed""><code>0aa8c9f</code></a> Rephrase incompatibility with common v0.48.0</li>
+<li><a href=""https://github.com/prometheus/client_golang/commit/77d4003c72f054ac435df1223deac17b1f8858ea""><code>77d4003</code></a> Add 1.19.0 changelog (<a href=""https://redirect.github.com/prometheus/client_golang/issues/1451"">#1451</a>)</li>
+<li><a href=""https://github.com/prometheus/client_golang/commit/14259fa70cfb69f1262f69fdfe58ed5e6318d441""><code>14259fa</code></a> Merge pull request <a href=""https://redirect.github.com/prometheus/client_golang/issues/1448"">#1448</a> from ywwg/owilliams/content-negotiation</li>
+<li><a href=""https://github.com/prometheus/client_golang/commit/6d039205b8decc22868f43b0bd0da01b376a36aa""><code>6d03920</code></a> deps: bump prometheus/common version</li>
+<li><a href=""https://github.com/prometheus/client_golang/commit/353395b3b67b2bee0a219950bf5570779d74a392""><code>353395b</code></a> Remove support for go 1.19 (<a href=""https://redirect.github.com/prometheus/client_golang/issues/1449"">#1449</a>)</li>
+<li><a href=""https://github.com/prometheus/client_golang/commit/9dd5d2a64af1e9bd0cbff0516ded6e51d25209bf""><code>9dd5d2a</code></a> Merge pull request <a href=""https://redirect.github.com/prometheus/client_golang/issues/1445"">#1445</a> from kavu/add_go122_metrics_test</li>
+<li><a href=""https://github.com/prometheus/client_golang/commit/c906a5e91a4604bd55fb8e26a54b5ba64a81c678""><code>c906a5e</code></a> Add support for Go 1.22</li>
+<li><a href=""https://github.com/prometheus/client_golang/commit/7ac90362b02729a65109b33d172bafb65d7dab50""><code>7ac9036</code></a> Merge pull request <a href=""https://redirect.github.com/prometheus/client_golang/issues/1440"">#1440</a> from prometheus/dependabot/github_actions/github-act...</li>
+<li>Additional commits viewable in <a href=""https://github.com/prometheus/client_golang/compare/v1.18.0...v1.19.1"">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=github.com/prometheus/client_golang&package-manager=go_modules&previous-version=1.18.0&new-version=1.19.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+
+
+</details>",https://github.com/0x6flab/mpesaoverlay/pull/125,True,False,False,False,,,,,,
+125,2,labeled,dependabot[bot],2024-07-01 00:24:21,,,False,,,,,True,False,False,False,,ESPresense,ESPresense.github.io,147.0,,gpt not assistance
+125,3,labeled,dependabot[bot],2024-07-01 00:24:22,,,False,,,,,True,False,False,False,,ESPresense,ESPresense.github.io,147.0,,gpt not assistance
+125,4,commented,coderabbitai[bot],2024-07-01 00:24:29,,,False,,,"<!-- This is an auto-generated comment: summarize by coderabbit.ai -->
+<!-- This is an auto-generated comment: skip review by coderabbit.ai -->
+
+> [!IMPORTANT]
+> ## Review skipped
+> 
+> Bot user detected.
+> 
+> To trigger a single review, invoke the `@coderabbitai review` command.
+> 
+> You can disable this status message by setting the `reviews.review_status` to `false` in the CodeRabbit configuration file.
+
+<!-- end of auto-generated comment: skip review by coderabbit.ai --><!-- tips_start -->
+
+---
+
+> [!TIP]
+> <details>
+> <summary>Early access features: disabled</summary>
+> 
+> We are currently testing the following features in early access:
+> 
+> - **OpenAI `gpt-4o` model for code reviews and chat**: OpenAI claims that this model is better at understanding and generating code than the previous models. We seek your feedback over the next few weeks before making it generally available.
+> 
+> Note:
+> - You can enable or disable early access features from the CodeRabbit UI or by updating the CodeRabbit configuration file.
+> - Please join our [Discord Community](https://discord.com/invite/GsXnASn26c) to provide feedback and report issues.
+> 
+> </details>
+
+Thank you for using CodeRabbit. We offer it for free to the OSS community and would appreciate your support in helping us grow. If you find it useful, would you consider giving us a shout-out on your favorite social media?
+
+<details>
+<summary>Share</summary>
+
+- [X](https://twitter.com/intent/tweet?text=I%20just%20used%20%40coderabbitai%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20the%20proprietary%20code.%20Check%20it%20out%3A&url=https%3A//coderabbit.ai)
+- [Mastodon](https://mastodon.social/share?text=I%20just%20used%20%40coderabbitai%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20the%20proprietary%20code.%20Check%20it%20out%3A%20https%3A%2F%2Fcoderabbit.ai)
+- [Reddit](https://www.reddit.com/submit?title=Great%20tool%20for%20code%20review%20-%20CodeRabbit&text=I%20just%20used%20CodeRabbit%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20proprietary%20code.%20Check%20it%20out%3A%20https%3A//coderabbit.ai)
+- [LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fcoderabbit.ai&mini=true&title=Great%20tool%20for%20code%20review%20-%20CodeRabbit&summary=I%20just%20used%20CodeRabbit%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20proprietary%20code)
+
+</details>
+
+<details>
+<summary>Tips</summary>
+
+### Chat
+
+There are 3 ways to chat with [CodeRabbit](https://coderabbit.ai):
+
+- Review comments: Directly reply to a review comment made by CodeRabbit. Example:
+	- `I pushed a fix in commit <commit_id>.`
+	- `Generate unit testing code for this file.`
+	- `Open a follow-up GitHub issue for this discussion.`
+- Files and specific lines of code (under the ""Files changed"" tab): Tag `@coderabbitai` in a new review comment at the desired location with your query. Examples:
+	- `@coderabbitai generate unit testing code for this file.`
+	-	`@coderabbitai modularize this function.`
+- PR comments: Tag `@coderabbitai` in a new PR comment to ask questions about the PR branch. For the best results, please provide a very specific query, as very limited context is provided in this mode. Examples:
+	- `@coderabbitai generate interesting stats about this repository and render them as a table.`
+	- `@coderabbitai show all the console.log statements in this repository.`
+	- `@coderabbitai read src/utils.ts and generate unit testing code.`
+	- `@coderabbitai read the files in the src/scheduler package and generate a class diagram using mermaid and a README in the markdown format.`
+	- `@coderabbitai help me debug CodeRabbit configuration file.`
+
+Note: Be mindful of the bot's finite context window. It's strongly recommended to break down tasks such as reading entire modules into smaller chunks. For a focused discussion, use review comments to chat about specific files and their changes, instead of using the PR comments.
+
+### CodeRabbit Commands (invoked as PR comments)
+
+- `@coderabbitai pause` to pause the reviews on a PR.
+- `@coderabbitai resume` to resume the paused reviews.
+- `@coderabbitai review` to trigger an incremental review. This is useful when automatic reviews are disabled for the repository.
+- `@coderabbitai full review` to do a full review from scratch and review all the files again.
+- `@coderabbitai summary` to regenerate the summary of the PR.
+- `@coderabbitai resolve` resolve all the CodeRabbit review comments.
+- `@coderabbitai configuration` to show the current CodeRabbit configuration for the repository.
+- `@coderabbitai help` to get help.
+
+
+Additionally, you can add `@coderabbitai ignore` anywhere in the PR description to prevent this PR from being reviewed.
+
+### CodeRabbit Configration File (`.coderabbit.yaml`)
+
+- You can programmatically configure CodeRabbit by adding a `.coderabbit.yaml` file to the root of your repository.
+- Please see the [configuration documentation](https://docs.coderabbit.ai/guides/configure-coderabbit) for more information.
+- If your editor has YAML language server enabled, you can add the path at the top of this file to enable auto-completion and validation: `# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json`
+
+### Documentation and Community
+
+- Visit our [Documentation](https://coderabbit.ai/docs) for detailed information on how to use CodeRabbit.
+- Join our [Discord Community](https://discord.com/invite/GsXnASn26c) to get help, request features, and share feedback.
+- Follow us on [X/Twitter](https://twitter.com/coderabbitai) for updates and announcements.
+
+</details>
+
+<!-- tips_end -->",https://github.com/0x6flab/mpesaoverlay/pull/125#issuecomment-2198826751,True,False,False,False,,,,,,
+125,5,commented,dependabot[bot],2024-09-01 00:52:11,,,False,,,Superseded by #133.,https://github.com/0x6flab/mpesaoverlay/pull/125#issuecomment-2323094456,True,False,False,False,,,,,,
+125,6,closed,dependabot[bot],2024-09-01 00:52:12,,,False,,,,,True,False,False,False,,ESPresense,ESPresense.github.io,147.0,,gpt not assistance
+125,7,head_ref_deleted,dependabot[bot],2024-09-01 00:52:13,,,False,,,,,True,False,False,False,,ESPresense,ESPresense.github.io,147.0,,gpt not assistance

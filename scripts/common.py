@@ -207,9 +207,23 @@ def get_path(file, project=None):
         "features_maintainers": directory + f"{project}_features_maintainers.csv",
         # Generated in measure_features_contributors.py
         "features_contributors": directory + f"{project}_features_contributors.csv",
+        "events_gpt": "events_gpt.csv",
+        "projects_pulls":"projects_gpt.csv",
+        "timelines_gpt": directory + f"{project}_timelines_gpt.csv",
     }
     return pathlib.Path(files[file])
 
+def get_csv(file_name):
+    df = pd.read_csv(file_name)
+    return df
+
+def get_json(file_name):
+    # Opening JSON file
+    f = open(file_name,'r')
+    # returns JSON object as  a dictionary
+    data = json.load(f)
+    f.close()
+    return  data
 
 def force_refresh():
     parser = argparse.ArgumentParser()
@@ -320,6 +334,38 @@ def open_metadata(project):
 def open_timelines_fixed(project):
     return open_database(get_path("timelines_fixed", project))
 
+def import_project_pulls():
+    headers = [*pd.read_csv(get_path("projects_pulls"), nrows=1)]
+    return  pd.read_csv(get_path("projects_pulls"), header=0, usecols=["owner_login" , "name", "number","is_gpt"] , 
+                        low_memory=False,
+                        quoting=csv.QUOTE_ALL, escapechar="\\")
+
+def initialize_all(directory=None):
+    if directory is None:
+        directory = get_path("data_all")
+    directory = pathlib.Path(__file__).parent / directory
+    directory.mkdir(parents=True, exist_ok=True)
+    os.chdir(directory)
+    
+def count_months(start, end):
+    delta = dateutil.relativedelta.relativedelta(end, start)
+    return delta.years * 12 + delta.months
+
+def count_hours(start, end):
+    delta = dateutil.relativedelta.relativedelta(end, start)
+    return round(delta.years*8760 + delta.months*730 + delta.days*24 + delta.hours  + delta.minutes/60 + delta.seconds/3600,3)
+
+def import_factors(project):
+    return pd.read_csv(get_path("patches", project), index_col=["pull_number"], low_memory=False)
+
+def import_events_gpt():
+    return pd.read_csv(get_path("events_gpt"), low_memory=False)
+
+def import_project_timelines(project):
+    return pd.read_csv(get_path("timelines", project))
+
+def import_project_timelines_gpt(project):
+    return pd.read_csv(get_path("timelines_gpt", project))
 
 @convert_dtypes
 def import_timelines(project):

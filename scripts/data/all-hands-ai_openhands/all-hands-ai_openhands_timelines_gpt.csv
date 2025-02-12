@@ -1,0 +1,137 @@
+pull_number,event_number,event_x,actor,time,state,commit_id,referenced,sha,title,body,html_url,is_bot,is_chatgpt,is_first_chatgpt,is_proceeding_chatgpt,chatgpt_event,owner_login,name,number,event_y,is_gpt_for
+2728,0,committed,xingyaoww,2024-06-27 20:48:51,,,False,67f84cca9308669b29cd3d6c7c893762d3194a20,,,https://github.com/All-Hands-AI/OpenHands/commit/67f84cca9308669b29cd3d6c7c893762d3194a20,False,False,False,False,,,,,,
+2728,1,committed,xingyaoww,2024-06-28 23:15:47,,,False,cfe30f525d1e76660f6095dfb0220312d900eab5,,,https://github.com/All-Hands-AI/OpenHands/commit/cfe30f525d1e76660f6095dfb0220312d900eab5,False,False,False,False,,,,,,
+2728,2,committed,xingyaoww,2024-06-28 23:16:11,,,False,6bd09a15391655ba1f9035c4b7bd33a9eb69fd14,,,https://github.com/All-Hands-AI/OpenHands/commit/6bd09a15391655ba1f9035c4b7bd33a9eb69fd14,False,False,False,False,,,,,,
+2728,3,committed,xingyaoww,2024-06-28 23:16:44,,,False,e028146bd7a5968e2f4bb0fd1a0b5ad84f1324d6,,,https://github.com/All-Hands-AI/OpenHands/commit/e028146bd7a5968e2f4bb0fd1a0b5ad84f1324d6,False,False,False,False,,,,,,
+2728,4,committed,xingyaoww,2024-06-29 01:20:39,,,False,d5b57192306ded1bd39633a48971ce587c98731a,,,https://github.com/All-Hands-AI/OpenHands/commit/d5b57192306ded1bd39633a48971ce587c98731a,False,False,False,False,,,,,,
+2728,5,committed,xingyaoww,2024-07-01 17:15:11,,,False,71ddefccf975cdb2102e70d65b396f405a088a4d,,,https://github.com/All-Hands-AI/OpenHands/commit/71ddefccf975cdb2102e70d65b396f405a088a4d,False,False,False,False,,,,,,
+2728,6,committed,xingyaoww,2024-07-01 17:17:05,,,False,94c07f2d7ba7b783f84fddee2273b974b18ebd68,,,https://github.com/All-Hands-AI/OpenHands/commit/94c07f2d7ba7b783f84fddee2273b974b18ebd68,False,False,False,False,,,,,,
+2728,7,committed,xingyaoww,2024-07-01 17:28:23,,,False,a317a6b09ccc12d9b269c7fc2bd1bf447beb7944,,,https://github.com/All-Hands-AI/OpenHands/commit/a317a6b09ccc12d9b269c7fc2bd1bf447beb7944,False,False,False,False,,,,,,
+2728,8,committed,xingyaoww,2024-07-01 17:28:45,,,False,c972f117bc294fd0e37f087a5761dde3fc0421a4,,,https://github.com/All-Hands-AI/OpenHands/commit/c972f117bc294fd0e37f087a5761dde3fc0421a4,False,False,False,False,,,,,,
+2728,9,committed,xingyaoww,2024-07-01 17:30:52,,,False,39aa98f9580ed54f042611188d09ee81e75fa98a,,,https://github.com/All-Hands-AI/OpenHands/commit/39aa98f9580ed54f042611188d09ee81e75fa98a,False,False,False,False,,,,,,
+2728,10,committed,xingyaoww,2024-07-01 17:51:44,,,False,25647f0be85d07703c96dc360bda50aba2b41c84,,,https://github.com/All-Hands-AI/OpenHands/commit/25647f0be85d07703c96dc360bda50aba2b41c84,False,False,False,False,,,,,,
+2728,11,committed,xingyaoww,2024-07-01 18:16:28,,,False,6dea070171a10b5021ce4810af4740be4303b56e,,,https://github.com/All-Hands-AI/OpenHands/commit/6dea070171a10b5021ce4810af4740be4303b56e,False,False,False,False,,,,,,
+2728,12,committed,xingyaoww,2024-07-01 18:31:38,,,False,972745b50c17101fb46227a060c81035ed38d71d,,,https://github.com/All-Hands-AI/OpenHands/commit/972745b50c17101fb46227a060c81035ed38d71d,False,False,False,False,,,,,,
+2728,13,committed,xingyaoww,2024-07-01 18:44:26,,,False,6f2efad93c46ddacd3b9cfb781bff74dc9d1abe0,,,https://github.com/All-Hands-AI/OpenHands/commit/6f2efad93c46ddacd3b9cfb781bff74dc9d1abe0,False,False,False,False,,,,,,
+2728,14,committed,xingyaoww,2024-07-01 18:44:44,,,False,dcb7abc04ef1622d333973bb342bf5774de22c08,,,https://github.com/All-Hands-AI/OpenHands/commit/dcb7abc04ef1622d333973bb342bf5774de22c08,False,False,False,False,,,,,,
+2728,15,committed,xingyaoww,2024-07-01 18:45:46,,,False,47b98b728e1debd3cd4783bb3947c54ef3c544ef,,,https://github.com/All-Hands-AI/OpenHands/commit/47b98b728e1debd3cd4783bb3947c54ef3c544ef,False,False,False,False,,,,,,
+2728,16,committed,xingyaoww,2024-07-01 19:09:15,,,False,f7ba5420a08dc3fda19c7282909740fad76840c0,,,https://github.com/All-Hands-AI/OpenHands/commit/f7ba5420a08dc3fda19c7282909740fad76840c0,False,False,False,False,,,,,,
+2728,17,committed,xingyaoww,2024-07-01 19:15:33,,,False,903f19553fb84db7a9b1784f72a28af83e2584cb,,,https://github.com/All-Hands-AI/OpenHands/commit/903f19553fb84db7a9b1784f72a28af83e2584cb,False,False,False,False,,,,,,
+2728,18,committed,xingyaoww,2024-07-01 19:15:59,,,False,c6a1e51eb0b0e50c0e0b168ca79cf719993dcb58,,,https://github.com/All-Hands-AI/OpenHands/commit/c6a1e51eb0b0e50c0e0b168ca79cf719993dcb58,False,False,False,False,,,,,,
+2728,19,pulled,xingyaoww,2024-07-01 19:16:57,closed,,False,,[Evaluation] Use the latest official SWE-Bench Dockerization for evaluation,"**What is the problem that this fixes or functionality that this introduces? Does it fix any open issues?**
+
+In https://github.com/princeton-nlp/SWE-bench/blob/main/docs/20240627_docker/README.md, SWE-Bench officially introduced a dockerized implementation of SWE-Bench evaluation where **""99.78% (2289/2294) of SWE-bench tasks and 100% (300/300) of SWE-bench Lite tasks consistently resolve correctly with the ground truth solution.""**
+
+This provides more reliable evaluation for SWE-Bench problems.
+
+**Give a brief summary of what the PR does, explaining any non-trivial design decisions**
+
+1. Integrate SWE-Bench docker into OpenDevin eco-system.
+2. Provide a script for the user to pull existing instance-level images (for SWE-Bench Lite) that are pre-build to speed up evaluation. If built from scratch, a few instances might be impacted by the network connection, and the whole `eval_infer.sh` script needs to be re-run several times.
+
+TODO:
+- [x] Running on some existing output (e.g., v1.6, v1.6-no-hint output) to measure performance.
+
+UPDATE:
+1. `v1.6-no-hint` performance drop from 58 resolved to 57 resolved. The new harness got an additional instance `psf__requests-2674` passed, but two old `'django__django-16379', and 'django__django-13590'` failed. Upon further investigation, it seems this is the issue: https://github.com/princeton-nlp/SWE-bench/issues/165. Am working on a fixed.
+2. With this fix https://github.com/princeton-nlp/SWE-bench/pull/166 (included in the PR!), **`v1.6-no-hint` performance improves from 58 resolved to 59 resolved (19.7%)**!
+4. `v1.6` (with hint) performance improves from 70 resolved to 73 resolved with the harness in this PR!
+5. I think this PR is good to go!
+
+**Other references**
+",https://github.com/All-Hands-AI/OpenHands/pull/2728,False,False,False,False,,,,,,
+2728,20,reviewed,enyst,2024-07-01 19:28:09,commented,c6a1e51eb0b0e50c0e0b168ca79cf719993dcb58,False,,,,https://github.com/All-Hands-AI/OpenHands/pull/2728#pullrequestreview-2152115710,False,False,False,False,,,,,,
+2728,21,review-commented,enyst,2024-07-01 19:28:09,,52ef691b847e66f037cf2ebc64c819e70132bff5,False,,,"```suggestion
+**UPDATE (7/1/2024): We now support the official SWE-Bench dockerized evaluation as announced [here](https://github.com/princeton-nlp/SWE-bench/blob/main/docs/20240627_docker/README.md).**
+```",https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661458737,False,False,False,False,,,,,,
+2728,22,committed,enyst,2024-07-01 19:28:14,,,False,ae0cbd7b2033a5089d7ebe4ce39d9759b39f369a,,,https://github.com/All-Hands-AI/OpenHands/commit/ae0cbd7b2033a5089d7ebe4ce39d9759b39f369a,False,False,False,False,,,,,,
+2728,23,reviewed,enyst,2024-07-01 19:30:21,commented,ae0cbd7b2033a5089d7ebe4ce39d9759b39f369a,False,,,,https://github.com/All-Hands-AI/OpenHands/pull/2728#pullrequestreview-2152118637,False,False,False,False,,,,,,
+2728,24,review-commented,enyst,2024-07-01 19:30:21,,52ef691b847e66f037cf2ebc64c819e70132bff5,False,,,"IIRC they say how much space we should expect it to take, I wonder if we can say that too, explicitly, to make it clear for readers.",https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661460575,False,False,False,False,,,,,,
+2728,25,review-commented,xingyaoww,2024-07-01 19:39:01,,52ef691b847e66f037cf2ebc64c819e70132bff5,False,,,"If simply calculate the sum of docker size - it will need 2T. But my disk is certainly less than 2T and it worked since there's a lot of layer re-use, which makes the number hard to estimate. Maybe we can just say 500G-1T is a safe number?",https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661467337,False,False,False,False,,,,,,
+2728,26,review-commented,xingyaoww,2024-07-01 19:39:31,,52ef691b847e66f037cf2ebc64c819e70132bff5,False,,,"```suggestion
+If you have extra local space (e.g., 500GB), you can try pull the [instance-level docker images](https://github.com/princeton-nlp/SWE-bench/blob/main/docs/20240627_docker/README.md#choosing-the-right-cache_level) we've prepared to speed up the evaluation by running:
+```",https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661467737,False,False,False,False,,,,,,
+2728,27,review-commented,xingyaoww,2024-07-01 19:39:59,,52ef691b847e66f037cf2ebc64c819e70132bff5,False,,,"```suggestion
+If you want to save disk space a bit (e.g., with ~50GB free disk space) while speed up the image pre-build process, you can pull the environment-level docker images:
+```",https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661468078,False,False,False,False,,,,,,
+2728,28,reviewed,xingyaoww,2024-07-01 19:40:02,commented,ae0cbd7b2033a5089d7ebe4ce39d9759b39f369a,False,,,,https://github.com/All-Hands-AI/OpenHands/pull/2728#pullrequestreview-2152130074,False,False,False,False,,,,,,
+2728,29,committed,xingyaoww,2024-07-01 19:40:09,,,False,bb9170f666f35955109324b2c83e130dfbc92992,,,https://github.com/All-Hands-AI/OpenHands/commit/bb9170f666f35955109324b2c83e130dfbc92992,False,False,False,False,,,,,,
+2728,30,committed,xingyaoww,2024-07-01 19:40:13,,,False,407d23eef3b5dd62a4cb3e3bd5e0d78066a71a2e,,,https://github.com/All-Hands-AI/OpenHands/commit/407d23eef3b5dd62a4cb3e3bd5e0d78066a71a2e,False,False,False,False,,,,,,
+2728,31,committed,xingyaoww,2024-07-01 19:43:08,,,False,b55b6f02b4575f3ab30f9937721afd87a2a8ce0f,,,https://github.com/All-Hands-AI/OpenHands/commit/b55b6f02b4575f3ab30f9937721afd87a2a8ce0f,False,False,False,False,,,,,,
+2728,32,committed,xingyaoww,2024-07-01 19:46:57,,,False,08d39a422f0a0656f2f0c4e12a0ee55488088cd9,,,https://github.com/All-Hands-AI/OpenHands/commit/08d39a422f0a0656f2f0c4e12a0ee55488088cd9,False,False,False,False,,,,,,
+2728,33,convert_to_draft,xingyaoww,2024-07-01 19:47:27,,,False,,,,,False,False,False,False,,ESPresense,ESPresense.github.io,147.0,,gpt not assistance
+2728,34,committed,xingyaoww,2024-07-01 21:12:04,,,False,100af51c04e74f8885370b259b7b3edf96146596,,,https://github.com/All-Hands-AI/OpenHands/commit/100af51c04e74f8885370b259b7b3edf96146596,False,False,False,False,,,,,,
+2728,35,cross-referenced,xingyaoww,2024-07-01 21:30:04,,,False,,,,,False,False,False,False,,ESPresense,ESPresense.github.io,147.0,,gpt not assistance
+2728,36,review-commented,enyst,2024-07-01 21:32:23,,52ef691b847e66f037cf2ebc64c819e70132bff5,False,,,SGTM!,https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661562425,False,False,False,False,,,,,,
+2728,37,ready_for_review,xingyaoww,2024-07-01 22:12:48,,,False,,,,,False,False,False,False,,ESPresense,ESPresense.github.io,147.0,,gpt not assistance
+2728,38,commented,enyst,2024-07-01 22:41:33,,,False,,,"I'm re-running a CI test that failed before, looks like some temporary pxssh issue, nothing else.",https://github.com/All-Hands-AI/OpenHands/pull/2728#issuecomment-2201253709,False,False,False,False,,,,,,
+2728,39,reviewed,enyst,2024-07-01 22:49:59,commented,100af51c04e74f8885370b259b7b3edf96146596,False,,,,https://github.com/All-Hands-AI/OpenHands/pull/2728#pullrequestreview-2152360864,False,False,False,False,,,,,,
+2728,40,review-commented,enyst,2024-07-01 22:49:59,,52ef691b847e66f037cf2ebc64c819e70132bff5,False,,,"```suggestion
+**This evaluation is performed using the official dockerized evaluation announced [here](https://github.com/princeton-nlp/SWE-bench/blob/main/docs/20240627_docker/README.md).**
+```",https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661611773,False,False,False,False,,,,,,
+2728,41,committed,enyst,2024-07-01 22:50:04,,,False,94f7845ede055991b139775e6fcf12d0af232108,,,https://github.com/All-Hands-AI/OpenHands/commit/94f7845ede055991b139775e6fcf12d0af232108,False,False,False,False,,,,,,
+2728,42,reviewed,enyst,2024-07-01 22:50:21,approved,94f7845ede055991b139775e6fcf12d0af232108,False,,,,https://github.com/All-Hands-AI/OpenHands/pull/2728#pullrequestreview-2152361224,False,False,False,False,,,,,,
+2728,43,reviewed,enyst,2024-07-01 22:52:30,commented,94f7845ede055991b139775e6fcf12d0af232108,False,,,,https://github.com/All-Hands-AI/OpenHands/pull/2728#pullrequestreview-2152363286,False,False,False,False,,,,,,
+2728,44,review-commented,enyst,2024-07-01 22:52:30,,52ef691b847e66f037cf2ebc64c819e70132bff5,False,,,Was the inclusion of poetry.lock intended?,https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661613014,False,False,False,False,,,,,,
+2728,45,review-commented,enyst,2024-07-01 22:53:33,,52ef691b847e66f037cf2ebc64c819e70132bff5,False,,,Aha. I wonder if this brought some of the many other updates.,https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661613590,False,False,False,False,,,,,,
+2728,46,reviewed,enyst,2024-07-01 22:53:34,commented,94f7845ede055991b139775e6fcf12d0af232108,False,,,,https://github.com/All-Hands-AI/OpenHands/pull/2728#pullrequestreview-2152364455,False,False,False,False,,,,,,
+2728,47,review-commented,enyst,2024-07-01 22:54:18,,52ef691b847e66f037cf2ebc64c819e70132bff5,False,,,We may want to remember to remove this when it's fixed in swe-bench,https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661614009,False,False,False,False,,,,,,
+2728,48,reviewed,enyst,2024-07-01 22:54:19,commented,94f7845ede055991b139775e6fcf12d0af232108,False,,,,https://github.com/All-Hands-AI/OpenHands/pull/2728#pullrequestreview-2152365180,False,False,False,False,,,,,,
+2728,49,review-commented,enyst,2024-07-01 22:54:37,,52ef691b847e66f037cf2ebc64c819e70132bff5,False,,,Ditto 👍 😅 ,https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661614129,False,False,False,False,,,,,,
+2728,50,reviewed,enyst,2024-07-01 22:54:38,commented,94f7845ede055991b139775e6fcf12d0af232108,False,,,,https://github.com/All-Hands-AI/OpenHands/pull/2728#pullrequestreview-2152365448,False,False,False,False,,,,,,
+2728,51,review-commented,xingyaoww,2024-07-01 23:13:28,,52ef691b847e66f037cf2ebc64c819e70132bff5,False,,,Yes i think so! I specifically used `--no-update` here!,https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661623684,False,False,False,False,,,,,,
+2728,52,review-commented,xingyaoww,2024-07-01 23:13:55,,52ef691b847e66f037cf2ebc64c819e70132bff5,False,,,"Definitely! When my other PR on SWE-Bench repo is merged, i will update this.",https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661623885,False,False,False,False,,,,,,
+2728,53,reviewed,enyst,2024-07-01 23:26:34,commented,94f7845ede055991b139775e6fcf12d0af232108,False,,,,https://github.com/All-Hands-AI/OpenHands/pull/2728#pullrequestreview-2152394983,False,False,False,False,,,,,,
+2728,54,review-commented,enyst,2024-07-01 23:26:34,,52ef691b847e66f037cf2ebc64c819e70132bff5,False,,,"```suggestion
+If you want to save disk space a bit (e.g., with ~50GB free disk space), while speeding up the image pre-build process, you can pull the environment-level docker images:
+```",https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1661630125,False,False,False,False,,,,,,
+2728,55,committed,enyst,2024-07-01 23:26:39,,,False,52ef691b847e66f037cf2ebc64c819e70132bff5,,,https://github.com/All-Hands-AI/OpenHands/commit/52ef691b847e66f037cf2ebc64c819e70132bff5,False,False,False,False,,,,,,
+2728,56,auto_squash_enabled,neubig,2024-07-01 23:42:21,,,False,,,,,False,False,False,False,,ESPresense,ESPresense.github.io,147.0,,gpt not assistance
+2728,57,commented,enyst,2024-07-01 23:45:19,,,False,,,"It doesn't seem to play nicely with old directories? @xingyaoww 
+
+Edit: wait, never mind... probably just wrong directory on my install.
+
+```
+git:(xw/use-latest-swebench) ✗ ./evaluation/swe_bench/scripts/eval_infer.sh ./evaluation/evaluation_outputs/outputs/swe_bench_lite/CodeActAgent/gpt-4o_maxiter_30_N_v1.6-no-hint/output.jsonl 
+INSTANCE_ID: 
+Evaluating output.jsonl @ /Users/enyst/repos/devin/evaluation/evaluation_outputs/outputs/swe_bench_lite/CodeActAgent/gpt-4o_maxiter_30_N_v1.6-no-hint
+==============================================================
+Detecting whether PROCESS_FILEPATH is in OD format or in SWE-bench format
+==============================================================
+The file IS NOT in SWE-bench format.
+Merged output file with fine-grained report will be saved to /Users/enyst/repos/devin/evaluation/evaluation_outputs/outputs/swe_bench_lite/CodeActAgent/gpt-4o_maxiter_30_N_v1.6-no-hint
+Converting /Users/enyst/repos/devin/evaluation/evaluation_outputs/outputs/swe_bench_lite/CodeActAgent/gpt-4o_maxiter_30_N_v1.6-no-hint/output.jsonl to /Users/enyst/repos/devin/evaluation/evaluation_outputs/outputs/swe_bench_lite/CodeActAgent/gpt-4o_maxiter_30_N_v1.6-no-hint/output.swebench.jsonl
+SWEBENCH_FORMAT_JSONL: /Users/enyst/repos/devin/evaluation/evaluation_outputs/outputs/swe_bench_lite/CodeActAgent/gpt-4o_maxiter_30_N_v1.6-no-hint/output.swebench.jsonl
+==============================================================
+Running SWE-bench evaluation
+==============================================================
+Running SWE-bench evaluation on the whole input file...
+2024-07-02 01:43:00,714 - datasets - INFO - PyTorch version 2.2.2 available.
+<frozen runpy>:128: RuntimeWarning: 'swebench.harness.run_evaluation' found in sys.modules after import of package 'swebench.harness', but prior to execution of 'swebench.harness.run_evaluation'; this may result in unpredictable behaviour
+usage: run_evaluation.py [-h] --predictions_path PREDICTIONS_PATH --log_dir LOG_DIR --swe_bench_tasks SWE_BENCH_TASKS --testbed TESTBED [--conda_link CONDA_LINK]
+                         [--log_suffix LOG_SUFFIX] [--skip_existing] [--timeout TIMEOUT] [--verbose] [--num_processes NUM_PROCESSES]
+run_evaluation.py: error: the following arguments are required: --log_dir, --swe_bench_tasks, --testbed
+MODEL_NAME_OR_PATH: gpt-4o_maxiter_30_N_v1.6-no-hint
+RESULT_OUTPUT_DIR: /Users/enyst/repos/devin/evaluation/evaluation_outputs/outputs/swe_bench_lite/CodeActAgent/gpt-4o_maxiter_30_N_v1.6-no-hint
+mv: rename run_instance_logs/20240702_014300/gpt-4o_maxiter_30_N_v1.6-no-hint to /Users/enyst/repos/devin/evaluation/evaluation_outputs/outputs/swe_bench_lite/CodeActAgent/gpt-4o_maxiter_30_N_v1.6-no-hint/gpt-4o_maxiter_30_N_v1.6-no-hint: No such file or directory
+mv: rename /Users/enyst/repos/devin/evaluation/evaluation_outputs/outputs/swe_bench_lite/CodeActAgent/gpt-4o_maxiter_30_N_v1.6-no-hint/gpt-4o_maxiter_30_N_v1.6-no-hint to /Users/enyst/repos/devin/evaluation/evaluation_outputs/outputs/swe_bench_lite/CodeActAgent/gpt-4o_maxiter_30_N_v1.6-no-hint/eval_outputs: No such file or directory
+Traceback (most recent call last):
+  File ""/Users/enyst/repos/devin/evaluation/swe_bench/scripts/eval/update_output_with_eval.py"", line 77, in <module>
+    f.write(output_md)
+            ^^^^^^^^^
+NameError: name 'output_md' is not defined
+```
+
+",https://github.com/All-Hands-AI/OpenHands/pull/2728#issuecomment-2201445831,False,True,True,False,,All-Hands-AI,OpenHands,2728.0,commented,gpt not assistance
+2728,58,mentioned,xingyaoww,2024-07-01 23:45:21,,,False,,,,,False,False,False,True,57.0,ESPresense,ESPresense.github.io,147.0,,gpt not assistance
+2728,59,subscribed,xingyaoww,2024-07-01 23:45:21,,,False,,,,,False,False,False,False,,ESPresense,ESPresense.github.io,147.0,,gpt not assistance
+2728,60,merged,neubig,2024-07-01 23:58:30,,6a0ffc5c619dff80487c40bdf9f5c6ff062cb367,False,,,,,False,False,False,False,,ESPresense,ESPresense.github.io,147.0,,gpt not assistance
+2728,61,closed,neubig,2024-07-01 23:58:30,,,False,,,,,False,False,False,False,,ESPresense,ESPresense.github.io,147.0,,gpt not assistance
+2728,62,head_ref_deleted,neubig,2024-07-01 23:58:31,,,False,,,,,False,False,False,False,,ESPresense,ESPresense.github.io,147.0,,gpt not assistance
+2728,63,cross-referenced,xingyaoww,2024-07-02 18:47:56,,,False,,,,,False,False,False,False,,ESPresense,ESPresense.github.io,147.0,,gpt not assistance
+2728,64,review-commented,john-b-yang,2024-07-02 19:17:04,,52ef691b847e66f037cf2ebc64c819e70132bff5,False,,,Just popping in to indicate the SWE-bench PR @xingyaoww posted was merged! Love the work OpenDevin is doing 😄 ,https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1663041822,False,False,False,False,,,,,,
+2728,65,review-commented,john-b-yang,2024-07-02 19:17:41,,52ef691b847e66f037cf2ebc64c819e70132bff5,False,,,"Actually, maybe I'll make a PR for this 😛",https://github.com/All-Hands-AI/OpenHands/pull/2728#discussion_r1663043041,False,False,False,False,,,,,,
+2728,66,cross-referenced,enyst,2024-07-02 20:31:12,,,False,,,,,False,False,False,False,,ESPresense,ESPresense.github.io,147.0,,gpt not assistance
+2728,67,unsubscribed,sirian71,2024-07-12 15:28:53,,,False,,,,,False,False,False,False,,ESPresense,ESPresense.github.io,147.0,,gpt not assistance
+2728,68,cross-referenced,xingyaoww,2024-07-16 01:53:14,,,False,,,,,False,False,False,False,,ESPresense,ESPresense.github.io,147.0,,gpt not assistance
+2728,69,referenced,priyank-infocusp,2024-07-17 05:34:55,,c6eb29b8abe3fda664c229f04faa2f155f8713a9,False,,,,,False,False,False,False,,ESPresense,ESPresense.github.io,147.0,,gpt not assistance
