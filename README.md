@@ -71,9 +71,18 @@ On the terminal, run **inspect_gpt_data.sh** that will create a json needed for 
 ### 5. RQ Data and stats
 On the terminal, run **collect_gpt_stats.sh** that will generate the dataset used to ansewer the RQs:
 - collect_gpt_pr_at_resolution.py
-  * []
+  * This will collect the data required for answering RQ1. This data is used in a R code that is found in this repository (https://github.com/acollant/GPT-Assistance-PR/tree/main/R)
+  * Columns in the file: project,pull_number,actor,project_age_month,no_commits,PR_size(SLOC),no_changed_files,time_to_merge_h,is_gpt
+  * Output file: **at_resolution.csv**
 - get_gpt_pr_distance.py
+  * This will find the closest Non GPT PR (non assistance) to a GPT PR (Assistance) based on the Euclidean distance by phases.
+  * The output file is used in a R program that is found in this repository (https://github.com/acollant/GPT-Assistance-PR/tree/main/R) to check whether the PRs are similar or not.
+  * Output file: **distance.csv**
 - collect_gpt_pr_stats.py
+  * This will create the stats to answer RQ2.
+  * Output files:
+    * **summary_phases.csv:** this has the duration for each phase for bot GPT PR (as assistance) and Non-GPT (non assistance)
+    * **summary_status.csv:** this has the number of GPT PR (as assistance) and Non-GPT (non assistance) group by status (open, merged)
 - collect_gpt_pr_used.py
   
 ## Directory structure
