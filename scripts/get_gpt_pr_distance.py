@@ -4,7 +4,8 @@ import pandas as pd
 import pathlib
 import scipy.stats as stats
 import numpy as np
-
+from numpy.linalg import norm
+#
 from common import (
     initialize,
     import_project_pulls,
@@ -73,7 +74,6 @@ def json_to_factors(is_gpt):
         for projects in data:    
             phase_arr = []
             if project in projects:
-                #input(project)
                 for f in phase:
                     array_ = [project, pull_number, is_gpt, f, -10000, -10000, -10000, -10000, -10000, -10000]
                     if None ==  projects[project][pull_number][f]: continue
@@ -92,12 +92,10 @@ def json_to_factors(is_gpt):
                               duration, 
                               is_assistance
                               ]
-                    #if numpy.isnan(array_).any(): continue
                     phase_arr.append(array_)
                 df_ = pd.DataFrame(phase_arr,columns=columns_)
-                    #df_.dropna(axis=1, how='all', inplace=True)
                 df_factors =  df_factors._append(df_,ignore_index=True)
-            
+               
     return  df_factors
 
 def cosine(x,y):
@@ -114,9 +112,8 @@ def euclidean(x, y):
 def get_PRS_distance():
     gpt_df = json_to_factors(1)
     no_gpt_df = json_to_factors(0)
-
-    phase = ['at_submission', 
-             'at_review', 
+   
+    phase = ['at_review', 
              'at_waiting_before_change', 
              'at_changed',
              'at_waiting_after_accepted', 
@@ -139,8 +136,6 @@ def get_PRS_distance():
     for f in phase:
         df_1 = df_gpt[(df_gpt['phase'] == f) & (df_gpt['event']=='gpt assistance')]
         df_2 = df_no_gpt[df_no_gpt['phase'] == f]
-        #print(df_1)
-        #input("x")
         for _, row in df_1.iterrows():
             phase_arr = []
             project = row['project']
@@ -160,7 +155,6 @@ def get_PRS_distance():
                 normalize(row['PR_size'],points),
                 normalize(row['project_age'],points)
                 ])
-          
             #point_1 =  numpy.array([int(row['no_commits']), int(row['no_changed_files']), int(row['PR_size']),  int(row['project_age'])]) 
             project_ = ''
             for _, row_ in df_2.iterrows():
