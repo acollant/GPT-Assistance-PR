@@ -83,7 +83,8 @@ On the terminal, run **collect_gpt_stats.sh** that will generate the dataset use
   * Output files:
     * **summary_phases.csv:** this has the duration for each phase for bot GPT PR (as assistance) and Non-GPT (non assistance)
     * **summary_status.csv:** this has the number of GPT PR (as assistance) and Non-GPT (non assistance) group by status (open, merged)
-- collect_gpt_pr_used.py
+- collect_gpt_pr_uses.py.py
+  * This will create a file: **RQ3_to_examine.json** that will be used for the inspection. We added our inspection in the labelling tag.
   
 ## Directory structure
 ```
@@ -93,6 +94,7 @@ GPT-Assistance-PR/
 │   download_gpt_data.sh
 │   collect_gpt_data.sh
 │   inspect_gpt_data.sh
+│   collect_gpt_stats.sh 
 └───scripts/
 │   │   search_gpt.py
 │   │   collect_participants.py
@@ -105,9 +107,13 @@ GPT-Assistance-PR/
 │   │   generate_gpt_json.py
 │   │   get_gpt_inspection_data.py
 │   │   exclude_no_gpt_pr.py
-│   │
+│   │   collect_gpt_pr_at_resolution.py
+│   │   get_gpt_pr_distance.py
+│   │   collect_gpt_pr_stats.py 
+│   │   collect_gpt_pr_uses.py
 │   └───data/
 │   │   │   {project_name}_timelines.cvs
+│   │   │   {project_name}_timelines_gpt.cvs
 │   │   │   {project_name}_timelines.db
 │   │   │   {project_name}_dataset.cvs
 │   │   │   {project_name}_events.cvs
@@ -117,8 +123,6 @@ GPT-Assistance-PR/
 │   │   │   {project_name}_pulls.db
 │   │   │   {project_name}_patches.cvs
 │   │   │   {project_name}_patches.cvs
-│   │   │   gpt_pulls.csv
-│   │   │   gpt_repos.cvs
 
 
 ```
