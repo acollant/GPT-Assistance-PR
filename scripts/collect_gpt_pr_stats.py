@@ -4,6 +4,7 @@ import pandas as pd
 import pathlib
 import scipy.stats as stats
 import numpy as np
+from numpy.linalg import norm
 
 from common import (
     initialize,

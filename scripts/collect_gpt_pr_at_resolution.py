@@ -123,13 +123,7 @@ def is_merged(project, pull_number):
     
     return (len(timelines.query("event == 'merged'")) > 0)
             
-    #return {
-    #    "project": project,
-    #    "pull_number": pull_number,
-    #    "closed": len(timelines.query("event == 'closed'")),
-    #    "merged": len(timelines.query("event == 'merged'")),
-    #}
-
+   
 
   
 def get_factors(project, pull_number):
@@ -281,22 +275,7 @@ def main():
 if __name__ == "__main__":
     try:
        main()
-       #print(process_review_phase('embox_embox', 2383))
-       #input('check')
-       #list1 = [2,34,6669,16]
-       #list2 = [69,1896,354144,93]
-       #print(jaccard(list1, list2))
-       #spearmanr()
-       #stats_distance()
-       #main()
-       #phases_summary_stats()
-       #df_, df_all = get_PRS_distance() 
-       #df_.to_csv('distance.csv') 
-       #df_all.to_csv('distance_all.csv')
-       #get_stats()
-       #get_stat_no_outliers()
-       #get_stat_normalized()
-       #get_sample()
+      
 
     except KeyboardInterrupt:
         print("Stop processing phase")
