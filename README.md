@@ -2,8 +2,11 @@
 The code in this repository uses GitHub API to obtain the GPT related projects and Pull Requests to analyse the whether the use of GPT has an impact on the time to merge on PR tasks. For more details, refer to the paper.
 
 A list of files used in the study is found at:
+```
+GPT-Assistance-PR/
 └───scripts/
-└───data/
+│   └───data/
+```
 
 ## Installation
 
