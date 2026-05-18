@@ -1,7 +1,9 @@
 # GPT-Assistance-PR
 The code in this repository uses GitHub API to obtain the GPT related projects and Pull Requests to analyse the whether the use of GPT has an impact on the time to merge on PR tasks. For more details, refer to the paper.
 
-A list of files used in the study at https://osf.io/gevby/overview?view_only=1c48923f45214faa963e613d74e63bbd
+A list of files used in the study is found at:
+└───scripts/
+└───data/
 
 ## Installation
 
